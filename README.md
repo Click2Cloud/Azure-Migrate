@@ -14,36 +14,36 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
 				
 ## Scenario				
 1. Lift & Shift
-> "This demo will be focused on describing the VM along with database migration on azure cloud. 
-With enourmous capability of azure migrate, we can migrate VM which has any types of database which are pointing to any web application to azure cloud as is. Before migration VM assessment is done using azure migrate: Server Assessment.Once migration is completed, azure cloud databases are point to web application using hybrid connection string and validation will be performed on azure cloud."
-2. App Modernization
-> "This demo will be focused on describing the migration of web tier web app, the WCF service web app and database on azure cloud.
-With enourmous capability of cloudbrain's migration feature and azure migrate, azure app service and database migration service , we can migrate web tier web app, the WCF service web app on azure app service and database migration using database migration service on azure.Integration of migrated web tier web app, the WCF service web app and databases is performed on azure cloud."
+- This demo will be focused on describing the Assessment of source Server on azure cloud. 
+- With enourmous capability of
+    - Azure Migrate
+- we can Assess VM which has any types of database which are pointing to any web application. 
+- Before migration VM assessment is done using 
+    - azure migrate: Server Assessment
+        >- Discover installed applications, roles, and features with the Server Assessment tool in Azure Migrate.
 
-## Before start the demo please prepare souce infrastructure				
-				
-### Demo -1
-#### Prerequisites
-* Click Here.
-#### Assessment
+2. App Modernization
+- This demo will be focused on describing the Assessment of source Server, Applications and Databases on Azure cloud.
+- With enourmous capability of
+    - Azure Migrate
+    - Data Migration Assistant
+        >- The Data Migration Assistant (DMA) helps you upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server or Azure SQL Database.
+        >- DMA recommends performance and reliability improvements for your target environment and allows you to move your schema, data, and uncontained objects from your source server to your target server.
+
+    - App Service Migration Assistant
+        >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
+
+## Before start the demo please prepare souce infrastructure
+- [Prerequisites ](assessment/petstore.md)
+## Assessment
 * Lift & Shift
-    - Example 1
+    - [Example 1 for assessment](assessment/petstore.md)
         - Java Pet Store Application
         - MySQL Database
-    - [Assessment](assessment/petstore.md) Using
-        > Azure Migrate Server Assessment
 * App Modernization
-    - Example 1
+    - [Example 1 for assessment](assessment/partsunlimited.md)
         - Parts Unlimited Application
         - SQL Server 2019 Database
-    - [Assessment](assessment/partsunlimited.md) Using
-        > Data Migration Assistant
-
-        > App Service Migration Assistant
-    - Example 2
+    - [Example 2 for assessment](assessment/tailwind-traders.md)
         - Tailwinds Traders Application
         - SQL Server 2019 Database
-    - [Assessment](assessment/tailwind-traders.md) Using
-        > Data Migration Assistant
-
-        > App Service Migration Assistant
