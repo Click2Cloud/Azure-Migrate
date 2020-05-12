@@ -34,7 +34,7 @@ We have used Server Assessment tool of Azure migrate for Assessment of Lift & Sh
 
 * Application Discovery of PetStore application.
 
-![Application Discovery](https://octodex.github.com/images/yaktocat.png)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Application%20Discovery.png?raw=true)
 
 * Click on Dependency Option after clicking on groups option from Azure migrate Assessment 
     - Application Dependency of PetStore application.
