@@ -53,7 +53,7 @@ Technologies used:
 ![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/Start%20the%20assessment.png?raw=true)
 
 6. Assessment results.
-![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/20Assessment%20result%201.png?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/Assessment%20result%201.png?raw=true)
 ![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/Assessment%20result%202.png?raw=true)
 
 7. Upload the assessment report to Azure console by connecting to the Azure account.
