@@ -38,12 +38,12 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
 ## Assessment
 * Lift & Shift
     - [Example 1 for assessment](assessment/petstore.md)
-        - Java Pet Store Application
+        - PetStore Application
         - MySQL Database
 * App Modernization
     - [Example 1 for assessment](assessment/partsunlimited.md)
-        - Parts Unlimited Application
-        - SQL Server 2019 Database
+        - PartsUnlimited Application
+        - SQL Server Database
     - [Example 2 for assessment](assessment/tailwind-traders.md)
         - Tailwinds Traders Application
-        - SQL Server 2019 Database
+        - SQL Server Database
