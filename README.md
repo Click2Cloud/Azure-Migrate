@@ -10,15 +10,15 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
 * Web applications: Assess on-premises web applications and migrate them to Azure App Service by using the Azure App Service Migration Assistant.
 * Virtual desktops: Assess your on-premises virtual desktop infrastructure (VDI) and migrate it to Windows Virtual Desktop in Azure.
 * Data: Migrate large amounts of data to Azure quickly and cost-effectively using Azure Data Box products.
-				
-				
-## Scenario				
+
+
+## Scenario
 1. Lift & Shift
-- This demo will be focused on describing the Assessment of source Server on azure cloud. 
+- This demo will be focused on describing the Assessment of source Server on azure cloud.
 - With enourmous capability of
     - Azure Migrate
-- we can Assess VM which has any types of database which are pointing to any web application. 
-- Before migration VM assessment is done using 
+- we can Assess VM which has any types of database which are pointing to any web application.
+- Before migration VM assessment is done using
     - azure migrate: Server Assessment
         >- Discover installed applications, roles, and features with the Server Assessment tool in Azure Migrate.
 
@@ -34,7 +34,7 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
         >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
 
 ## Before start the demo please prepare souce infrastructure
-- [Prerequisites ](assessment/petstore.md)
+- [Prerequisites ](assessment/prerequisites.md)
 ## Assessment
 * Lift & Shift
     - [Example 1 for assessment](assessment/petstore.md)
