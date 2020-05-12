@@ -10,11 +10,11 @@
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq3.PNG?raw=true)
 
 4. Process the Assessment for all Lift & Shift scenario using azure migrate server assessment.
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq4.PNG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq4.png?raw=true)
 
 5. Application Discovery and Dependency for Lift & Shift.
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq5a.PNG?raw=true)
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq5b.PNG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq5a.png?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq5b.png?raw=true)
 
 6. Process the Assessment for all App Modernization scenario using azure migrate App Migration Assistant and Database Migration assistant.
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq6a.PNG?raw=true)
