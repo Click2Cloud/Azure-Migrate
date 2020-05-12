@@ -9,83 +9,85 @@ Technologies used:
 ### Application Discovery
 
 * Application Discovery for Ubuntu VM (Database)
-![Application Discovery](images/tailwind-traders/application-discovery-ubuntu.PNG)
+
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery-ubuntu.PNG?raw=true)
 
 * Application Discovery for Windows VM (WebApp)
-![Application Discovery](images/tailwind-traders/application-discovery1.PNG)
-![Application Discovery](images/tailwind-traders/application-discovery2.PNG)
-![Application Discovery](images/tailwind-traders/application-discovery3.PNG)
-![Application Discovery](images/tailwind-traders/application-discovery4.PNG)
+
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery1.PNG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery2.PNG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery3.PNG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery4.PNG?raw=true)
 
 ### Application Dependency
 * Application dependency for Ubuntu VM (database hosted- MSSQL and MongoDB)
-![Application Dependency](images/tailwind-traders/application-dependency-databases.PNG)
+![Application Dependency](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-databases.PNG?raw=true)
 
 * Application dependency for Windows VM (WebApp)
-![Application Dependency](images/tailwind-traders/application-dependency-webapp.PNG)
+![Application Dependency](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-webapp.PNG?raw=true)
 
 ### Steps for Server Assessment
 1. Click on Azure Migrate Server Assessment Tool
-![Assessment](images/tailwind-traders/srver-assessment1.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true)
 
 2. Create groups for multiple dependent Servers and click on created group and procced for Assess server Option.
-![Assessment](images/tailwind-traders/grouping-vms.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/grouping-vms.PNG?raw=true)
 
 3. Click on Created Assessment.
-![Assessment](images/tailwind-traders/assessment1.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment1.PNG?raw=true.PNG)
 
 4. You will redirect to Assessment Overview.
-![Assessment](images/tailwind-traders/server-assessment4.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment4.PNG?raw=true)
 
 5. Click on Azure Readiness.
-![Assessment](images/tailwind-traders/server-assessment3.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment3.PNG?raw=true)
 
 6. Click on Cost Details.
-![Assessment](images/tailwind-traders/server-assessment5.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment5.PNG?raw=true)
 
-5. Click on Servers it will show you Migration tool sugestion and Reason why to use suggested tool.
-![Assessment](images/tailwind-traders/server-assessment6-ubuntu.PNG)
-![Assessment](images/tailwind-traders/server-assessment6-windows.PNG)
+7. Click on Servers it will show you Migration tool sugestion and Reason why to use suggested tool.
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-ubuntu.PNG?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-windows.PNG?raw=true)
 
 ### Steps for Database Assessment using Data Migration Assisstant
 
 1. Create an assesment project.
-![Assessment](images/tailwind-traders/tailwind-dma1.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma1.PNG?raw=true)
 
 2. Select report type and click Next.
-![Assessment](images/tailwind-traders/tailwind-dma2.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma2.PNG?raw=true)
 
 3. Enter source server details and connect to it.
-![Assessment](images/tailwind-traders/tailwind-dma3.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma3.PNG?raw=true)
 
 4. Select database for assessment.
-![Assessment](images/tailwind-traders/tailwind-dma4.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma4.PNG?raw=true)
 
 5. Start the assessment.
-![Assessment](images/tailwind-traders/tailwind-dma5.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma5.PNG?raw=true)
 
 6. Assessment results.
-![Assessment](images/tailwind-traders/tailwind-dma6.PNG)
-![Assessment](images/tailwind-traders/tailwind-dma7.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma6.PNG?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma7.PNG?raw=true)
 
 7. Upload the assessment report to Azure console by connecting to the Azure account.
-![Assessment](images/tailwind-traders/tailwind-dma8.PNG)
-![Assessment](images/tailwind-traders/tailwind-dma9.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma8.PNG?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma9.PNG?raw=true)
 
 8. Log in to the azure console, go to azure migrate and click on databases.
-![Assessment](images/tailwind-traders/tailwind-dma10.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma10.PNG?raw=true)
 
 9. Click on assessed database instances to find the assessed database list.
-![Assessment](images/tailwind-traders/tailwind-dma11.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma11.PNG?raw=true)
 
 10. Click on assessed database to view the assessment details.
-![Assessment](images/tailwind-traders/tailwind-dma12.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma12.PNG?raw=true)
 
 ### Steps for WebApp Assessment using Azure App Service Migration Assisstant
 
 1. Download and open the Azure App Service Migration Assisstant. Select the app for assessment and start the assessment.
-![Assessment](images/tailwind-traders/app-assessment1.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment1.PNG?raw=true)
 
 2. Assessment report
-![Assessment](images/tailwind-traders/app-assessment2.PNG)
-![Assessment](images/tailwind-traders/app-assessment7.PNG)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment2.PNG?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment7.PNG?raw=true)
