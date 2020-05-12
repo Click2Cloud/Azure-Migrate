@@ -37,3 +37,5 @@ Technologies used:
 7. Click on Server on which PetStore Application is installed it will show you Migration tool sugestion and Reason why to use suggested tool.
 
 ![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Petstore%20App%20Assessment%20with%20migration%20tool%20suggestion%20and%20Reason.png?raw=true)
+
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Petstore%20App%20Assessment%20with%20migration%20tool%20suggestion%20and%20Reason%202.png?raw=true)
