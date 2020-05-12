@@ -9,9 +9,11 @@ Technologies used:
 ### Application Discovery
 
 * Application Discovery for Ubuntu VM (Database)
+
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery-ubuntu.PNG?raw=true)
 
 * Application Discovery for Windows VM (WebApp)
+
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery1.PNG?raw=true)
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery2.PNG?raw=true)
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery3.PNG?raw=true)
