@@ -4,7 +4,7 @@ Tailwind Traders is a fictitious retail company showcasing the future of intelli
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS), while the database is hosted on an ubuntu 16.04
 
 Technologies used:
- - .NET
+ - .NET Core
  - Microsoft SQL Server 2019
  - MongoDB v4.2.6
 
