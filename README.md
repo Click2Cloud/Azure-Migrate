@@ -13,11 +13,11 @@
 
 ## Scenario
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/scenarios.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/migration-scenarios.png?raw=true">
 </kbd></p>
 
 ### **1. Lift & Shift**
-**“Lift and shift,”** also known as “rehosting,” is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
+“Lift and shift,” also known as “rehosting,” is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
 
 - This demo will be focused on describing the Assessment and Migration of source Server on azure cloud. With enormous capability of **Azure Migrate**
 - we can assess server which has any types of database which are pointing to any web application and Migrate them using Azure Migrate Migration Tool.
@@ -41,14 +41,14 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 ### Before start the demo please prepare source infrastructure
 - ## [Prerequisites ](assessment/prerequisites.md)
-## Demo - 1 : Assessment
+### Demo - 1 : Assessment
 * **Lift & Shift**
     - [Example - PetStore Application](assessment/petstore.md)
 * **App Modernization**
     - [Example - PartsUnlimited Application](assessment/partsunlimited.md)
     - [Example - Tailwinds Traders Application](assessment/tailwind-traders.md)
 
-## Demo - 2 : Migration
+### Demo - 2 : Migration
 * **Lift & Shift**
     - [Example - PetStore Application](migration/petstore.md)
 * **App Modernization**
