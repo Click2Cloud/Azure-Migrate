@@ -13,7 +13,7 @@
 
 ## Scenario
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/scenarios.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/migration-scenarios.png?raw=true">
 </kbd></p>
 
 ### **1. Lift & Shift**
