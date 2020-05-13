@@ -4,13 +4,13 @@
 
 <kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq1.PNG?raw=true">
-</kbd>
+</kbd><br/>
 
 2. Setup required VMs and installation for Lift & Shift and App Modernization Scenario (App + DB )
 
 <kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq2.PNG?raw=true">
-</kbd>
+</kbd><br/>
 
 3. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
 
@@ -20,10 +20,10 @@
 
 <kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq3.PNG?raw=true">
-</kbd>
+</kbd><br/>
 
 4. Discovered servers can be seen on the portal.
 
 <kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true">
-</kbd>
+</kbd><br/>
