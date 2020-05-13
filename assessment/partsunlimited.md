@@ -4,8 +4,8 @@ Parts Unlimited is an example eCommerce website site based for training purposes
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS), while the database is hosted on an ubuntu 16.04
 
 Technologies used:
- - .NET
- - SQL server 2019
+ - .NET Core v2.2.104
+ - Microsoft SQL server 2019
 
 ## Application Discovery
 App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.

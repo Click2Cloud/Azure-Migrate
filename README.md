@@ -17,7 +17,7 @@
 </kbd></p>
 
 ### **1. Lift & Shift**
-“Lift and shift,” also known as “rehosting,” is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
+**Lift and shift**, also known as **rehosting**, is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
 
 - This demo will be focused on describing the Assessment and Migration of source Server on azure cloud. With enormous capability of **Azure Migrate**
 - we can assess server which has any types of database which are pointing to any web application and Migrate them using Azure Migrate Migration Tool.
