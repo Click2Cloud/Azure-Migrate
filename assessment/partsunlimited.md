@@ -7,7 +7,7 @@ Technologies used:
  - .NET
  - SQL server 2019
 
-### Application Discovery
+## Application Discovery
 App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.
 
 1. In **Azure Migrate - Servers > Azure Migrate: Server Assessment**, click the displayed count to open the **Discovered servers** page.
@@ -28,7 +28,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/Application%20Dependency%20for%20PartsUnlimited.png?raw=true">
 </kbd></p>
 
-### Steps for Server Assessment
+## Steps for Server Assessment
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
     - Azure Migrate Dashboard for Server Assessment which includes:
         - Discovered Servers
