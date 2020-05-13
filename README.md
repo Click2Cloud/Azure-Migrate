@@ -40,7 +40,7 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
         >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
 
 ### Before start the demo please prepare source infrastructure
-- ## [Prerequisites ](assessment/prerequisites.md)
+- ### [Prerequisites ](assessment/prerequisites.md)
 ### Demo - 1 : Assessment
 * **Lift & Shift**
     - [Example - PetStore Application](assessment/petstore.md)
