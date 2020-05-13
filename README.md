@@ -13,17 +13,20 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
 
 
 ## Scenario
-1. Lift & Shift
-- This demo will be focused on describing the Assessment of source Server on azure cloud.
+### 1. Lift & Shift
+- This demo will be focused on describing the Assessment and Migration of source Server on azure cloud.
 - With enourmous capability of
     - Azure Migrate
-- we can Assess VM which has any types of database which are pointing to any web application.
-- Before migration VM assessment is done using
-    - azure migrate: Server Assessment
+- we can assess server which has any types of database which are pointing to any web application and Migrate them using Azure Migrate Migration Tool.
+- Before migration server assessment is done using
+    - Azure Migrate: Server Assessment
         >- Discover installed applications, roles, and features with the Server Assessment tool in Azure Migrate.
+- After assessment server migration is done using
+    - Azure Migrate: Server Migration
+        >- Migrate VMware VMs, Hyper-V VMs, physical servers, other virtualized machines, and public cloud VMs to Azure.
 
-2. App Modernization
-- This demo will be focused on describing the Assessment of source Server, Applications and Databases on Azure cloud.
+### 2. App Modernization
+- This demo will be focused on describing the Assessment and Migration of source Server, Applications and Databases on Azure cloud.
 - With enourmous capability of
     - Azure Migrate
     - Data Migration Assistant
@@ -37,13 +40,28 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
 - [Prerequisites ](assessment/prerequisites.md)
 ## Assessment
 * Lift & Shift
-    - [Example 1 for assessment](assessment/petstore.md)
-        - Java Pet Store Application
-        - MySQL Database
+    - [Example - PetStore](assessment/petstore.md)
+        - Java
+        - MySQL
 * App Modernization
-    - [Example 1 for assessment](assessment/partsunlimited.md)
-        - Parts Unlimited Application
-        - SQL Server 2019 Database
-    - [Example 2 for assessment](assessment/tailwind-traders.md)
-        - Tailwinds Traders Application
-        - SQL Server 2019 Database
+    - [Example - PartsUnlimited](assessment/partsunlimited.md)
+        - .Net Core
+        - SQL Server 2019
+    - [Example - Tailwinds Traders](assessment/tailwind-traders.md)
+        - .Net Core
+        - SQL Server 2019
+        - MongoDB
+
+## Migration
+* Lift & Shift
+    - [Example - PetStore](migration/petstore.md)
+        - Java
+        - MySQL
+* App Modernization
+    - [Example - PartsUnlimited](migration/partsunlimited.md)
+        - .Net Core
+        - SQL Server 2019
+    - [Example - Tailwinds Traders](migration/tailwind-traders.md)
+        - .Net Core
+        - SQL Server 2019
+        - MongoDB
