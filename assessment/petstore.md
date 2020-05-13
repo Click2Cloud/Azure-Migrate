@@ -1,102 +1,89 @@
-# Java PetStore Assessment
+# Java PetStore Application Assessment
 ## Purpose of this application:
 Do you remember the good old Java Petstore ? It was a sample application created by Sun for its Java BluePrints program. The Java Petstore was designed to illustrate how J2EE (and then Java EE) could be used to develop an eCommerce web application. Yes, the point of the Petstore is to sell pets online. The idea was to build an application with a certain technology.
 
-
 ## Technologies used:
-- **Technologies** : Java EE 7 (JPA 2.1, CDI 1.1, Bean Validation 1.1, EJB Lite 3.2, JSF 2.2, JAX-RS 2.0), Java SE 7 (because that's the minimum required by Java EE 7), Twitter Bootstrap (Bootstrap 3.x, JQuery 2.x, PrimeFaces 6.x)
+- **Technologies** : Java EE 7, Java SE 7 (because that's the minimum required by Java EE 7), Twitter Bootstrap (Bootstrap 3.x, JQuery 2.x, PrimeFaces 6.x)
 - **Application Servers** : WildFly 10, WildFly 11
-- **Database** : MySQL 5.7
+- **Database** : MySQL v5.7.3
 - **Summary** : A Petstore-like application using Java EE 7
 
-## Assessment
-### **Application Discovery**
-- Discovery of Applications from server. Click on **Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Discovered Servers - > Application Discovered Tab.**
+## **Application Discovery**
+App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.
 
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-discovery.png?raw=true)
-****
+1. In **Azure Migrate - Servers > Azure Migrate: Server Assessment**, click the displayed count to open the **Discovered servers** page.
+2. In **Applications discovered**, click the displayed count.
+3. In **Application inventory**, you can review the discovered apps, roles, and features.
 
-### Application Dependency
-- Shows Dependency topology of Applications from one or more dependent servers. Click on **Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Discovered Servers - > Application Discovery Tab.**
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-discovery.png?raw=true">
+</kbd></p>
 
-![Application Dependency](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-dependency.png?raw=true)
-****
+## Application Dependency and Grouping
 
-### Steps for server Assessment:
+1. In **Azure Migrate: Server Assessment**, click **Discovered servers**.
+2. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
+3. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-1. Click on **Azure Migrate -> Servers -> Azure Migrate: Server Assessment.**
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-dependency.png?raw=true">
+</kbd></p>
+
+## Steps for server Assessment:
+
+1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
     - Azure Migrate Dashboard for Server Assessment which includes:
         - Discovered Servers
         - Groups
         - Assessments
         - Notifications
 
-![Server Assessment tool](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-1.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-1.png?raw=true">
+</kbd></p>
 
-2. Create groups for multiple dependent Servers and click on created group and proceed for Assess server Option.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Groups -> Group -> Create Group.**
-    - Group includes: 
-        - How many machines are in the group. and from where you can perform following operations:
-        - Add Machines to the group
-        - Remove Machines from the group
-        - Assess Servers / Create Assessment
-        - View Dependencies
-        - Delete Group
+2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
 
-![Create groups](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-2.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-2.png?raw=true">
+</kbd></p>
 
-3. Click on Created Assessment.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Groups -> Select Created Group -> Assess Servers -> Create Assessment.**
+3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
-![Create Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-3.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-3.png?raw=true">
+</kbd></p>
 
-4. You will redirect to Assessment Overview.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Assessments -> Select Created Assessment -> Overview.**
+4. You will be redirected to **Assessment Overview**.
     - Overview includes:
         - Azure Readiness
         - Monthly Cost Estimate
         - Storage Monthly Cost Estimate
 
-![Assessment overview](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-4.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-4.png?raw=true">
+</kbd></p>
 
-5. Click on Azure Readiness.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Assessments -> Select Created Assessment -> Azure Readiness.**
-    - Azure Readiness includes:
-        - Ready for Azure
-        - Ready with conditions
-        - Not Ready for Azure
-        - Readiness unknown
+5. Click on **Azure Readiness**.
+Azure readiness show whether VMs are suitable for migration to Azure.
 
-![Azure Readiness](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-5.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-5.png?raw=true">
+</kbd></p>
 
-6. Click on Cost Details.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Assessments -> Select Created Assessment -> Cost Details.**
-    - Cost Details includes:
-        - Compute Cost
-        - Storage Cost
-            - Standard HDD Managed disks
-            - Standard SSD Managed disks
-            - Premium managed disks
+6. Click on **Cost Details**.
+It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
-![Cost Details](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-6.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-6.png?raw=true">
+</kbd></p>
 
-7. Click on Server on which Applications are installed.
-**Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Assessments -> Select Created Assessment -> Azure Readiness -> Select Server.**
-    - It includes:
-        - Migration tool suggestions
-        - Reason why to use suggested tool
-        - Compute details
-        - Storage details
-        - Network details
+7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-7.png?raw=true">
+</kbd></p>
 
-![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-7.png?raw=true)
-
-![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-8.png?raw=true)
-****
+<kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-8.png?raw=true">
+</kbd></p>
