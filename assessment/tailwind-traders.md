@@ -97,7 +97,7 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment5.PNG?raw=true">
 </kbd></p>
 
-7. Click on Servers it will show you Migration tool sugestion and Reason why to use suggested tool.
+7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-ubuntu.PNG?raw=true">
@@ -107,11 +107,11 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-windows.PNG?raw=true">
 </kbd></p>
 
-## Steps for Database Assessment using Data Migration Assisstant
+## Steps for Database Assessment using Data Migration Assistant
 
 The Data Migration Assistant (DMA) helps you upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server or Azure SQL Database. DMA recommends performance and reliability improvements for your target environment and allows you to move your schema, data, and uncontained objects from your source server to your target server.
 
-1. Create an assesment project.
+1. Create an assessment project.
    1.  On the left, select the + icon, and then select the assessment **Project type**.
    2. Specify the project name, and then select the source server and target server types.
    3. Click on **Create**.
@@ -182,11 +182,11 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma12.PNG?raw=true">
 </kbd></p>
 
-## Steps for WebApp Assessment using Azure App Service Migration Assisstant
+## Steps for WebApp Assessment using Azure App Service Migration Assistant
 
 The App Service Migration Assistant is designed to simplify your journey to the cloud through a free, simple, and fast solution to migrate .Net applications from on-premises to the cloud.
 
-1. Download and open the Azure App Service Migration Assisstant. Select the app for assessment and start the assessment.
+1. Download and open the Azure App Service Migration Assistant. Select the app for assessment and start the assessment.
 
 <p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment1.PNG?raw=true">
