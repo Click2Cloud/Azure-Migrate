@@ -13,13 +13,13 @@ Do you remember the good old Java Petstore ? It was a sample application created
 ### **Application Discovery**
 - Discovery of Applications from server. Click on **Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Discovered Servers - > Application Discovered Tab.**
 
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Application%20Discovery.png?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-discovery.png?raw=true)
 ****
 
 ### Application Dependency
 - Shows Dependency topology of Applications from one or more dependent servers. Click on **Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Discovered Servers - > Application Discovery Tab.**
 
-![Application Dependency](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Application%20Dependency.png?raw=true)
+![Application Dependency](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-dependency.png?raw=true)
 ****
 
 ### Steps for server Assessment:
@@ -31,7 +31,7 @@ Do you remember the good old Java Petstore ? It was a sample application created
         - Assessments
         - Notifications
 
-![Server Assessment tool](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Server%20Assessment%20tool.png?raw=true)
+![Server Assessment tool](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-1.png?raw=true)
 ****
 
 2. Create groups for multiple dependent Servers and click on created group and proceed for Assess server Option.
@@ -44,13 +44,13 @@ Do you remember the good old Java Petstore ? It was a sample application created
         - View Dependencies
         - Delete Group
 
-![Create groups](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Create%20group%20for%20multiple%20dependent%20servers%20and%20click%20on%20same.png?raw=true)
+![Create groups](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-2.png?raw=true)
 ****
 
 3. Click on Created Assessment.
 **Azure Migrate -> Servers -> Azure Migrate: Server Assessment -> Groups -> Select Created Group -> Assess Servers -> Create Assessment.**
 
-![Create Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/assess%20servers%20and%20create%20assessment.png?raw=true)
+![Create Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-3.png?raw=true)
 ****
 
 4. You will redirect to Assessment Overview.
@@ -60,7 +60,7 @@ Do you remember the good old Java Petstore ? It was a sample application created
         - Monthly Cost Estimate
         - Storage Monthly Cost Estimate
 
-![Assessment overview](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/assessment%20overview.png?raw=true)
+![Assessment overview](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-4.png?raw=true)
 ****
 
 5. Click on Azure Readiness.
@@ -71,7 +71,7 @@ Do you remember the good old Java Petstore ? It was a sample application created
         - Not Ready for Azure
         - Readiness unknown
 
-![Azure Readiness](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Azure%20readiness.png?raw=true)
+![Azure Readiness](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-5.png?raw=true)
 ****
 
 6. Click on Cost Details.
@@ -83,7 +83,7 @@ Do you remember the good old Java Petstore ? It was a sample application created
             - Standard SSD Managed disks
             - Premium managed disks
 
-![Cost Details](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Cost%20Details.png?raw=true)
+![Cost Details](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-6.png?raw=true)
 ****
 
 7. Click on Server on which Applications are installed.
@@ -96,7 +96,7 @@ Do you remember the good old Java Petstore ? It was a sample application created
         - Network details
 
 
-![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Petstore%20App%20Assessment%20with%20migration%20tool%20suggestion%20and%20Reason.png?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-7.png?raw=true)
 
-![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/Petstore%20App%20Assessment%20with%20migration%20tool%20suggestion%20and%20Reason%202.png?raw=true)
+![Assessment](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-8.png?raw=true)
 ****
