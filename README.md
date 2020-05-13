@@ -36,32 +36,18 @@ Azure Migrate provides a centralized hub to assess and migrate to Azure on-premi
     - App Service Migration Assistant
         >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
 
-## Before start the demo please prepare souce infrastructure
+## Before start the demo please prepare source infrastructure
 - [Prerequisites ](assessment/prerequisites.md)
-## Assessment
+## Demo 1 : Assessment
 * Lift & Shift
-    - [Example - PetStore](assessment/petstore.md)
-        - Java
-        - MySQL
+    - [Example - PetStore Application](assessment/petstore.md)
 * App Modernization
-    - [Example - PartsUnlimited](assessment/partsunlimited.md)
-        - .Net Core
-        - SQL Server 2019
-    - [Example - Tailwinds Traders](assessment/tailwind-traders.md)
-        - .Net Core
-        - SQL Server 2019
-        - MongoDB
+    - [Example - PartsUnlimited Application](assessment/partsunlimited.md)
+    - [Example - Tailwinds Traders Application](assessment/tailwind-traders.md)
 
-## Migration
+## Demo 2 : Migration
 * Lift & Shift
-    - [Example - PetStore](migration/petstore.md)
-        - Java
-        - MySQL
+    - [Example - PetStore Application](migration/petstore.md)
 * App Modernization
-    - [Example - PartsUnlimited](migration/partsunlimited.md)
-        - .Net Core
-        - SQL Server 2019
-    - [Example - Tailwinds Traders](migration/tailwind-traders.md)
-        - .Net Core
-        - SQL Server 2019
-        - MongoDB
+    - [Example - PartsUnlimited Application](migration/partsunlimited.md)
+    - [Example - Tailwinds Traders Application](migration/tailwind-traders.md)
