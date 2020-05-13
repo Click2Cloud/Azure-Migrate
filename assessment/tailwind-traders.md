@@ -5,7 +5,7 @@ The application that will be migrated is hosted on a Windows server 2016 running
 
 Technologies used:
  - .NET
- - SQL server 2019
+ - Microsoft SQL Server 2019
  - MongoDB v4.2.6
 
 ## Application Discovery
