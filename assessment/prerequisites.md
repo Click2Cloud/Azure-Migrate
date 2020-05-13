@@ -7,7 +7,7 @@
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq2.PNG?raw=true)
 
 3. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
-![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/Register-with-Azure-Migrate.JPG?raw=true)
+![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/Register-with-Azure-Migrate.jpg?raw=true)
 ![Application Discovery](https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/prerequisites/prereq3.PNG?raw=true)
 
 4. Discovered servers can be seen on the portal.
