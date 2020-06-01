@@ -117,69 +117,69 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    3. Click on **Create**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-1.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-1.PNG?raw=true">
 </kbd></p>
 
 2. Select report type and click **Next**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-2.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-2.PNG?raw=true">
 </kbd></p>
 
 3. Enter source server details and connect to it.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-3.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-3.PNG?raw=true">
 </kbd></p>
 
 4. Select database for assessment.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-4.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-4.PNG?raw=true">
 </kbd></p>
 
 5. Start the assessment.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-5.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-5.PNG?raw=true">
 </kbd></p>
 
 6. Assessment results.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers-traders/dma-wwi-6.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-6.PNG?raw=true">
 </kbd></p>
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma7.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-7.PNG?raw=true">
 </kbd></p>
 
 7. Upload the assessment report to Azure console by connecting to the Azure account.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma8.PNG?raw=true">
+   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-8.PNG?raw=true">
 </kbd></p>
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma9.PNG?raw=true">
+   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-9.PNG?raw=true">
 </kbd></p>
 
 8. Log in to the azure console, go to **azure migrate** and click on **databases**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma10.PNG?raw=true">
+   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-10.PNG?raw=true">
 </kbd></p>
 
 9. Click on **assessed database instances** to find the assessed database list.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma11.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-11.PNG?raw=true">
 </kbd></p>
 
 10. Click on assessed database to view the assessment details.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/tailwind-dma12.PNG?raw=true">
+   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-12.PNG?raw=true">
 </kbd></p>
 
 ## Steps for WebApp Assessment using Azure App Service Migration Assistant
