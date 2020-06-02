@@ -14,6 +14,10 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 3. In **Application inventory**, you can review the discovered apps, roles, and features.
 
 <p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery-sql.PNG?raw=true">
+</kbd></p>
+
+<p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery1.PNG?raw=true">
 </kbd></p>
 
@@ -28,7 +32,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 3. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/application-dependency.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-dependency.PNG?raw=true">
 </kbd></p>
 
 ## Steps for server Assessment:
