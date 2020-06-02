@@ -16,10 +16,19 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 2. In **Applications discovered**, click the displayed count.
 3. In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for TailWind Traders Database VM.
+* Application Discovery for Database VM.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery-ubuntu.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery1.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery2.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery3.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery4.PNG?raw=true">
 </kbd></p>
 
 ## Application Dependency
@@ -30,7 +39,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 * Application dependency for Windows VM (SQL Database)
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-webapp.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-dependency.PNG?raw=true">
 </kbd></p>
 
 ## Steps for Server Assessment
