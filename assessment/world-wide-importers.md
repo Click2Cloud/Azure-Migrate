@@ -152,22 +152,3 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 <p><kbd>
    <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-12.PNG?raw=true">
 </kbd></p>
-
-## Steps for WebApp Assessment using Azure App Service Migration Assistant
-
-The App Service Migration Assistant is designed to simplify your journey to the cloud through a free, simple, and fast solution to migrate .Net applications from on-premises to the cloud.
-
-1. Download and open the Azure App Service Migration Assistant. Select the app for assessment and start the assessment.
-
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment1.PNG?raw=true">
-</kbd></p>
-
-2. Assessment report
-
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment2.PNG?raw=true">
-</kbd></p>
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment7.PNG?raw=true">
-</kbd></p>
