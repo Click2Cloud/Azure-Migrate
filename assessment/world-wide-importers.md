@@ -40,7 +40,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true">
 </kbd></p>
 
-2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create ExiNewsting**, and select a group created above. Click on **Create Assessment**.
+2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create New**, and select virtual machine to create a group. Click on **Create Assessment**.
 
 <p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/server-assessment-1.PNG?raw=true">
