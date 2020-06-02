@@ -16,10 +16,19 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 2. In **Applications discovered**, click the displayed count.
 3. In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for TailWind Traders Database VM.
+* Application Discovery for Database VM.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-discovery-ubuntu.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery1.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery2.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery3.PNG?raw=true">
+</kbd></p>
+<p><kbd>
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-discovery4.PNG?raw=true">
 </kbd></p>
 
 ## Application Dependency
@@ -30,7 +39,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 * Application dependency for Windows VM (SQL Database)
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-webapp.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/application-dependency.PNG?raw=true">
 </kbd></p>
 
 ## Steps for Server Assessment
@@ -40,7 +49,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true">
 </kbd></p>
 
-2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create ExiNewsting**, and select a group created above. Click on **Create Assessment**.
+2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create New**, and select virtual machine to create a group. Click on **Create Assessment**.
 
 <p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/server-assessment-1.PNG?raw=true">
@@ -151,23 +160,4 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 
 <p><kbd>
    <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/wide-world-importers/dma-12.PNG?raw=true">
-</kbd></p>
-
-## Steps for WebApp Assessment using Azure App Service Migration Assistant
-
-The App Service Migration Assistant is designed to simplify your journey to the cloud through a free, simple, and fast solution to migrate .Net applications from on-premises to the cloud.
-
-1. Download and open the Azure App Service Migration Assistant. Select the app for assessment and start the assessment.
-
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment1.PNG?raw=true">
-</kbd></p>
-
-2. Assessment report
-
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment2.PNG?raw=true">
-</kbd></p>
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment7.PNG?raw=true">
 </kbd></p>
