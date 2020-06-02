@@ -14,11 +14,11 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 3. In **Application inventory**, you can review the discovered apps, roles, and features.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery1.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery1.PNG?raw=true">
 </kbd></p>
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery3.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/application-discovery3.PNG?raw=true">
 </kbd></p>
 
 ## Application Dependency and Grouping
@@ -47,13 +47,13 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create New**, and select a group created above. Click on **Create Assessment**.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-1.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-1.PNG?raw=true">
 </kbd></p>
 
 3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-2.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-2.PNG?raw=true">
 </kbd></p>
 
 4. You will be redirected to **Assessment Overview**.
@@ -63,29 +63,29 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
         - Storage Monthly Cost Estimate
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-3.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-3.PNG?raw=true">
 </kbd></p>
 
 5. Click on **Azure Readiness**.
 Azure readiness show whether VMs are suitable for migration to Azure.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-4.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-4.PNG?raw=true">
 </kbd></p>
 
 6. Click on **Cost Details**.
 It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-5.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-5.PNG?raw=true">
 </kbd></p>
 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-6.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-6.PNG?raw=true">
 </kbd></p>
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-7.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/nerd-dinner/server-assessment-7.PNG?raw=true">
 </kbd></p>
