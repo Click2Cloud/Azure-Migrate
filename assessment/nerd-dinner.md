@@ -4,7 +4,7 @@ NerdDinner provides an easy way for people to find and organize dinners online. 
 
 ## Technologies used:
 - .NET 4
-- SQL on Windows 2008 R2
+- SQL 2008 R2
 
 ## **Application Discovery**
 App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.
