@@ -56,19 +56,19 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment.PNG?raw=true">
 </kbd></p>
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment-grouping.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment2.PNG?raw=true">
 </kbd></p>
 
 3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment1.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment3.PNG?raw=true">
 </kbd></p>
 
 4. You will be redirected to **Assessment Overview**.
