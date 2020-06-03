@@ -45,7 +45,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
         - Notifications
 
 <kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/java-petstore/server-assessment-1.png?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders-petstore/assessment.PNG?raw=true">
 </kbd></p>
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create New**, and select a group created above. Click on **Create Assessment**.

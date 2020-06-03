@@ -44,9 +44,14 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 
 ## Steps for Server Assessment
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
+    - Azure Migrate Dashboard for Server Assessment which includes:
+        - Discovered Servers
+        - Groups
+        - Assessments
+        - Notifications
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/srver-assessment1.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/assessment.PNG?raw=true">
 </kbd></p>
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Create New**, and select virtual machine to create a group. Click on **Create Assessment**.
