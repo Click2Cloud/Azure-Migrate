@@ -46,16 +46,10 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 2. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
 3. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-* Application dependency for Ubuntu VM (database hosted- MSSQL and MongoDB)
+* Application dependency
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-databases.PNG?raw=true">
-</kbd></p>
-
-* Application dependency for Windows VM (WebApp)
-
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency-webapp.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/application-dependency.PNG?raw=true">
 </kbd></p>
 
 ## Steps for Server Assessment
@@ -80,31 +74,31 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 4. You will be redirected to **Assessment Overview**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment4.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment-3-new.PNG?raw=true">
 </kbd></p>
 
 5. Click on **Azure Readiness**.
 Azure readiness show whether VMs are suitable for migration to Azure.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment3.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment-4-new.PNG?raw=true">
 </kbd></p>
 
 6. Click on **Cost Details**.
 It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment5.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment-5-new.PNG?raw=true">
 </kbd></p>
 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-ubuntu.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment-6-new.PNG?raw=true">
 </kbd></p>
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment6-windows.PNG?raw=true">
+  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/server-assessment-7-new.PNG?raw=true">
 </kbd></p>
 
 ## Steps for Database Assessment using Data Migration Assistant
