@@ -191,7 +191,7 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment1.PNG?raw=true">
 </kbd></p>
 
-2. Assessment report
+2. Select the tailwindtraders site and click Next, the site will be assessed for compatibility with Azure App Services.
 
 <p><kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/tailwind-traders/app-assessment2.PNG?raw=true">

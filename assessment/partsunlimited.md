@@ -163,7 +163,7 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/app-assessment-1.png?raw=true">
 </kbd></p>
 
-2. Assessment report
+2. Select the partsunilimited site and click Next, the site will be assessed for compatibility with Azure App Services
 
 <kbd>
   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/partsunlimited/app-assessment-2.png?raw=true">
