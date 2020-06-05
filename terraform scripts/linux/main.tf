@@ -58,7 +58,7 @@ resource "vsphere_virtual_machine" "vm" {
 
     customize {
       linux_options{
-        host_name = "centos"
+        host_name = "${var.host_name}"
         domain = "${var.domain_name}"
       }
       network_interface {
@@ -81,14 +81,16 @@ resource "vsphere_virtual_machine" "vm" {
   }
 
    provisioner "file" {
-    source      = "mysql.sh"
-    destination = "/tmp/mysql.sh"
+    source      = "${var.script_file_path}"
+    destination = "/tmp/custom_script.sh"
     }
 
   provisioner "remote-exec" {
     inline = [
-      "chmod +x /tmp/mysql.sh",
-      "/tmp/mysql.sh",
+      "echo ${var.admin_password} | sudo -S su",
+      "clear",
+      "chmod +x /tmp/custom_script.sh",
+      "/tmp/custom_script.sh",
     ]
   }
 }

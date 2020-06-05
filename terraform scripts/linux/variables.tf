@@ -69,3 +69,12 @@ variable "dns_suffix_list" {
 variable "ipv4_gateway" {
   type    = "string"
 }
+variable "user_name" {
+  type    = "string"
+}
+variable "script_file_path" {
+  type    = "string"
+}
+variable "host_name" {
+  type    = "string"
+}
