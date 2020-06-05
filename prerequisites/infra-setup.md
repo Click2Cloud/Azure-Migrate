@@ -1,11 +1,11 @@
 # Setup source infrastructure on vCenter
 **Prerequisites**
 * Template for the server (linux, windows) where you want to install your application. ([Steps to create template](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-FE6DE4DF-FAD0-4BB0-A1FD-AFE9A40F4BFE.html))
-> Note: If you dont have required server (centos7, Ubuntu16, windows server 2016) present on your vCenter to create teamplate then follow the [steps](prerequisites/create-server.md) to create it and after that create template.
+> Note: If you dont have required server (centos7, Ubuntu16, windows server 2016) present on your vCenter to create teamplate then follow the [steps](prerequisites/prerequisites/create-server.md) to create it and after that create template.
 * [Insall terraform](https://learn.hashicorp.com/terraform/getting-started/install.html)
 * Source server details
-    * [linux server](terraform-scrips/linux/variables.tf)
-	* [windows server](terraform-scrips/windows/variables.tf)
+    * [linux server](terraform%20scripts/linux/variables.tf)
+	* [windows server](terraform%20scripts/windows/variables.tf)
 
 **Steps to perform**
 1. Clone or Download the terraform script.
