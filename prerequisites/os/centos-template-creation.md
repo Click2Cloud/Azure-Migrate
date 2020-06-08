@@ -188,25 +188,25 @@
     1. Click **VMs and Templates** in the VMware Host Client inventory. 
     
     <p><kbd>
-        <img src="../../../images/prerequisites/vsphere-client-inventory-vm.png">
+        <img src="../../images/prerequisites/vsphere-client-inventory-vm.png">
     </kbd></p>
      
     2. Right click on the VM created in Step 4 and select **Clone > Clone to Template**.
     
     <p><kbd>
-        <img src="../../../images/prerequisites/template1.PNG">
+        <img src="../../images/prerequisites/template1.PNG">
     </kbd></p>
     
     3. On the Select a name and folder page, enter a name for the template and select a data center or a folder in which to deploy it.
     
     <p><kbd>
-        <img src="../../../images/prerequisites/template2.PNG">
+        <img src="../../images/prerequisites/template2.PNG">
     </kbd></p>
     
     4. On the Select a compute resource, select a host or a cluster resource for the template.
     
     <p><kbd>
-        <img src="../../../images/prerequisites/template3.PNG">
+        <img src="../../images/prerequisites/template3.PNG">
     </kbd></p>
     
     5. On the Select storage page, select the datastore or datastore cluster in which to store the virtual machine configuration files and all of the virtual disks. Click Next.
@@ -214,7 +214,7 @@
     6. On the Ready to complete page, review the template settings and click **Finish**.  
     
      <p><kbd>
-        <img src="../../../images/prerequisites/template4.PNG">
+        <img src="../../images/prerequisites/template4.PNG">
     </kbd></p>
     
     The progress of the clone task appears in the Recent Tasks pane. When the task completes, the template appears in the inventory.
