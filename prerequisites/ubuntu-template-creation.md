@@ -80,71 +80,70 @@
 4. After the virtual machine is created, you will have to install Ubuntu Linux Server 16.04 OS on it.  
     **Installation Steps**
     1. You will see the following language selection screen appear. Using the keyboard **Arrow** keys, select the language you would like to use and press **Enter**. For this demo we will be using the default, **English**.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/1.PNG">
+    </kbd></p>
+    
     2. Next you will be asked to select an action.  
     Since we are installing Linux we will choose the default Install Ubuntu Server by pressing **Enter**.
-    3. Now that we have begun the installation process, the installer will ask for the language that you would like the system to use during installation and operation.  
-    Use the keyboard **Arrow** keys to make your selection and press **Enter**. We will be using the default, **English** in this demo.
-    4. Once the system language has been selected you will be asked to select the location the system will use. This setting is used for configuring the locality of several system services.  
-    We will accept the default, United States by pressing **Enter**.
-    5. The installer will now ask whether or not it should try to detect your keyboard layout. You can select **<Yes>** to allow the system to detect the keyboard layout. If it is successful you will automatically skip to step 8.  
-    If the detection is not successful you will need to complete the manual selection process in steps 6 and 7 as if you had selected **<No>**.  
-    In this tutorial we will select **<No>** to allow us to manually select our keyboard layout. Pressing the **Tab** key will allow you to move between selections.
-    6. The first step in selecting your keyboard's layout is to choose the Country of Origin for the keyboard.  
-    We will choose **English (US)** which is the default.
-    7. Next you will be asked to select the specific layout within the Country of Origin of your keyboard.  
-    We will again choose **English (US)** which is the default.
-    8. Your system will now try to automatically configure your network options. If it is unable to do this you will be presented with the following failure message:  
-    To continue to the network configuration step press the **Enter** key.
-    9. To configure your network settings you will be presented with four options.  
-    The first two options allow you to retry the auto-configuration process. These options are useful if you are able to correct the reason your network was not able to be configured automatically and you wish to retry the automatic configuration.  
-    You can also choose to skip configuring the network by selecting **Do not configure the network at this time**. If you choose to skip configuring the network, you will need to manually configure your network settings after installation completes before your system will be able to communicate with other servers on your network.  
-    For our demo we will select **Configure network manually**.  
-    After you have made your selection press the **Enter** key to continue.
-    10. Now that we have selected Configure network manually we will be asked to enter the Internet Protocol (IP) address for our system. If you do not know your IP address please consult your network administrator for the information.  
-    In this example we will use the IP address **1.2.3.4**
-    In the field provided, enter the IP address of **1.2.3.4**. When done, press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    11. You will next be prompted to enter the network mask for your network. Again, if you do not know your network mask please consult your network administrator for the information.  
-    In our demo we will use the default **255.255.255.0** as our network mask.  
-    Since we are accepting the default network mask of **255.255.255.0** simply press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    12. In this step we will enter the IP address of the network gateway for our network. Your network administrator can provide this information to you if you do not know what it is.  
-    In our demo we will use the address **1.2.3.1** as our gateway address.  
-    In the field provided, enter the IP address of **1.2.3.1** for the gateway address. When done, press the Tab key until you get to **<Continue>** and then press the **Enter** key.
-    13. In this step we will enter the IP address of the primary name server for our network. Your network administrator can provide this information to you if you do not know what it is.  
-    In our demo we will use the address **8.8.8.8** as our name server address.  
-    In the field provided, enter the IP address of **8.8.8.8** for the name server address. When done, press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    14. Next you will be asked to enter the name that this host will be known as. This name can be a single word (no spaces) and should not contain special characters such as "%".
-    15. In this step, you will be asked to enter the full name of the primary user of the system.  
-    On our system we will set this user name to **TechOnTheNet** . Press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    16. Next, we will enter the user name we will use to log in. This name should be lowercase and not include spaces or non-alphanumeric characters.  
-    In our demo we will use **techonthenet** for our user account. Press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    17. On this screen, you will need to enter the password you would like to use for the **techonthenet** user account.  
-    After entering the password, press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    18. In this step, you will be asked to re-enter the password you used from the previous step. This is to ensure that the passwords match.  
-    After re-entering the password, press the **Tab** key until you get to **<Continue>** and then press the **Enter** key.
-    19. Ubuntu allows you to encrypt your home directories for security. This is useful for situations where users require security on items they keep in their home directories.  
-    For this tutorial, we will select **<No>** and not encrypt the home directories.
-    20. In this step, you will configure the clock and choose the time zone your computer will use. The system time services will use this setting to display the correct local time.
-    21. Ubuntu will now ask you to configure your hard disk partitions. There are several choices available.For this demo we will choose the second option which is **Guided - use entire disk and set up LVM**.
-    22. Next we will need to select the hard disk that we will apply the hard drive partitions to. 
-    23. The installer will now confirm that you are prepared to write the partition layout to the hard disk you have selected.  
-    If you are ready to apply your selected partition layout to the hard disk, tab to **<Yes>** and then press the **Enter** key.
-    24. Enter the amount of hard disk space to use for Ubuntu Linux Server.
-    25. The installer will confirm that you are ready to write the partition information to the hard disk.  
-    Since these settings are correct and we are ready to write the partition information we will select **<Yes>** to continue.
-    26. If you utilize a HTTP proxy on your network, you can enter the proxy information on this screen.  
-    In this demo we will not provide any HTTP proxy information so we press the **Tab** key until we get to **<Continue>** and then press the **Enter** key.
-    27. Next, the installer will ask if you would like to configure automatic system updates. We will select **Install security updates automatically** for this demo.
-    28. At this step we will be asked to select any additional software or services we would like to install on the host. By default the standard system utilities option is selected. This option contains many of the system utilities that we will need to manage our system so we will leave it selected.  
-    Since we would like to be able to log into the host using secure shell (SSH) from another host on the network we will also select OpenSSH server.  
-    You can select a menu option by pressing the **Space Bar**. Moving between menu items can be accomplished by using your keyboard's Arrow keys.  
-    When you are finished selecting the software, select **<Continue>**.
-    29. The system will now ask to install the GRUB boot loader onto the master boot record of your hard disk.GRUB is used during the boot up process to enable Ubuntu Linux Server to load.  
-    We will select **<Yes>** to install the GRUB boot loader.
-    30. The installation is complete!  
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/2.PNG">
+    </kbd></p>
+    
+    3. After selecting installation language, geographical location and keyboard layout, the installer will perform some background configuration and processing. In particular, the installer will attempt to automatically configure your network.  
+    If the installer successfully detects your network configuration, you’ll be asked to enter a hostname, which can either be modified or left as the default ‘ubuntu’.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/3.PNG">
+    </kbd></p>
+    
+    4. After networking, you’ll be asked to enter your full name, username and password. As you’re configuring a server that’s likely to be accessible from the internet, make sure your password is strong and difficult to guess.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/4.PNG">
+    </kbd></p>
+    
+    5. After answering a question about your time zone, you need to configure local storage.  
+    If the storage connected to your server is raw and unformatted, the installer will detect this and present a menu offering four options. The simplest is the second, ‘Guided - use entire disk and set up LVM’, and we’d recommend selecting this.  
+    Any of these options will obviously destroy any data currently on your partition(s), but resizing and creating new partitions are options available by selecting ‘Manual’.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/5.PNG">
+    </kbd></p>
+    
+    6. After accepting the changes that are going to be made to your storage, the installer will determine the packages to be installed. This will take a few moments.  
+    You will then be asked to enter an HTTP proxy address. This can be ignored if you don’t know whether you need one to access the internet from your server. You’ll also be asked whether you require automatic updates. Selecting ‘Install security updates automatically’ is the safest default option.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/6.PNG">
+    </kbd></p>
+    
+    7. The final step before installation starts requires you to select the software you want pre-installed on your server. You can select from a broad set of categories or manually choose the packages yourself. This option is purely for convenience, as you can easily install any additional software you need after installation has completed.  
+    We’d recommend selecting ‘standard system utilities’ and ‘OpenSSH server’ as a minimum so that your system is both fully functional and accessible from any SSH client on your local network.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/7.PNG">
+    </kbd></p>
+    
+    8. Ubuntu Server will now be installed. When complete, one final question asks for permission to install the GRUB boot loader. You should answer ‘Yes’.  
+    The installer will finish up by installing the final packages and configuration files.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/8.PNG">
+    </kbd></p>
+    
+    9. The installation is complete!  
     The installer will now prompt you to reboot the computer.  
     Select **<Continue>** to reboot into Ubuntu Linux Server.
-    31. If all goes well in a few minutes you will see a login prompt similar to the following screenshot.  
-    You can now log in using the user name and password you configured during steps 10, 11 and 12.
+    
+    <p><kbd>
+        <img src="../images/prerequisites/ubuntu-os-installation/9.PNG">
+    </kbd></p>
+    
+    10. If all goes well in a few minutes you will see a login prompt.  
+    You can now log in using the user name and password you configured.
     32. Enable root user login using following steps: 
         1. Set password for root user using command **sudo passwd root** 
         2. Open file using **sudo nano /etc/ssh/sshd_config**
@@ -181,8 +180,9 @@
     5. On the Select storage page, select the datastore or datastore cluster in which to store the virtual machine configuration files and all of the virtual disks. Click Next.
     
     6. On the Ready to complete page, review the template settings and click **Finish**.  
-    The progress of the clone task appears in the Recent Tasks pane. When the task completes, the template appears in the inventory.
     
-    <p><kbd>
+     <p><kbd>
         <img src="../images/prerequisites/template4.PNG">
     </kbd></p>
+    
+    The progress of the clone task appears in the Recent Tasks pane. When the task completes, the template appears in the inventory.
