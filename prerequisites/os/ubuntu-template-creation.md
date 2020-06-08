@@ -82,27 +82,27 @@
     1. You will see the following language selection screen appear. Using the keyboard **Arrow** keys, select the language you would like to use and press **Enter**. For this demo we will be using the default, **English**.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/1.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/1.png">
     </kbd></p>
     
     2. Next you will be asked to select an action.  
     Since we are installing Linux we will choose the default Install Ubuntu Server by pressing **Enter**.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/2.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/2.png">
     </kbd></p>
     
     3. After selecting installation language, geographical location and keyboard layout, the installer will perform some background configuration and processing. In particular, the installer will attempt to automatically configure your network.  
     If the installer successfully detects your network configuration, you’ll be asked to enter a hostname, which can either be modified or left as the default ‘ubuntu’.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/3.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/3.png">
     </kbd></p>
     
     4. After networking, you’ll be asked to enter your full name, username and password. As you’re configuring a server that’s likely to be accessible from the internet, make sure your password is strong and difficult to guess.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/4.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/4.png">
     </kbd></p>
     
     5. After answering a question about your time zone, you need to configure local storage.  
@@ -110,28 +110,28 @@
     Any of these options will obviously destroy any data currently on your partition(s), but resizing and creating new partitions are options available by selecting ‘Manual’.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/5.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/5.png">
     </kbd></p>
     
     6. After accepting the changes that are going to be made to your storage, the installer will determine the packages to be installed. This will take a few moments.  
     You will then be asked to enter an HTTP proxy address. This can be ignored if you don’t know whether you need one to access the internet from your server. You’ll also be asked whether you require automatic updates. Selecting ‘Install security updates automatically’ is the safest default option.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/6.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/6.png">
     </kbd></p>
     
     7. The final step before installation starts requires you to select the software you want pre-installed on your server. You can select from a broad set of categories or manually choose the packages yourself. This option is purely for convenience, as you can easily install any additional software you need after installation has completed.  
     We’d recommend selecting ‘standard system utilities’ and ‘OpenSSH server’ as a minimum so that your system is both fully functional and accessible from any SSH client on your local network.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/7.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/7.png">
     </kbd></p>
     
     8. Ubuntu Server will now be installed. When complete, one final question asks for permission to install the GRUB boot loader. You should answer ‘Yes’.  
     The installer will finish up by installing the final packages and configuration files.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/8.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/8.png">
     </kbd></p>
     
     9. The installation is complete!  
@@ -139,7 +139,7 @@
     Select **<Continue>** to reboot into Ubuntu Linux Server.
     
     <p><kbd>
-        <img src="../../images/prerequisites/ubuntu-os-installation/9.PNG">
+        <img src="../../images/prerequisites/ubuntu-os-installation/9.png">
     </kbd></p>
     
     10. If all goes well in a few minutes you will see a login prompt.  
