@@ -8,13 +8,13 @@
     1. Click **Storage** in the VMware Host Client inventory and click **Datastores**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vsphere-client-inventory-storage.png">
+        <img src="../../images/prerequisites/vsphere-client-inventory-storage.png">
     </kbd></p>
     
     2. Click **Datastore browser**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/datastore-browser1.PNG">
+        <img src="../../images/prerequisites/datastore-browser1.PNG">
     </kbd></p>
     
     3. Select the datastore that you want to store the file on.  
@@ -30,29 +30,29 @@
     1. Click **VMs and Templates** in the VMware Host Client inventory, click **Actions** and select **New Virtual Machine**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vsphere-client-inventory-vm.png">
+        <img src="../../images/prerequisites/vsphere-client-inventory-vm.png">
     </kbd></p>
     
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation1.PNG">
+        <img src="../../images/prerequisites/vm-creation1.PNG">
     </kbd></p>
     
     2. On the Select a creation type page, select **Create a new virtual machine** and click **Next**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation2.PNG">
+        <img src="../../images/prerequisites/vm-creation2.PNG">
     </kbd></p>
     
     3. On the Select a name and folder page, enter a unique name for the virtual machine and select a deployment location.     
     4. On the Select a compute resource page, select the host, cluster, resource pool, or vApp where the virtual machine will run and click **Next**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation3.PNG">
+        <img src="../../images/prerequisites/vm-creation3.PNG">
     </kbd></p>
     
     5. On the Select storage page, choose the storage type, the storage policy, and a datastore or datastore cluster where you have uploaded ISO file in Step 2. 
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation4.PNG">
+        <img src="../../images/prerequisites/vm-creation4.PNG">
     </kbd></p> 
     
     6. On the Select compatibility page, select the virtual machine compatibility with ESXi host versions and click **Next**.
@@ -60,19 +60,19 @@
     7. On the Select a guest OS page, select the guest OS family as *Linux* and version as *CentOS 7 (64 bit)* and click **Next**.
 
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation5.png">
+        <img src="../../images/prerequisites/vm-creation5.PNG">
     </kbd></p>
 
     8. On the Customize hardware page, configure the virtual machine hardware and options, in *New CD/DVD Drive* option select option for *Datastore ISO File* and choose the ISO file uploaded in Step 2 and click **Next**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation6.PNG">
+        <img src="../../images/prerequisites/vm-creation6.PNG">
     </kbd></p> 
     
     9. On the Ready to complete page, review the details and click **Finish**.  
     
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation7.PNG">
+        <img src="../../images/prerequisites/vm-creation7.PNG">
     </kbd></p> 
     
     10. The virtual machine appears in the vSphere Client inventory.
@@ -82,32 +82,32 @@
     1. Upon booting the **CentOS 7 ISO** file, you can begin the installation process. To do so, select **Install CentOS 7**. That will start the installer’s graphical interface.
 
     <p><kbd>
-        <img src="../images/centos/inst-1.png">
+        <img src="../../images/prerequisites/centos/inst-1.png">
     </kbd></p>
 
     2. Before starting the installation process itself, select which language you would like to use during installation. **The default option is English.**
 
     <p><kbd>
-        <img src="../images/centos/inst-2.png">
+        <img src="../../images/prerequisites/centos/inst-2.png">
     </kbd></p>
 
     3. **Click Continue** to confirm your selection.
     There are a couple of settings you would want to configure. All items marked with a warning icon must be configured before you begin the installation.
 
     <p><kbd>
-        <img src="../images/centos/inst-3.png">
+        <img src="../../images/prerequisites/centos/inst-3.png">
     </kbd></p>
 
     4. **Set Date and Time** To set a date and time for the system, click the Date & Time icon under the Localization heading. Select a region/time zone on the map of the world as seen below. Once you have selected your time zone, hit **Done** to save your changes.
 
     <p><kbd>
-        <img src="../images/centos/inst-4.png">
+        <img src="../../images/prerequisites/centos/inst-4.png">
     </kbd></p>
 
     5. **System Language** Next, select the Language Support option under the Localization heading. The language selected in the Welcome to CentOS 7 window will be the default system language. If necessary, select additional languages and hit the ***Done*** button once you are finished.
 
     <p><kbd>
-        <img src="../images/centos/inst-5.png">
+        <img src="../../images/prerequisites/centos/inst-5.png">
     </kbd></p>
 
     6. **Software Selection** Select the Software Selection option under the Software heading. You will see a list of predefined Base Environment options and optional add-ons. This part entirely depends on your needs.
@@ -118,7 +118,7 @@
         When you have selected the base environment and optional add-ons, click the **Done** button. Wait for the system to check for software dependencies before you move on to the next option.
     
     <p><kbd>
-        <img src="../images/centos/inst-6.png">
+        <img src="../../images/prerequisites/centos/inst-6.png">
     </kbd></p>
 
     7. **Select Installation Destination** Click the Installation Destination option under the System heading. Check your machine’s storage under the Local Standard Disks heading. *CentOS 7 will be installed on the selected disk.*
@@ -129,13 +129,13 @@
         - **Option 2: Manual Partitioning** Select the **I will configure partitioning checkbox** and choose **Done**. If you want to use other file systems **(such as ext4 and vfat)** and a non-LVM partitioning scheme, such as **btrfs**. This will initiate a configuration pop-up where you can set up your partitioning manually. This is an advanced setting option, very much based on your requirements.
     
     <p><kbd>
-        <img src="../images/centos/inst-7.png">
+        <img src="../../images/prerequisites/centos/inst-7.png">
     </kbd></p>
 
     8. **Network and Hostname** Click the Network & Host Name option under the System heading. For the hostname, type in the fully qualified domain name of your system.
 
     <p><kbd>
-        <img src="../images/centos/inst-8.png">
+        <img src="../../images/prerequisites/centos/inst-8.png">
     </kbd></p>
 
     9. **Select Configure…** and select to add IPv4 settings or IPv6 settings depending on what you have. Add **static IP addresses** to help identify your computer on the network. Bear in mind that your network environment’s settings define these values.
@@ -153,7 +153,7 @@
         By default, all detected Ethernet connections are disabled. Click the **ON/OFF** toggle to enable the connection.
     
     <p><kbd>
-        <img src="../images/centos/inst-9.png">
+        <img src="../../images/prerequisites/centos/inst-9.png">
     </kbd></p>
 
     10. **Security Policy** Select the Security Policy option under the System heading. Choose a profile from the list and hit **Select** profile. Hit the **Done** button to confirm your selection.
@@ -161,7 +161,7 @@
     11. **Start the Installation Process** Once everything is set up according to your liking, hit **Begin Installation** to start the install. This will start the initial installation process.
 
      <p><kbd>
-        <img src="../images/centos/inst-11.png">
+        <img src="../../images/prerequisites/centos/inst-11.png">
     </kbd></p>
 
     12. **Define Root Password** To define the root user, 
@@ -171,14 +171,50 @@
         - Click the **Done** button to proceed.
     
      <p><kbd>
-        <img src="../images/centos/inst-12.png">
+        <img src="../../images/prerequisites/centos/inst-12.png">
     </kbd></p>
 
     13. Wait for the installation process to complete.
     Before you start using your new CentOS installation, reboot the system. Click the **Reboot** button.
 
      <p><kbd>
-        <img src="../images/centos/inst-13.png">
+        <img src="../../images/prerequisites/centos/inst-13.png">
     </kbd></p>
 
-    > Log into the system by using the credentials you defined previously.
+        
+5. Create a template using the VM.
+
+    **Procedure**  
+    1. Click **VMs and Templates** in the VMware Host Client inventory. 
+    
+    <p><kbd>
+        <img src="../../images/prerequisites/vsphere-client-inventory-vm.png">
+    </kbd></p>
+     
+    2. Right click on the VM created in Step 4 and select **Clone > Clone to Template**.
+    
+    <p><kbd>
+        <img src="../../images/prerequisites/template1.PNG">
+    </kbd></p>
+    
+    3. On the Select a name and folder page, enter a name for the template and select a data center or a folder in which to deploy it.
+    
+    <p><kbd>
+        <img src="../../images/prerequisites/template2.PNG">
+    </kbd></p>
+    
+    4. On the Select a compute resource, select a host or a cluster resource for the template.
+    
+    <p><kbd>
+        <img src="../../images/prerequisites/template3.PNG">
+    </kbd></p>
+    
+    5. On the Select storage page, select the datastore or datastore cluster in which to store the virtual machine configuration files and all of the virtual disks. Click Next.
+    
+    6. On the Ready to complete page, review the template settings and click **Finish**.  
+    
+     <p><kbd>
+        <img src="../../images/prerequisites/template4.PNG">
+    </kbd></p>
+    
+    The progress of the clone task appears in the Recent Tasks pane. When the task completes, the template appears in the inventory.
