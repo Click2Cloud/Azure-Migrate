@@ -28,32 +28,32 @@
         <img src="../images/prerequisites/vsphere-client-inventory-vm.png">
     </kbd></p>
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation1.png">
+        <img src="../images/prerequisites/vm-creation1.PNG">
     </kbd></p>
     2. On the Select a creation type page, select **Create a new virtual machine** and click **Next**.  
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation2.png">
+        <img src="../images/prerequisites/vm-creation2.PNG">
     </kbd></p>
-    3. On the Select a name and folder page, enter a unique name for the virtual machine and select a deployment location. 
+    3. On the Select a name and folder page, enter a unique name for the virtual machine and select a deployment location.     
     4. On the Select a compute resource page, select the host, cluster, resource pool, or vApp where the virtual machine will run and click **Next**.  
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation3.png">
+        <img src="../images/prerequisites/vm-creation3.PNG">
     </kbd></p>
     5. On the Select storage page, choose the storage type, the storage policy, and a datastore or datastore cluster where you have uploaded ISO file in Step 2. 
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation4.png">
+        <img src="../images/prerequisites/vm-creation4.PNG">
     </kbd></p> 
     6. On the Select compatibility page, select the virtual machine compatibility with ESXi host versions and click **Next**.  
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation5.png">
+        <img src="../images/prerequisites/vm-creation5.PNG">
     </kbd></p>  
     7. On the Select a guest OS page, select the guest OS family as *Linux* and version as *Ubuntu Linux (64-bit)* and click **Next**.  
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation6.png">
+        <img src="../images/prerequisites/vm-creation6.PNG">
     </kbd></p> 
     8. On the Customize hardware page, configure the virtual machine hardware and options, in *New CD/DVD Drive* option select option for *Datastore ISO File* and choose the ISO file uploaded in Step 2 and click **Next**.  
     <p><kbd>
-        <img src="../images/prerequisites/vm-creation7.png">
+        <img src="../images/prerequisites/vm-creation7.PNG">
     </kbd></p> 
     9. On the Ready to complete page, review the details and click **Finish**.  
     10. The virtual machine appears in the vSphere Client inventory.  
