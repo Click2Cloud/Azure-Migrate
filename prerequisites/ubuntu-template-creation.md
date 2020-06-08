@@ -6,7 +6,13 @@
 
     **Procedure**  
     1. Click **Storage** in the VMware Host Client inventory and click **Datastores**.  
+    <p><kbd>
+        <img src="../images/prerequisites/vsphere-client-inventory-storage.png">
+    </kbd></p>
     2. Click **Datastore browser**.  
+    <p><kbd>
+        <img src="../images/prerequisites/datastore-browser1.PNG">
+    </kbd></p>
     3. Select the datastore that you want to store the file on.  
     4. **(Optional)** Click **New Folder** to create a new datastore directory to store the file.  
     5. Select the target folder and click **Upload Files**.  
@@ -18,15 +24,18 @@
 
     **Procedure**  
     1. Click **VMs and Templates** in the VMware Host Client inventory, click **Actions** and select **New Virtual Machine**.  
-    2. On the Select a creation type page, select **Create a new virtual machine** and click **Next**.
-    3. On the Select a name and folder page, enter a unique name for the virtual machine and select a deployment location.
-    4. On the Select a compute resource page, select the host, cluster, resource pool, or vApp where the virtual machine will run and click **Next**.
-    5. On the Select storage page, choose the storage type, the storage policy, and a datastore or datastore cluster where you have uploaded ISO file in Step 2.
-    6. On the Select compatibility page, select the virtual machine compatibility with ESXi host versions and click **Next**.  
-    7. On the Select a guest OS page, select the guest OS family as *Linux* and version as *Ubuntu Linux (64-bit)* and click **Next**.
-    8. On the Customize hardware page, configure the virtual machine hardware and options, in *New CD/DVD Drive* option select option for *Datastore ISO File* and choose the ISO file uploaded in Step 2 and click **Next**.
-    9. On the Ready to complete page, review the details and click **Finish**.
-    10. The virtual machine appears in the vSphere Client inventory.
+    <p><kbd>
+        <img src="../images/prerequisites/vsphere-client-inventory-vm.png">
+    </kbd></p>
+    2. On the Select a creation type page, select **Create a new virtual machine** and click **Next**.  
+    3. On the Select a name and folder page, enter a unique name for the virtual machine and select a deployment location.  
+    4. On the Select a compute resource page, select the host, cluster, resource pool, or vApp where the virtual machine will run and click **Next**.  
+    5. On the Select storage page, choose the storage type, the storage policy, and a datastore or datastore cluster where you have uploaded ISO file in Step 2.  
+    6. On the Select compatibility page, select the virtual machine compatibility with ESXi host versions and click **Next**.    
+    7. On the Select a guest OS page, select the guest OS family as *Linux* and version as *Ubuntu Linux (64-bit)* and click **Next**.  
+    8. On the Customize hardware page, configure the virtual machine hardware and options, in *New CD/DVD Drive* option select option for *Datastore ISO File* and choose the ISO file uploaded in Step 2 and click **Next**.  
+    9. On the Ready to complete page, review the details and click **Finish**.  
+    10. The virtual machine appears in the vSphere Client inventory.  
     
 4. After the virtual machine is created, you will have to install Ubuntu Linux Server 16.04 OS on it.  
     **Installation Steps**
