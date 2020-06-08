@@ -107,7 +107,7 @@
     5. **System Language** Next, select the Language Support option under the Localization heading. The language selected in the Welcome to CentOS 7 window will be the default system language. If necessary, select additional languages and hit the ***Done*** button once you are finished.
 
     <p><kbd>
-        <img src="../images/centos/inst-1.png">
+        <img src="../images/centos/inst-5.png">
     </kbd></p>
 
     6. **Software Selection** Select the Software Selection option under the Software heading. You will see a list of predefined Base Environment options and optional add-ons. This part entirely depends on your needs.
