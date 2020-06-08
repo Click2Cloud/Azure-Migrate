@@ -60,7 +60,7 @@
     7. On the Select a guest OS page, select the guest OS family as *Linux* and version as *CentOS 7 (64 bit)* and click **Next**.
 
     <p><kbd>
-        <img src="../../images/prerequisites/vm-creation5.png">
+        <img src="../../images/prerequisites/vm-creation5.PNG">
     </kbd></p>
 
     8. On the Customize hardware page, configure the virtual machine hardware and options, in *New CD/DVD Drive* option select option for *Datastore ISO File* and choose the ISO file uploaded in Step 2 and click **Next**.  
