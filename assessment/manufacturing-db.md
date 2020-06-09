@@ -15,7 +15,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 * Application Discovery for Manufacturing Database VM.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/application-discovery-database.png?raw=true">
+  <img src="../images/manufacturing-db/application-discovery-database.png">
 </kbd></p>
 
 ## Application Dependency and Grouping
@@ -27,52 +27,52 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 * Application dependency for Windows VM (database hosted- MSSQL)
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/application-dependency-databases.png?raw=true">
+  <img src="../images/manufacturing-db/application-dependency-databases.png">
 </kbd></p>
 
 ## Steps for Server Assessment
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-1.png?raw=true">
+  <img src="../images/manufacturing-db/sa-1.png">
 </kbd></p>
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
 
-<p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-2.png?raw=true">
+<p><kbd>sssss
+  <img src="../images/manufacturing-db/sa-2.png">
 </kbd></p>
 
 3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-3.png?raw=true">
+  <img src="../images/manufacturing-db/sa-3.png">
 </kbd></p>
 
 4. You will be redirected to **Assessment Overview**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-4.png?raw=true">
+  <img src="../images/manufacturing-db/sa-4.png">
 </kbd></p>
 
 5. Click on **Azure Readiness**.
 Azure readiness show whether VMs are suitable for migration to Azure.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-5.png?raw=true">
+  <img src="../images/manufacturing-db/sa-5.png">
 </kbd></p>
 
 6. Click on **Cost Details**.
 It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-6.png?raw=true">
+  <img src="../images/manufacturing-db/sa-6.png">
 </kbd></p>
 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/sa-7.png?raw=true">
+  <img src="../images/manufacturing-db/sa-7.png">
 </kbd></p>
 
 ## Steps for Database Assessment using Data Migration Assistant
@@ -85,71 +85,71 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    3. Click on **Create**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-1.png?raw=true">
+  <img src="../images/manufacturing-db/dma-1.png">
 </kbd></p>
 
 2. Select report type and click **Next**.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-2.png?raw=true">
+  <img src="../images/manufacturing-db/dma-2.png">
 </kbd></p>
 
 3. Enter source server details and connect to it.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-3.png?raw=true">
+  <img src="../images/manufacturing-db/dma-3.png">
 </kbd></p>
 
 4. Select database for assessment.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-4.png?raw=true">
+  <img src="../images/manufacturing-db/dma-4.png">
 </kbd></p>
 
 5. Start the assessment.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-5.png?raw=true">
+  <img src="../images/manufacturing-db/dma-5.png">
 </kbd></p>
 
 6. Assessment results.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-6.png?raw=true">
+  <img src="../images/manufacturing-db/dma-6.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-7.png?raw=true">
+  <img src="../images/manufacturing-db/dma-7.png">
 </kbd></p>
 
 7. Upload the assessment report to Azure console by connecting to the Azure account.
 
 <p><kbd>
-   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-8.png?raw=true">
+   <img src="../images/manufacturing-db/dma-8.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-9.png?raw=true">
+   <img src="../images/manufacturing-db/dma-9.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-10.png?raw=true">
+   <img src="../images/manufacturing-db/dma-10.png">
 </kbd></p>
 
 8. Log in to the azure console, go to **azure migrate** and click on **databases**.
 
 <p><kbd>
-   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-11.png?raw=true">
+   <img src="../images/manufacturing-db/dma-11.png">
 </kbd></p>
 
 9. Click on **assessed database instances** to find the assessed database list.
 
 <p><kbd>
-  <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-12.png?raw=true">
+  <img src="../images/manufacturing-db/dma-12.png">
 </kbd></p>
 
 10. Click on assessed database to view the assessment details.
 
 <p><kbd>
-   <img src="https://github.com/Click2Cloud/Azure-Migrate/blob/master/images/manufacturing-db/dma-13.png?raw=true">
+   <img src="../images/manufacturing-db/dma-13.png">
 </kbd></p>
