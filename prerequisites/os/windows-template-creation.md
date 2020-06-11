@@ -1,6 +1,6 @@
-# Steps for Ubuntu 16.04 Template Creation
+# Steps for Windows Server 2016 Template Creation
 
-1. Download Ubuntu 16.04 ISO from [here](https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO)
+1. Download Windows Server 2016 ISO from [here](https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO)
 
 2. Upload it to your VMware vCenter.
 
