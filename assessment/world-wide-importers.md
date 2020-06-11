@@ -132,7 +132,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 6. Assessment results.
 
 <p><kbd>
-  <img src="../images/wide-world-importers/dma-6.PNG">
+  <img src="../images/wide-world-importers/dma-6-new.png">
 </kbd></p>
 
 <p><kbd>

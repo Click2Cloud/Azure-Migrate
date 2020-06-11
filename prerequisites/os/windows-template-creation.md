@@ -1,6 +1,6 @@
-# Steps for Ubuntu 16.04 Template Creation
+# Steps for Windows Server 2016 Template Creation
 
-1. Download Ubuntu 16.04 ISO from [here](https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO)
+1. Download Windows Server 2016 ISO from [here](https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO)
 
 2. Upload it to your VMware vCenter.
 
@@ -139,7 +139,7 @@
         <img src="../../images/prerequisites/windows2016-os-installation/tools1.png">
     </kbd></p>
     
-    You will then see that the virtual DVD of VMware Tools has been loaded into VM’s DVD drive. Tap on the message that will appear to continue. Alternatively, if the message is gone, open File Explorer, enter the contents of the DVD and run Setup.exe.
+    You will then see that the virtual DVD of VMware Tools has been loaded into VMs DVD drive. Tap on the message that will appear to continue. Alternatively, if the message is gone, open File Explorer, enter the contents of the DVD and run Setup.exe.
     
     Run setup64.exe to start the process.
     
@@ -175,7 +175,11 @@
     
     VMware Tools will need to restart the VM in order to fully complete the installation of VMware Tools. Click Yes to continue.
     
-    11. Open the Windows Explorer and access the folder:  C:\Windows\System32\Sysprep 
+    11. Open PowerShell and paste the following commands:
+    - winrm set winrm/config/service '@{AllowUnencrypted="true"}'
+    - winrm set winrm/config/service/auth '@{Basic="true"}'
+    
+    12. Open the Windows Explorer and access the folder:  C:\Windows\System32\Sysprep 
     Run **sysprep.exe**
     
     <p><kbd>
@@ -191,7 +195,7 @@
         <img src="../../images/prerequisites/windows2016-os-installation/sysprep2.jpg">
     </kbd></p>
     
-    12. Power On the VM, select Language and set password.
+    13. Power On the VM, select Language and set password.
         
 5. Create a template using the VM.
 
