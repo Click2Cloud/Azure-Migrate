@@ -146,7 +146,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 6. Assessment results.
 
 <p><kbd>
-  <img src="../images/tailwind-traders/tailwind-dma6-new.PNG">
+  <img src="../images/tailwind-traders/tailwind-dma6-new.png">
 </kbd></p>
 
 <p><kbd>
