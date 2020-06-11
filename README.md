@@ -56,9 +56,9 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
     * [linux server](terraform-scripts/linux/)
     * [windows server](terraform-scripts/windows/)
     
-* [Check](prerequisites/deployed-servers.md) deployed machines on vCenter.
+* After deployment of virtual machines user can [check](prerequisites/deployed-servers.md) running virtual machines on vCenter.
 
-* [Setup appliance](prerequisites/appliance-setup.md) on vCenter for server and application discovery.
+* For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
 
 ### 1. Assessment
 ##### a. Lift & Shift
