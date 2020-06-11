@@ -40,7 +40,6 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
         >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
 
 ### Before start the demo please prepare source infrastructure
-# Setup source infrastructure on vCenter
 **Prerequisites**
 * Server on vCenter for template creation.
     > Note: create required server if not exist on vCenter by clicking on following name of the Server.
