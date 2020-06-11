@@ -51,7 +51,7 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 
 * [Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
-* After installing terraform, click on following server for terraform operation.
+* After installing terraform, click on following to deploy linux / windows server using terraform.
     * [linux server](terraform-scripts/linux/)
     * [windows server](terraform-scripts/windows/)
     
