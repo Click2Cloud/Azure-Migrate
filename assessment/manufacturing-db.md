@@ -59,6 +59,10 @@ Here you can see all the discovered servers from your on-premise data center **v
 Here you can see all the  servers from your on-premise data center **vCenter** discovered by Azure Migrate appliance.
 
 <p><kbd>
+  <img src="../images/manufacturing-db/sa-1.png">
+</kbd></p>
+
+<p><kbd>
   <img src="../images/manufacturing-db/manu-db-assessment-3.png">
 </kbd></p>
 
@@ -71,7 +75,8 @@ Here you can see all the  servers from your on-premise data center **vCenter** d
   <img src="../images/manufacturing-db/application-dependency-databases.png">
 </kbd></p>
 
-## Steps for Server Assessment
+## Steps for Azure Readiness and Total cost of Ownership
+
 1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
 
 <p><kbd>
