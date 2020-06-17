@@ -61,20 +61,14 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 ### 1. Assessment
 ##### a. Lift & Shift
-* [Example - PetStore Application](assessment/petstore.md)
 * [Example - Nerd Dinner Application](assessment/nerd-dinner.md)
 ##### b. App Modernization
-* [Example - PartsUnlimited Application](assessment/partsunlimited.md)
-* [Example - Tailwinds Traders Application](assessment/tailwind-traders.md)
 * [Example - Manufacturing Database](assessment/manufacturing-db.md)
 * [Example - World Wide Importers Database](assessment/world-wide-importers.md)
 
 ### 2. Migration
 ##### a. Lift & Shift
-* [Example - PetStore Application](migration/petstore.md)
 * [Example - Nerd Dinner Application](migration/nerd-dinner.md)
 ##### b. App Modernization
-* [Example - PartsUnlimited Application](migration/partsunlimited.md)
-* [Example - Tailwinds Traders Application](migration/tailwind-traders.md)
 * [Example - Manufacturing Database](migration/manufacturing-db.md)
 * [Example - World Wide Importers Database](migration/world-wide-importers.md)
