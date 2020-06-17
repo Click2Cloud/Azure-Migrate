@@ -75,7 +75,7 @@ Here you can see all the  servers from your on-premise data center **vCenter** d
   <img src="../images/manufacturing-db/application-dependency-databases.png">
 </kbd></p>
 
-## Steps for Azure Readiness and Total cost of Ownership
+## Steps for Azure Readiness and Total Cost of Ownership
 
 1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
 
