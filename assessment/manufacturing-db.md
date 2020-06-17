@@ -29,10 +29,12 @@ Here you can see all the discovered servers from your on-premise data center **v
 </kbd></p>
 
 4. In **Applications discovered**, click the displayed count.
-
-5. In **Application inventory**, you can review the discovered apps, roles, and features.
+* In **Application inventory**, you can review the discovered apps, roles, and features.
 
 * Application Discovery for Manufacturing Database VM.
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-4.png">
+</kbd></p>
 
 <p><kbd>
   <img src="../images/manufacturing-db/application-discovery-database.png">
