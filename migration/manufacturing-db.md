@@ -54,11 +54,13 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
   <img src="../images/manufacturing-db/manu-db-7.png">
 </kbd></p>
 
-7. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
+7. After deploying schema, you can also redploy it by clicking **Redploy schema**, Next Click on **Migrate data** to start the Data migration.
 
 <p><kbd>
    <img src="../images/manufacturing-db/manu-db-8.png">
 </kbd></p>
+
+8. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
 
 <p><kbd>
    <img src="../images/manufacturing-db/manu-db-9.png">
@@ -72,14 +74,13 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    <img src="../images/manufacturing-db/manu-db-11.png">
 </kbd></p>
 
-8. Log in to the azure console, Serach for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Databse from list where you have migrated source server Database.
+9. Log in to the azure console, Serach for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Databse from list where you have migrated source server Database.
 
 <p><kbd>
   <img src="../images/manufacturing-db/manu-db-12.png">
 </kbd></p>
 
-
-9. Click on **Query editor** to verify schema and data migrated successfully.
+10. Click on **Query editor** to verify schema and data migrated successfully.
 
 <p><kbd>
    <img src="../images/manufacturing-db/manu-db-13.png">
