@@ -54,7 +54,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 3. For Assessment In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Discovered servers**.
 
-Here you can see all the discovered servers from your on-premise data center **vCenter** which Azure appliance has discovered.
+Here you can see all the  servers from your on-premise data center **vCenter** discovered by Azure Migrate appliance.
 
 <p><kbd>
   <img src="../images/manufacturing-db/manu-db-assessment-3.png">
