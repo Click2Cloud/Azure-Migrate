@@ -4,13 +4,33 @@ The database that will be migrated is hosted on a Windows server 2016.
 Technologies used:
  - Microsoft SQL Server 2019
 
-## Application Discovery
+## Steps for Application Discovery
 
 App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.
 
-1. In **Azure Migrate - Servers > Azure Migrate: Server Assessment**, click the displayed count to open the **Discovered servers** page.
-2. In **Applications discovered**, click the displayed count.
-3. In **Application inventory**, you can review the discovered apps, roles, and features.
+1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-1.png">
+</kbd></p>
+
+2. Using Azure Migrate you can Migrate your on-premise datacenter to Azure. Click on **Servers** tab for server Assessment and Migration.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-2.png">
+</kbd></p>
+
+3. For Assessment In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Discovered servers**.
+
+Here you can see all the discovered servers from your on-premise data center **vCenter** which Azure appliance has discovered.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-3.png">
+</kbd></p>
+
+4. In **Applications discovered**, click the displayed count.
+
+5. In **Application inventory**, you can review the discovered apps, roles, and features.
 
 * Application Discovery for Manufacturing Database VM.
 
@@ -18,11 +38,30 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
   <img src="../images/manufacturing-db/application-discovery-database.png">
 </kbd></p>
 
-## Application Dependency and Grouping
+## Steps for Application Dependency and Grouping
 
-1. In **Azure Migrate: Server Assessment**, click **Discovered servers**.
-2. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
-3. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
+1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-1.png">
+</kbd></p>
+
+2. Using Azure Migrate you can Migrate your on-premise datacenter to Azure. Click on **Servers** tab for server Assessment and Migration.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-2.png">
+</kbd></p>
+
+3. For Assessment In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Discovered servers**.
+
+Here you can see all the discovered servers from your on-premise data center **vCenter** which Azure appliance has discovered.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-3.png">
+</kbd></p>
+
+4. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
+5. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
 * Application dependency for Windows VM (database hosted- MSSQL)
 
@@ -31,7 +70,19 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 </kbd></p>
 
 ## Steps for Server Assessment
-1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
+1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-1.png">
+</kbd></p>
+
+2. Using Azure Migrate you can Migrate your on-premise datacenter to Azure. Click on **Servers** tab for server Assessment and Migration.
+
+<p><kbd>
+  <img src="../images/manufacturing-db/manu-db-assessment-2.png">
+</kbd></p>
+
+3. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess servers**.
 
 <p><kbd>
   <img src="../images/manufacturing-db/sa-1.png">
@@ -39,7 +90,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
 
-<p><kbd>sssss
+<p><kbd>
   <img src="../images/manufacturing-db/sa-2.png">
 </kbd></p>
 

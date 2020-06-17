@@ -85,3 +85,5 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 <p><kbd>
    <img src="../images/manufacturing-db/manu-db-13.png">
 </kbd></p>
+
+> Congratulations ! You are now ready with your Database on Azure SQL Server. 

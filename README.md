@@ -59,16 +59,17 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 * For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
 
-### 1. Assessment
-##### a. Lift & Shift
+> Note: Make sure you have configured appliance on vCenter before following operation for server assessment and migration. *(Duration 30 Minutes)*
+### Demo 1: Assessment
+##### a. Lift & Shift *(Duration 20 Minutes)*
 * [Example - Nerd Dinner Application](assessment/nerd-dinner.md)
-##### b. App Modernization
+##### b. App Modernization *(Duration 20 Minutes)*
 * [Example - Manufacturing Database](assessment/manufacturing-db.md)
 * [Example - World Wide Importers Database](assessment/world-wide-importers.md)
 
-### 2. Migration
-##### a. Lift & Shift
+### Demo 2: Migration
+##### a. Lift & Shift *(Duration 20 Minutes)*
 * [Example - Nerd Dinner Application](migration/nerd-dinner.md)
-##### b. App Modernization
+##### b. App Modernization *(Duration 20 Minutes)*
 * [Example - Manufacturing Database](migration/manufacturing-db.md)
 * [Example - World Wide Importers Database](migration/world-wide-importers.md)

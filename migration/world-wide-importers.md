@@ -82,3 +82,5 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 <p><kbd>
    <img src="../images/wide-world-importers/wwi-db-12.png">
 </kbd></p>
+
+> Congratulations ! You are now ready with your Database on Azure SQL Server. 
