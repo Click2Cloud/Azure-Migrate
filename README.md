@@ -62,14 +62,14 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 > Note: Make sure you have configured appliance on vCenter before following operation for server assessment and migration. *(Duration 30 Minutes)*
 ### Demo 1: Assessment
 ##### a. Lift & Shift *(Duration 15 Minutes)*
-* [Example - Partsunlimited legacy database](assessment/partsunlimited-db-legacy.md)
+* [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
 ##### b. App Modernization *(Duration 15 Minutes)*
-* [Example - Partsunlimited application](assessment/partsunlimited-app.md)
-* [Example - Partsunlimited database](assessment/partsunlimited-db.md)
+* [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
+* [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
 
 ### Demo 2: Migration
 ##### a. Lift & Shift *(Duration 15 Minutes)*
-* [Example - Partsunlimited legacy database](migration/partsunlimited-db-legacy.md)
+* [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
 ##### b. App Modernization *(Duration 15 Minutes)*
-* [Example - Partsunlimited application](migration/partsunlimited-app.md)
-* [Example - Partsunlimited database](migration/partsunlimited-db.md)
+* [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
+* [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
