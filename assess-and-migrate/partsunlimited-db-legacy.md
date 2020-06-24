@@ -98,5 +98,5 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-7.png">
+  <img src="../images/partsunlimited/sa-7-legacy-db.png">
 </kbd></p>

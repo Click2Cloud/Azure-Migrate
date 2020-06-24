@@ -52,7 +52,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
 2. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-* Application dependency for Windows VM (database hosted- MSSQL)
+* Application dependency for Windows VM (Application hosted on IIS - PartsUnlimited)
 
 <p><kbd>
   <img src="../images/partsunlimited/application-dependency-application.png">
@@ -101,7 +101,7 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-7.png">
+  <img src="../images/partsunlimited/sa-7-app.png">
 </kbd></p>
 
 ## Steps for WebApp Assessment using Azure App Service Migration Assistant
