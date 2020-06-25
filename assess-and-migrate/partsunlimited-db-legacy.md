@@ -48,17 +48,6 @@ Here you can see all the discovered servers from your on-premise data center **v
   <img src="../images/partsunlimited/application-discovery-database.png">
 </kbd></p>
 
-## Steps for Application Dependency and Grouping
-
-1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
-2. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
-
-* Application dependency for Windows VM (database hosted- MSSQL)
-
-<p><kbd>
-  <img src="../images/partsunlimited/application-dependency-databases.png">
-</kbd></p>
-
 ## Steps for Azure Readiness and Total Cost of Ownership
 
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess servers**.
