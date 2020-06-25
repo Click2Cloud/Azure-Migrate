@@ -1,6 +1,6 @@
 # PartsUnlimited Application Assessment
-* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise​
-* This WWI infrastructure is on on-premise​
+* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise
+* This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
@@ -122,7 +122,7 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="../images/partsunlimited/app-assessment-2.png">
 </kbd></p>
 
-## Steps for WebApp Migration using Azure App Service Migration Assistant
+# PartsUnlimited Application Migration using Azure App Service Migration Assistant
 
 1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**
 
@@ -140,7 +140,7 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="../images/partsunlimited/app-assessment-6.png">
 </kbd></p>
 
-3. Please wait while migration is in progress. This may take few minuites. Once the migration is Complete, we will take you to the next step.
+3. Please wait while migration is in progress. This may take few minutes. Once the migration is Complete, we will take you to the next step.
 
 <kbd>
   <img src="../images/partsunlimited/app-assessment-10.png">

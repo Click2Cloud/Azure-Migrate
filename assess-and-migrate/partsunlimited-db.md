@@ -1,6 +1,6 @@
 # PartsUnlimited Database Assessment
-* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise​
-* This WWI infrastructure is on on-premise​
+* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise
+* This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
 
 The database that will be migrated is hosted on a Windows server 2016.
@@ -184,9 +184,9 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    <img src="../images/partsunlimited/dma-13.png">
 </kbd></p>
 
-## Steps for Database Migration using Data Migration Assistant
+# PartsUnlimited Database Migration using Data Migration Assistant
 
-1. Create an migration project.
+1. Create a migration project.
    1. On the left, select the + icon, and then select the migration **Project type**.
    2. Specify the project name, and then select the source server and target server types.
    3. Click on **Create**.
@@ -207,19 +207,19 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
   <img src="../images/partsunlimited/manu-db-3.png">
 </kbd></p>
 
-4. Wait while Preparing source databse schema.
+4. Wait while Preparing source database schema.
 
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-4.png">
 </kbd></p>
 
-5. Select the schema objects from your source databse that you want to migrate to Azure SQL Database.
+5. Select the schema objects from your source database that you want to migrate to Azure SQL Database.
 
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-5.png">
 </kbd></p>
 
-6. The script was generated for the selected schema objects. Review the script, make edits if neccessary, and click **Deploy Schema** to deploy to Azure SQL Database.
+6. The script was generated for the selected schema objects. Review the script, make edits if necessary, and click **Deploy Schema** to deploy to Azure SQL Database.
 
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-6.png">
@@ -229,7 +229,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
   <img src="../images/partsunlimited/manu-db-7.png">
 </kbd></p>
 
-7. After deploying schema, you can also redploy it by clicking **Redploy schema**, Next Click on **Migrate data** to start the Data migration.
+7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**, Next Click on **Migrate data** to start the Data migration.
 
 <p><kbd>
    <img src="../images/partsunlimited/manu-db-8.png">
@@ -249,7 +249,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    <img src="../images/partsunlimited/manu-db-11.png">
 </kbd></p>
 
-9. Log in to the azure console, Serach for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Databse from list where you have migrated source server Database.
+9. Log in to the azure console, Search for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Database from list where you have migrated source server Database.
 
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-12.png">
