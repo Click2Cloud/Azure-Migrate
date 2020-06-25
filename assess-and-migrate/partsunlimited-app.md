@@ -111,11 +111,41 @@ The App Service Migration Assistant is designed to simplify your journey to the 
 1. [Download](https://appmigration.microsoft.com/readiness) and open the Azure App Service Migration Assistant. Select the app for assessment and start the assessment.
 
 <kbd>
-  <img src="../images/parts/app-assessment-1.png">
+  <img src="../images/partsunlimited/app-assessment-1.png">
 </kbd></p>
 
 2. Select the partsunilimited site and click Next, the site will be assessed for compatibility with Azure App Services.
 
 <kbd>
-  <img src="../images/parts/app-assessment-2.png">
+  <img src="../images/partsunlimited/app-assessment-2.png">
+</kbd></p>
+
+## Steps for WebApp Migration using Azure App Service Migration Assistant
+
+1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**
+
+<kbd>
+  <img src="../images/partsunlimited/app-assessment-3.png">
+</kbd></p>
+
+<kbd>
+  <img src="../images/partsunlimited/app-assessment-4.png">
+</kbd></p>
+
+2. Azure will create the required Azure resources for you to create and migrate your contents to a new app. Before we can do that we need some information. Please fill all the information and Click on **Migrate**.
+
+<kbd>
+  <img src="../images/partsunlimited/app-assessment-6.png">
+</kbd></p>
+
+3. Please wait while migration is in progress. This may take few minuites. Once the migration is Complete, we will take you to the next step.
+
+<kbd>
+  <img src="../images/partsunlimited/app-assessment-10.png">
+</kbd></p>
+
+4. Congratulations, your site has been successfully migrated! Click on **Go to your website**
+
+<kbd>
+  <img src="../images/partsunlimited/app-assessment-11.png">
 </kbd></p>
