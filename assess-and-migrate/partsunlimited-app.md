@@ -1,8 +1,7 @@
 # PartsUnlimited Application Assessment
-* WWI is a reseller of Wide World Importers​
 * WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise​
-This WWI infrastructure is on Premise​
-* WWI wants to migrate into their Azure Account
+* This WWI infrastructure is on on-premise​
+* WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
 

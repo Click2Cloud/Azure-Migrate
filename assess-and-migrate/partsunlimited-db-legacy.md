@@ -1,8 +1,12 @@
 # PartsUnlimited Database Assessment
-The database that will be migrated is hosted on a Windows server 2016.
+* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise​
+* This WWI infrastructure is on on-premise​
+* WWI wants to migrate their workload on Azure cloud.
+
+The database that will be migrated is hosted on a Windows 7.
 
 Technologies used:
- - Microsoft SQL Server 2019
+ - Microsoft SQL Server 2005
 
 ## Steps for Application Discovery
 
