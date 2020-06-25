@@ -35,7 +35,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for Manufacturing Database VM.
+* Application Discovery for PartsUnlimited legacy Database VM.
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-assessment-4.png">
 </kbd></p>

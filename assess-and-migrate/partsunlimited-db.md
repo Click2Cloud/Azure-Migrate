@@ -1,4 +1,9 @@
 # PartsUnlimited Database Assessment
+* WWI is a reseller of Wide World Importers​
+* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise​
+This WWI infrastructure is on Premise​
+* WWI wants to migrate into their Azure Account
+
 The database that will be migrated is hosted on a Windows server 2016.
 
 Technologies used:
@@ -35,7 +40,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for Manufacturing Database VM.
+* Application Discovery for PartsUnlimited Database VM.
 <p><kbd>
   <img src="../images/partsunlimited/manu-db-assessment-4.png">
 </kbd></p>

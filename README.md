@@ -59,17 +59,20 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 * For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
 
-> Note: Make sure you have configured appliance on vCenter before following operation for server assessment and migration. *(Duration 30 Minutes)*
+> Note: Make sure you have configured appliance on vCenter before following operation for server assessment and migration. 
+
+*Duration 45 Minutes*
+
 ### Demo 1: Assessment
-##### a. Lift & Shift *(Duration 15 Minutes)*
+##### a. Lift & Shift 
 * [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
-##### b. App Modernization *(Duration 15 Minutes)*
+##### b. App Modernization 
 * [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
 * [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
 
 ### Demo 2: Migration
-##### a. Lift & Shift *(Duration 15 Minutes)*
+##### a. Lift & Shift 
 * [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
-##### b. App Modernization *(Duration 15 Minutes)*
+##### b. App Modernization 
 * [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
 * [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
