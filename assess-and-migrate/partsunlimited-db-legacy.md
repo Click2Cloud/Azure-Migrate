@@ -41,11 +41,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 * Application Discovery for PartsUnlimited legacy Database VM.
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-assessment-4.png">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/partsunlimited/application-discovery-database.png">
+  <img src="../images/partsunlimited/appln-disc-legacy-db.PNG">
 </kbd></p>
 
 ## Steps for Azure Readiness and Total Cost of Ownership
