@@ -1,5 +1,5 @@
-# PartsUnlimited Database Assessment
-* WWI has its own E-Commerce Platform where they sell WWI Brand Merchandise
+# WWI e-Commerce Database Assessment
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
 
@@ -15,13 +15,13 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 1. Log in to the azure console, Serach for **Azure Migrate** and click on **Azure Migrate**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-assessment-1.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-1.png">
 </kbd></p>
 
 2. Using Azure Migrate you can Migrate your on-premise datacenter to Azure. Click on **Servers** tab for server Assessment and Migration.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-assessment-2.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-2.png">
 </kbd></p>
 
 3. For Assessment In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Discovered servers**.
@@ -29,23 +29,23 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 Here you can see all the discovered servers from your on-premise data center **vCenter** which Azure appliance has discovered.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-1.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-3.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-assessment-3.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-4.png">
 </kbd></p>
 
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for PartsUnlimited Database VM.
+* Application Discovery for WWI-eCommerce Database VM.
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-assessment-4.png">
+  <img src="../images/WWI-eCommerce/application-discovery-database-1.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/partsunlimited/application-discovery-database.png">
+  <img src="../images/WWI-eCommerce/application-discovery-database-2.png">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
@@ -56,7 +56,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 * Application dependency for Windows VM (database hosted- MSSQL)
 
 <p><kbd>
-  <img src="../images/partsunlimited/application-dependency-databases.png">
+  <img src="../images/WWI-eCommerce/application-dependency-database.png">
 </kbd></p>
 
 ## Steps for Azure Readiness and Total Cost of Ownership
@@ -64,45 +64,45 @@ Here you can see all the discovered servers from your on-premise data center **v
 1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess servers**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-1.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-3.png">
 </kbd></p>
 
 2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-2.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-5.png">
 </kbd></p>
 
 3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-3.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-6.png">
 </kbd></p>
 
 4. You will be redirected to **Assessment Overview**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-4.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-7.png">
 </kbd></p>
 
 5. Click on **Azure Readiness**.
 Azure readiness show whether VMs are suitable for migration to Azure.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-5.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-8.png">
 </kbd></p>
 
 6. Click on **Cost Details**.
 It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-6.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-9.png">
 </kbd></p>
 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="../images/partsunlimited/sa-7-db.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-10-db.png">
 </kbd></p>
 
 ## Steps for Database Assessment using Data Migration Assistant
@@ -115,76 +115,76 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    3. Click on **Create**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-1.png">
+  <img src="../images/WWI-eCommerce/dma-1.png">
 </kbd></p>
 
 2. Select report type and click **Next**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-2.png">
+  <img src="../images/WWI-eCommerce/dma-2.png">
 </kbd></p>
 
 3. Enter source server details and connect to it.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-3.png">
+  <img src="../images/WWI-eCommerce/dma-3.png">
 </kbd></p>
 
 4. Select database for assessment.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-4.png">
+  <img src="../images/WWI-eCommerce/dma-4.png">
 </kbd></p>
 
 5. Start the assessment.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-5.png">
+  <img src="../images/WWI-eCommerce/dma-5.png">
 </kbd></p>
 
 6. Assessment results.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-6.png">
+  <img src="../images/WWI-eCommerce/dma-6.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-7.png">
+  <img src="../images/WWI-eCommerce/dma-7.png">
 </kbd></p>
 
 7. Upload the assessment report to Azure console by connecting to the Azure account.
 
 <p><kbd>
-   <img src="../images/partsunlimited/dma-8.png">
+   <img src="../images/WWI-eCommerce/dma-8.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="../images/partsunlimited/dma-9.png">
+   <img src="../images/WWI-eCommerce/dma-9.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="../images/partsunlimited/dma-10.png">
+   <img src="../images/WWI-eCommerce/dma-10.png">
 </kbd></p>
 
 8. Log in to the azure console, go to **azure migrate** and click on **databases**.
 
 <p><kbd>
-   <img src="../images/partsunlimited/dma-11.png">
+   <img src="../images/WWI-eCommerce/dma-11.png">
 </kbd></p>
 
 9. Click on **assessed database instances** to find the assessed database list.
 
 <p><kbd>
-  <img src="../images/partsunlimited/dma-12.png">
+  <img src="../images/WWI-eCommerce/dma-12.png">
 </kbd></p>
 
 10. Click on assessed database to view the assessment details.
 
 <p><kbd>
-   <img src="../images/partsunlimited/dma-13.png">
+   <img src="../images/WWI-eCommerce/dma-13.png">
 </kbd></p>
 
-# PartsUnlimited Database Migration using Data Migration Assistant
+# Steps for Database Migration using Data Migration Service
 
 1. Create a migration project.
    1. On the left, select the + icon, and then select the migration **Project type**.
@@ -192,73 +192,73 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    3. Click on **Create**.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-1.png">
+  <img src="../images/WWI-eCommerce/manu-db-1.png">
 </kbd></p>
 
 2. Enter source server details and connect to it then Select single database from your source server to migrate to Azure SQL Database and click **Next**
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-2.png">
+  <img src="../images/WWI-eCommerce/manu-db-2.png">
 </kbd></p>
 
 3. Enter target server details and connect to it then Select single database from your target Azure SQL Database Server and click **Next**
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-3.png">
+  <img src="../images/WWI-eCommerce/manu-db-3.png">
 </kbd></p>
 
 4. Wait while Preparing source database schema.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-4.png">
+  <img src="../images/WWI-eCommerce/manu-db-4.png">
 </kbd></p>
 
 5. Select the schema objects from your source database that you want to migrate to Azure SQL Database.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-5.png">
+  <img src="../images/WWI-eCommerce/manu-db-5.png">
 </kbd></p>
 
 6. The script was generated for the selected schema objects. Review the script, make edits if necessary, and click **Deploy Schema** to deploy to Azure SQL Database.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-6.png">
+  <img src="../images/WWI-eCommerce/manu-db-6.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-7.png">
+  <img src="../images/WWI-eCommerce/manu-db-7.png">
 </kbd></p>
 
 7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**, Next Click on **Migrate data** to start the Data migration.
 
 <p><kbd>
-   <img src="../images/partsunlimited/manu-db-8.png">
+   <img src="../images/WWI-eCommerce/manu-db-8.png">
 </kbd></p>
 
 8. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
 
 <p><kbd>
-   <img src="../images/partsunlimited/manu-db-9.png">
+   <img src="../images/WWI-eCommerce/manu-db-9.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="../images/partsunlimited/manu-db-10.png">
+   <img src="../images/WWI-eCommerce/manu-db-10.png">
 </kbd></p>
 
 <p><kbd>
-   <img src="../images/partsunlimited/manu-db-11.png">
+   <img src="../images/WWI-eCommerce/manu-db-11.png">
 </kbd></p>
 
 9. Log in to the azure console, Search for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Database from list where you have migrated source server Database.
 
 <p><kbd>
-  <img src="../images/partsunlimited/manu-db-12.png">
+  <img src="../images/WWI-eCommerce/manu-db-12.png">
 </kbd></p>
 
 10. Click on **Query editor** to verify schema and data migrated successfully.
 
 <p><kbd>
-   <img src="../images/partsunlimited/manu-db-13.png">
+   <img src="../images/WWI-eCommerce/manu-db-13.png">
 </kbd></p>
 
 > Congratulations ! You are now ready with your Database on Azure SQL Server. 
