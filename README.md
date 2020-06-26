@@ -65,14 +65,14 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 ### Demo 1: Assessment
 ##### a. Lift & Shift 
-* [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
+* [Example - WWI e-comm legacy database](assess-and-migrate/wwi-ecomm-db-legacy.md)
 ##### b. App Modernization 
-* [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
-* [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
+* [Example - WWI e-comm application](assess-and-migrate/wwi-ecomm-app.md)
+* [Example - WWI e-comm database](assess-and-migrate/wwi-ecomm-db.md)
 
 ### Demo 2: Migration
 ##### a. Lift & Shift 
-* [Example - Partsunlimited legacy database](assess-and-migrate/partsunlimited-db-legacy.md)
+* [Example - WWI e-comm legacy database](assess-and-migrate/wwi-ecomm-db-legacy.md)
 ##### b. App Modernization 
-* [Example - Partsunlimited application](assess-and-migrate/partsunlimited-app.md)
-* [Example - Partsunlimited database](assess-and-migrate/partsunlimited-db.md)
+* [Example - WWI e-comm application](assess-and-migrate/wwi-ecomm-app.md)
+* [Example - WWI e-comm database](assess-and-migrate/wwi-ecomm-db.md)
