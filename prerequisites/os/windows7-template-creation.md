@@ -142,7 +142,7 @@
     11. After you have finished installing the operating system and logged in with a Windows Administrator account, open the VM menu and click Install VMware Tools.  
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools1.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools1.png">
     </kbd></p>
     
     You will then see that the virtual DVD of VMware Tools has been loaded into VMs DVD drive. Tap on the message that will appear to continue. Alternatively, if the message is gone, open File Explorer, enter the contents of the DVD and run Setup.exe.
@@ -150,7 +150,7 @@
     Run setup64.exe to start the process.
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools2.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools2.png">
     </kbd></p>
     
     Click **Next** to continue.
@@ -158,25 +158,25 @@
     In a typical installation of a VM, select Typical and then Next to continue. For more advanced customization, select Complete or Custom.
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools3.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools3.png">
     </kbd></p>
     
     Click the Install button to continue.
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools4.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools4.png">
     </kbd></p>
     
     The VMware Tools installation process is in progress. Wait for it to finish.
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools5.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools5.png">
     </kbd></p>
     
     Finally, click **Finish** to finish the process.
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/tools6.png">
+        <img src="../../images/prerequisites/windows2016-os-installation/tools6.png">
     </kbd></p>
     
     VMware Tools will need to restart the VM in order to fully complete the installation of VMware Tools. Click Yes to continue.
@@ -187,26 +187,26 @@
     
     13. Follow the steps to enable Administrator account.
     
-    i) Open Local Users and Groups. You can do so by typing lusrmgr.msc in the Start search box or in the Run command and pressing ENTER. Or, you could open Computer Management by right-clicking Computer in the Start menu and selecting Manage.
+    a) Open Local Users and Groups. You can do so by typing lusrmgr.msc in the Start search box or in the Run command and pressing ENTER. Or, you could open Computer Management by right-clicking Computer in the Start menu and selecting Manage.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/13.png">
     </kbd></p>
     
-    ii) Expand **System Tools** > **Local  Users and Groups** > **Users**.  
+    b) Expand **System Tools** > **Local  Users and Groups** > **Users**.  
         Right-click the Administrator account and select **Set Password**.
         
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/14.png">
     </kbd></p>
     
-    iii) In the **Set Password for Administrator** click **Proceed**.
+    c) In the **Set Password for Administrator** click **Proceed**.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/15.png">
     </kbd></p>
     
-    iv) In the **Set Password for Administrator** enter the Administrator’s desired password, and click **OK**.
+    d) In the **Set Password for Administrator** enter the Administrator’s desired password, and click **OK**.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/16.png">
@@ -216,13 +216,13 @@
         <img src="../../images/prerequisites/windows7-os-installation/17.png">
     </kbd></p>
     
-    v) Next, enable the Administrator’s account. Right-click the Administrator’s account and select **Properties**.
+    e) Next, enable the Administrator’s account. Right-click the Administrator’s account and select **Properties**.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/18.png">
     </kbd></p>
     
-    vi) Un-check the **Account is disabled** check-box. Click on the **OK** button.
+    f) Un-check the **Account is disabled** check-box. Click on the **OK** button.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/19.png">
@@ -241,7 +241,7 @@
         - Shutdown Options - Shutdown
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/sysprep2.jpg">
+        <img src="../../images/prerequisites/windows2016-os-installation/sysprep2.jpg">
     </kbd></p>
     
     15. Power On the VM, select Language and set password.
