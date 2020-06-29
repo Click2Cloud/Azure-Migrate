@@ -42,7 +42,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 * Application Discovery for WWI e-Commerce Application VM.
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-application-1.png">
+  <img src="../images/WWI-eCommerce/application-discovery-application.png">
 </kbd></p>
 
 <p><kbd>
