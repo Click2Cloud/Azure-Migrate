@@ -6,7 +6,7 @@
 The database that will be migrated is hosted on a Windows server 2016.
 
 Technologies used:
- - Microsoft SQL Server 2019
+ - Microsoft SQL Server 2017
 
 ## Steps for Application Discovery
 
@@ -49,7 +49,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-database-3.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-database-3.png">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
