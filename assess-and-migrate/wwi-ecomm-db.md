@@ -6,7 +6,7 @@
 The database that will be migrated is hosted on a Windows server 2016.
 
 Technologies used:
- - Microsoft SQL Server 2019
+ - Microsoft SQL Server 2017
 
 ## Steps for Application Discovery
 
