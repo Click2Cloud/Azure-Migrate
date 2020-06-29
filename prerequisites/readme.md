@@ -9,6 +9,6 @@
 
 
 * [Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
-* Aftre installing terraform, click on following server for terraform operation.
+* After installing terraform, click on following server for terraform operation.
     * [linux server](../terraform-scripts/linux/)
     * [windows server](../terraform-scripts/windows/)

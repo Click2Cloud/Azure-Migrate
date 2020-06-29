@@ -232,7 +232,7 @@
     Run **sysprep.exe**
     
     <p><kbd>
-        <img src="../../images/prerequisites/windows7-os-installation/sysprep1.jpg">
+        <img src="../../images/prerequisites/windows2016-os-installation/sysprep1.jpg">
     </kbd></p>
      
     On the Sysprep application screen, perform the following configuration:
