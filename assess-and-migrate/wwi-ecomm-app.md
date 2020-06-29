@@ -65,7 +65,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 * Application dependency for Windows VM (Application hosted on IIS - WWI-eCommerce)
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-dependency-application.png">
+  <img src="../images/WWI-eCommerce/application-dependency-database.png">
 </kbd></p>
 
 ## Steps for Azure Readiness and Total Cost of Ownership
