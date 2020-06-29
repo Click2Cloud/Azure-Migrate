@@ -42,11 +42,19 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 * Application Discovery for WWI e-Commerce Application VM.
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-application.png">
+  <img src="../images/WWI-eCommerce/application-discovery-app-1.PNG">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-application-2.png">
+  <img src="../images/WWI-eCommerce/application-discovery-app-2.PNG">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/application-discovery-app-4.PNG">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/application-discovery-app-3.PNg">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
