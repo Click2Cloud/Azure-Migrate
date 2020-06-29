@@ -54,7 +54,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-3.PNg">
+  <img src="../images/WWI-eCommerce/application-discovery-app-3.PNG">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping

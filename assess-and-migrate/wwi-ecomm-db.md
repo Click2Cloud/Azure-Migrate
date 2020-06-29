@@ -48,6 +48,10 @@ Here you can see all the discovered servers from your on-premise data center **v
   <img src="../images/WWI-eCommerce/application-discovery-database-2.png">
 </kbd></p>
 
+<p><kbd>
+  <img src="../images/WWI-eCommerce/application-discovery-database-3.PNG">
+</kbd></p>
+
 ## Steps for Application Dependency and Grouping
 
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
