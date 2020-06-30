@@ -1,4 +1,4 @@
-# WWI e-Commerce Database Assessment
+# Wide World Importers legacy Database Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
@@ -39,7 +39,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for WWI e-Commerce legacy Database VM.
+* Application Discovery for Wide World Importers legacy Database VM.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-discovery-legacy-db.PNG">
@@ -91,7 +91,7 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
   <img src="../images/WWI-eCommerce/wwi-server-assessment-10-legacy-db.png">
 </kbd></p>
 
-# WWI e-Commerce Server Migration
+# Wide World Importers Server Migration
 
 ## Replicate VMs
 

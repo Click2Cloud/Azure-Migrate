@@ -1,4 +1,4 @@
-# WWI e-Commerce Application Assessment
+# Wide World Importers Application Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
@@ -40,7 +40,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for WWI e-Commerce Application VM.
+* Application Discovery for Wide World Importers Application VM.
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-discovery-app-1.PNG">
 </kbd></p>
@@ -124,7 +124,7 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="../images/WWI-eCommerce/app-assessment-1.png">
 </kbd></p>
 
-2. Select the WWI e-Commerce site and click Next, the site will be assessed for compatibility with Azure App Services.
+2. Select the Wide World Importers site and click Next, the site will be assessed for compatibility with Azure App Services.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-2.png">

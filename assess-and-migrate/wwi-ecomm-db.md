@@ -1,4 +1,4 @@
-# WWI e-Commerce Database Assessment
+# Wide World Importers Database Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
@@ -109,9 +109,7 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
   <img src="../images/WWI-eCommerce/wwi-server-assessment-10-db.png">
 </kbd></p>
 
-## Steps for Database Assessment using Data Migration Assistant
-
-The Data Migration Assistant (DMA) helps you upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server or Azure SQL Database. DMA recommends performance and reliability improvements for your target environment and allows you to move your schema, data, and uncontained objects from your source server to your target server.
+## Steps for Database Assessment using **Data Migration Assistant**
 
 1. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=53595) and open the Azure Data Migration Assistant then create an assessment project.
    1.  On the left, select the + icon, and then select the assessment **Project type**.
@@ -188,8 +186,9 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    <img src="../images/WWI-eCommerce/dma-13.png">
 </kbd></p>
 
-# Steps for Database Migration using Data Migration Service
+# Wide World Importers Database Migration
 
+## Steps for Schema migration using **Data Migration Assistant**
 1. Create a migration project.
    1. On the left, select the + icon, and then select the migration **Project type**.
    2. Specify the project name, and then select the source server and target server types.
@@ -236,7 +235,7 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
 7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**.
 
 There are two ways to migrate your data to Azure cloud: 
-## Migrate data using **Data Migration Assistant tool.** 
+## Steps for data migration using **Data Migration Assistant tool.** 
 1. Click on **Migrate data** to start the Data migration.
 
 <p><kbd>
@@ -257,7 +256,7 @@ There are two ways to migrate your data to Azure cloud:
    <img src="../images/WWI-eCommerce/manu-db-11.png">
 </kbd></p>
 
-## Migrate data using **Azure Data Migration Service.** 
+## Steps for Data Migration using **Azure Data Migration Service.** 
 1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Data Migration Service**,
 
 <p><kbd>
