@@ -192,7 +192,8 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 1. Create a migration project.
    1. On the left, select the + icon, and then select the migration **Project type**.
    2. Specify the project name, and then select the source server and target server types.
-   3. Click on **Create**.
+   3. Select Migration Scope as Schema only.
+   4. Click on **Create**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/manu-db-1.png">
@@ -234,28 +235,6 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 
 7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**.
 
-There are two ways to migrate your data to Azure cloud: 
-## Steps for data migration using **Data Migration Assistant tool.** 
-1. Click on **Migrate data** to start the Data migration.
-
-<p><kbd>
-   <img src="../images/WWI-eCommerce/manu-db-8.png">
-</kbd></p>
-
-2. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
-
-<p><kbd>
-   <img src="../images/WWI-eCommerce/manu-db-9.png">
-</kbd></p>
-
-<p><kbd>
-   <img src="../images/WWI-eCommerce/manu-db-10.png">
-</kbd></p>
-
-<p><kbd>
-   <img src="../images/WWI-eCommerce/manu-db-11.png">
-</kbd></p>
-
 ## Steps for Data Migration using **Azure Data Migration Service.** 
 1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Data Migration Service**,
 
@@ -263,7 +242,7 @@ There are two ways to migrate your data to Azure cloud:
    <img src="../images/WWI-eCommerce/manu-db-12.png">
 </kbd></p>
 
-2. On the Azure Database Migration Service screen, click on **Add** button to create the service if not exist already. .
+2. On the Azure Database Migration Service screen, click on **Add** button to create the service if not exist already.
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-13.png">
