@@ -233,13 +233,17 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
   <img src="../images/WWI-eCommerce/manu-db-7.png">
 </kbd></p>
 
-7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**, Next Click on **Migrate data** to start the Data migration.
+7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**.
+
+There are two ways to migrate your data to Azure cloud: 
+## Migrate data using **Data Migration Assistant tool.** 
+1. Click on **Migrate data** to start the Data migration.
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-8.png">
 </kbd></p>
 
-8. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
+2. Select the tables containing data you would like to migrate to Azure SQL Database and click on **Start data migration**
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-9.png">
@@ -253,16 +257,143 @@ The Data Migration Assistant (DMA) helps you upgrade to a modern data platform b
    <img src="../images/WWI-eCommerce/manu-db-11.png">
 </kbd></p>
 
-9. Log in to the azure console, Search for **Azure SQL** and click on **Azure SQL**, then click on the Azure SQL Database from list where you have migrated source server Database.
+## Migrate data using **Azure Data Migration Service.** 
+1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Data Migration Service**,
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/manu-db-12.png">
+   <img src="../images/WWI-eCommerce/manu-db-12.png">
 </kbd></p>
 
-10. Click on **Query editor** to verify schema and data migrated successfully.
+2. On the Azure Database Migration Service screen, click on **Add** button to create the service if not exist already. .
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-13.png">
 </kbd></p>
 
-> Congratulations ! You are now ready with your Database on Azure SQL Server. 
+3. On the Create Migration Service screen, 
+    * Specify a name for the service, the subscription, and a new or existing resource group.
+    * Select the location in which you want to create the instance of Azure Database Migration Service.
+    * Select an existing virtual network or create a new one.
+    * Select a pricing tier.
+
+> The virtual network provides Azure Database Migration Service with access to the source SQL Server and the target Azure SQL Database instance. For more information about how to create a virtual network in the Azure portal, see the article [Create a virtual network](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal) using the Azure portal.
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/manu-db-14.png">
+</kbd></p>
+
+3. After the service is created,
+    * On the Azure Database Migration Services screen, select the Azure Database Migration Service that you created.
+    * Select New Migration Project.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-15.png">
+</kbd></p>
+
+4. On the New migration project screen,
+    * Specify a **name for the project**, 
+    * In the **Source server** type text box select **SQL Server**,
+    * In the **Target server** type text box select **Azure SQL Database**, and 
+    * Then for **Choose type of activity** select **online data migration** Click on **Save**.
+    * Select **Create and run activity** to create the project and run the migration activity.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-16.png">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-17.png">
+</kbd></p>
+
+5. Specify source details
+    * On the Migration source detail screen, specify the connection details for the source SQL Server instance.
+    
+    Make sure to use a Fully Qualified Domain Name (FQDN) for the source SQL Server instance name. You can also use the IP Address for situations in which DNS name resolution isn't possible.
+
+    * If you have not installed a trusted certificate on your source server, select the Trust server certificate check box.
+
+    When a trusted certificate is not installed, SQL Server generates a self-signed certificate when the instance is started. This certificate is used to encrypt the credentials for client connections.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-18.png">
+</kbd></p>
+
+8. Specify the connection details for the target **Azure SQL Database**, which is the pre-provisioned **Azure SQL Database** to which the **WWI** schema was deployed by using the **Data Migration Assistant** and click on **Save** to see summary, then click on **Save**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-19.png">
+</kbd></p>
+
+9. On **Map to target databases** screen, map the **source** and the **target** database for migration. Click on **Save**.
+
+    If the target database contains the same database name as the source database, Azure Database Migration Service selects the target database by default.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-20.png">
+</kbd></p>
+
+10. On the **Select tables** screen, expand the table listing, and then review the list of affected fields. Click on **Save**
+
+    Azure Database Migration Service auto selects all the empty source tables that exist on the target Azure SQL Database instance. If you want to remigrate tables that already include data, you need to explicitly select the tables on this blade.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-21.png">
+</kbd></p>
+
+11. On the **Migration summary** screen, in the Activity name text box, specify a name for the migration activity.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-22.png">
+</kbd></p>
+
+14. Review the summary to ensure that the source and target details match what you previously specified. Click on **Run Migration**. 
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-23.png">
+</kbd></p>
+
+15. The **migration activity** window appears, and the Status of the activity is **Initializing**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-24.png">
+</kbd></p>
+
+16. On the **migration activity** screen, select **Refresh** to update the display until the **Status** of the migration shows as **Running** and Migation details as **Ready to cutover**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-25.png">
+</kbd></p>
+
+17. On the **migration activity** screen,Click on Name of the Database for more details about **cutover** and click on Start Cutover.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-26.png">
+</kbd></p>
+
+18. When you are ready to do the migration cutover, perform the following steps to complete the database migration. 
+    * Please note that the database is ready for cutover only after the full data load is completed.
+    * Stop all the incoming transactions coming to the source database.
+    * Wait until all the pending transactions have been applied to the target database. At that time the pending changes counter will set to 0:
+    * Reconnect your applications to the new Azure target database.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-27.png">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-28.png">
+</kbd></p>
+
+19. Click on **Apply** to start the Cutover.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-29.png">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/manu-db-30.png">
+</kbd></p>
+
+Verify the target database(s) on the target **Azure SQL Database**.
+
+> Congratulations ! You are now ready with your Database on Azure Cloud. 
