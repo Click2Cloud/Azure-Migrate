@@ -47,7 +47,7 @@ Please change from on-premise SQL database connection string to migrated Azure S
 2. Azure will create the required Azure resources for you to create and migrate your contents to a new app. Before we can do that we need some information. Please fill all the information and Click on **Migrate**.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-9.png">
+  <img src="../images/WWI-eCommerce/app-assessment-6.png">
 </kbd></p>
 
 3. Please wait while migration is in progress. This may take few minutes. Once the migration is Complete, we will take you to the next step.
