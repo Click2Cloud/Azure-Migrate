@@ -90,3 +90,5 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-10-legacy-db.png">
 </kbd></p>
+
+> Congratulations ! You are now ready with your Database Assessment, Please move for the [Migration](../migrate/wwi-ecomm-db-legacy.md) of same.
