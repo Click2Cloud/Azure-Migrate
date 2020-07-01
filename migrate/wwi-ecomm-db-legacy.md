@@ -88,6 +88,10 @@ Enable replication as follows:
 - During initial replication, a VM snapshot is created. Disk data from the snapshot is replicated to replica managed disks in Azure.
 - After initial replication finishes, delta replication begins. Incremental changes to on-premises disks are periodically replicated to the replica disks in Azure.
 
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-migration-delta-sync.PNG">
+</kbd></p>
+
 ## Run a test migration
 
 When delta replication begins, you can run a test migration for the VMs, before running a full migration to Azure.
