@@ -5,6 +5,10 @@
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
 
+<kbd>
+  <img src="../images/WWI-eCommerce/onprem-application.png">
+</kbd></p>
+
 Technologies used:
  - .NET Core v2.2.104
 
