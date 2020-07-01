@@ -64,14 +64,15 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 ### Demo 1: Assessment
 ##### a. Lift & Shift 
-* [Example - Wide World Importers legacy database](assess/wwi-ecomm-db-legacy.md)
+* [Wide World Importers legacy database](assess/wwi-ecomm-db-legacy.md)
 ##### b. App Modernization 
-* [Example - Wide World Importers application](assess/wwi-ecomm-app.md)
-* [Example - Wide World Importers database](assess/wwi-ecomm-db.md)
+* [Wide World Importers database](assess/wwi-ecomm-db.md)
+* [Wide World Importers application](assess/wwi-ecomm-app.md)
+
 
 ### Demo 2: Migration
 ##### a. Lift & Shift 
-* [Example - Wide World Importers legacy database](migrate/wwi-ecomm-db-legacy.md)
+* [Wide World Importers legacy database](migrate/wwi-ecomm-db-legacy.md)
 ##### b. App Modernization 
-* [Example - Wide World Importers application](migrate/wwi-ecomm-app.md)
-* [Example - Wide World Importers database](migrate/wwi-ecomm-db.md)
+* [Wide World Importers database](migrate/wwi-ecomm-db.md)
+* [Wide World Importers application](migrate/wwi-ecomm-app.md)

@@ -1,4 +1,4 @@
-# Wide World Importers Application Assessment
+# Wide World Importers Application Migration
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.

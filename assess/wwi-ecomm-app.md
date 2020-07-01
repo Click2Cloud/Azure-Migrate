@@ -41,20 +41,9 @@ Here you can see all the discovered servers from your on-premise data center **v
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
 * Application Discovery for Wide World Importers Application VM.
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-1.PNG">
-</kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-2.PNG">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-4.PNG">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-3.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-app.PNG">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping

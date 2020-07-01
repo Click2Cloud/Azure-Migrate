@@ -40,16 +40,9 @@ Here you can see all the discovered servers from your on-premise data center **v
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
 * Application Discovery for WWI-eCommerce Database VM.
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-database-1.png">
-</kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-database-2.png">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-database-3.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-database.PNG">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
