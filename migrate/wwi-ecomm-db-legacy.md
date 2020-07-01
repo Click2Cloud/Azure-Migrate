@@ -145,3 +145,5 @@ After you've verified that the test migration works as expected, you can migrate
 5. Remove the on-premises VMs from your local VM inventory.
 6. Remove the on-premises VMs from local backups.
 7. Update any internal documentation to show the new location and IP address of the Azure VMs.
+
+> Congratulations ! You are now ready with your Database on Azure Cloud. 
