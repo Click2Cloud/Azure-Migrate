@@ -3,7 +3,7 @@
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
 
-The database that will be migrated is hosted on a Windows 7.
+The database that will be migrated contains campaign related data and is hosted on Windows 7.
 
 Technologies used:
  - Microsoft SQL Server 2005
@@ -47,45 +47,63 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 ## Steps for Azure Readiness and Total Cost of Ownership
 
-1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess servers**.
+1. In the **Servers** tab, in **Azure Migrate: Server Assessment** tile, click **Assess**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-3.png">
 </kbd></p>
 
-2. In **Assess servers**, specify a name for the assessment. In **Select or create a group**, select **Use Existing**, and select a group created above. Click on **Create Assessment**.
+2. In **Assess servers**, select the assessment type as **Azure VM**, select the discovery source and specify the assessment name.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-5.png">
 </kbd></p>
 
-3. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
+3. Select **View all**, and then review the assessment properties and click **Save**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-assessment-3.PNG">
+</kbd></p>
+
+4. Click next to Select machines to assess. In **Select or create a group**, select **Use Existing**, and select a group created above. Click **Next** to review the assessment details.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-assessment-4.PNG">
+</kbd></p>
+
+5. Select **Create Assessment** to run the assessment.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-assessment-5.PNG">
+</kbd></p>
+
+6. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-6.png">
 </kbd></p>
 
-4. You will be redirected to **Assessment Overview**. Here we are using Demo specific Server and Data, so cost may differ for you.
+7. You will be redirected to **Assessment Overview**. Here we are using Demo specific Server and Data, so cost may differ for you.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-7.png">
 </kbd></p>
 
-5. Click on **Azure Readiness**.
+8. Click on **Azure Readiness**.
 Azure readiness show whether VMs are suitable for migration to Azure.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-8.png">
 </kbd></p>
 
-6. Click on **Cost Details**.
+9. Click on **Cost Details**.
 It shows the estimated monthly compute and storage costs for running the VMs in Azure and Estimated costs for disk storage after migration.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-9.png">
 </kbd></p>
 
-7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
+10. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-10-legacy-db.png">
