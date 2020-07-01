@@ -76,7 +76,7 @@ Here you can see all the discovered servers from your on-premise data center **v
   <img src="../images/WWI-eCommerce/wwi-server-assessment-6.png">
 </kbd></p>
 
-4. You will be redirected to **Assessment Overview**.
+4. You will be redirected to **Assessment Overview**. Here we are using Demo specific Server and Data, so cost may differ for you.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-7.png">
@@ -178,3 +178,5 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 <p><kbd>
    <img src="../images/WWI-eCommerce/dma-13.png">
 </kbd></p>
+
+> Congratulations ! You are now ready with your Database Assessment, Please move for the [Migration](../migrate/wwi-ecomm-db.md) of same.

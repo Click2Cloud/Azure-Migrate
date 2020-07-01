@@ -12,7 +12,7 @@ Technologies used:
 1. Create a migration project.
    1. On the left, select the + icon, and then select the migration **Project type**.
    2. Specify the project name, and then select the source server and target server types.
-   3. Select Migration Scope as Schema only.
+   3. Select Migration Scope as Schema only. Here we are performing migration using Azure Database Migration Service.
    4. Click on **Create**.
 
 <p><kbd>
@@ -55,8 +55,8 @@ Technologies used:
 
 7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**.
 
-## Steps for Data Migration using **Azure Data Migration Service.** 
-1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Data Migration Service**,
+## Steps for Data Migration using **Azure Database Migration Service.** 
+1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Database Migration Service**,
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-12.png">
