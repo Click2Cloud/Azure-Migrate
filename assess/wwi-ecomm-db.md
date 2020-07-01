@@ -1,13 +1,12 @@
-# Wide World Importers Application Assessment
+# Wide World Importers Database Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
 * This WWI infrastructure is on on-premise
 * WWI wants to migrate their workload on Azure cloud.
 
-The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
+The database that will be migrated is hosted on a Windows server 2016.
 
 Technologies used:
- - .NET Core v2.2.104
-
+ - Microsoft SQL Server 2017
 
 ## Steps for Application Discovery
 
@@ -40,21 +39,17 @@ Here you can see all the discovered servers from your on-premise data center **v
 4. In **Applications discovered**, click the displayed count.
 * In **Application inventory**, you can review the discovered apps, roles, and features.
 
-* Application Discovery for Wide World Importers Application VM.
+* Application Discovery for WWI-eCommerce Database VM.
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-1.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-database-1.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-2.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-database-2.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-4.PNG">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app-3.PNG">
+  <img src="../images/WWI-eCommerce/application-discovery-database-3.PNG">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
@@ -62,7 +57,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
 2. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-* Application dependency for Windows VM (Application hosted on IIS - WWI-eCommerce)
+* Application dependency for Windows VM (database hosted- MSSQL)
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-dependency-database.png">
@@ -111,51 +106,82 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 7. Click on Servers it will show you Migration tool suggestion and Reason why to use suggested tool.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/wwi-server-assessment-10-app.png">
+  <img src="../images/WWI-eCommerce/wwi-server-assessment-10-db.png">
 </kbd></p>
 
-## Steps for Application Assessment using Azure App Service Migration Assistant
+## Steps for Database Assessment using **Data Migration Assistant**
 
-The App Service Migration Assistant is designed to simplify your journey to the cloud through a free, simple, and fast solution to migrate .Net applications from on-premises to the cloud.
+1. [Download](https://www.microsoft.com/en-us/download/details.aspx?id=53595) and open the Azure Data Migration Assistant then create an assessment project.
+   1.  On the left, select the + icon, and then select the assessment **Project type**.
+   2. Specify the project name, and then select the source server and target server types.
+   3. Click on **Create**.
 
-1. [Download](https://appmigration.microsoft.com/readiness) and open the Azure App Service Migration Assistant. Select the app for assessment and start the assessment.
-
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-1.png">
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-1.png">
 </kbd></p>
 
-2. Select the Wide World Importers site and click Next, the site will be assessed for compatibility with Azure App Services.
+2. Select report type and click **Next**.
 
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-2.png">
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-2.png">
 </kbd></p>
 
-# Steps for Application Migration using Azure App Service Migration Assistant
+3. Enter source server details and connect to it.
 
-1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**
-
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-3.png">
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-3.png">
 </kbd></p>
 
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-4.png">
+4. Select database for assessment.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-4.png">
 </kbd></p>
 
-2. Azure will create the required Azure resources for you to create and migrate your contents to a new app. Before we can do that we need some information. Please fill all the information and Click on **Migrate**.
+5. Start the assessment.
 
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-9.png">
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-5.png">
 </kbd></p>
 
-3. Please wait while migration is in progress. This may take few minutes. Once the migration is Complete, we will take you to the next step.
+6. Assessment results.
 
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-10.png">
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-6.png">
 </kbd></p>
 
-4. Congratulations, your site has been successfully migrated! Click on **Go to your website**
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-7.png">
+</kbd></p>
 
-<kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-11.png">
+7. Upload the assessment report to Azure console by connecting to the Azure account.
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/dma-8.png">
+</kbd></p>
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/dma-9.png">
+</kbd></p>
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/dma-10.png">
+</kbd></p>
+
+8. Log in to the azure console, go to **azure migrate** and click on **databases**.
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/dma-11.png">
+</kbd></p>
+
+9. Click on **assessed database instances** to find the assessed database list.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/dma-12.png">
+</kbd></p>
+
+10. Click on assessed database to view the assessment details.
+
+<p><kbd>
+   <img src="../images/WWI-eCommerce/dma-13.png">
 </kbd></p>
