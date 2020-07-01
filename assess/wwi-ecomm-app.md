@@ -30,7 +30,7 @@ App discovery using Azure Migrate: Server Assessment is agentless. Nothing is in
 Here you can see all the discovered servers from your on-premise data center **vCenter** which Azure appliance has discovered.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/wwi-server-assessment-3.png">
+  <img src="../images/WWI-eCommerce/server-assessment-1.PNG">
 </kbd></p>
 
 <p><kbd>

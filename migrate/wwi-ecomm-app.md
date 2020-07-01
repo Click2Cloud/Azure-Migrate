@@ -18,7 +18,7 @@ Technologies used:
 
 We are assuming that you have migrated your on-premise SQL database to Azure SQL database and ready to migrate your on-premise web application to azure cloud.
 
-> Still not migrated on-premise SQL database ? [Click to [Assess](../assess/wwi-ecomm-db.md) and [Migrate](../migrate/wwi-ecomm-db.md).
+> Still not migrated on-premise SQL database ? Click to [Assess](../assess/wwi-ecomm-db.md) and [Migrate](../migrate/wwi-ecomm-db.md).
 
 Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
 
@@ -56,7 +56,7 @@ Please change from on-premise SQL database connection string to migrated Azure S
   <img src="../images/WWI-eCommerce/app-assessment-10.png">
 </kbd></p>
 
-4. Congratulations, your site has been successfully migrated! Click on **Go to your website**
+4. Your site has been successfully migrated! Click on **Go to your website**
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-11.png">
