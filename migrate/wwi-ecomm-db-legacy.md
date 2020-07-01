@@ -80,6 +80,11 @@ Enable replication as follows:
 
 3. Replication occurs as follows:
 - When the Start Replication job finishes successfully, the machines begin their initial replication to Azure.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-migration-initial-replication.PNG">
+</kbd></p>
+
 - During initial replication, a VM snapshot is created. Disk data from the snapshot is replicated to replica managed disks in Azure.
 - After initial replication finishes, delta replication begins. Incremental changes to on-premises disks are periodically replicated to the replica disks in Azure.
 
