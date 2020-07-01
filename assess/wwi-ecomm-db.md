@@ -33,7 +33,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/wwi-server-assessment-4.png">
+  <img src="../images/WWI-eCommerce/server-assessment-2.PNG">
 </kbd></p>
 
 4. In **Applications discovered**, click the displayed count.
