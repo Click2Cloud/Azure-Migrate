@@ -93,11 +93,20 @@ Here you can see all the discovered servers from your on-premise data center **v
   <img src="../images/WWI-eCommerce/server-assessment-5.PNG">
 </kbd></p>
 
-6. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.
+6. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.  
+
+    Each performance-based Azure VM assessment in Azure Migrate is associated with a confidence rating. The rating ranges from one (lowest) to five (highest) stars. The confidence rating helps you estimate the reliability of the size recommendations Azure Migrate provides. Azure migrate recommends to performs assessment after 24 hours of discovery to get accurate and relaible assessment results.
+
+    - The confidence rating is assigned to an assessment. The rating is based on the availability of data points that are needed to compute the assessment.
+    - For performance-based sizing, Server Assessment needs:
+      * The utilization data for CPU and VM RAM.
+      * The disk IOPS and throughput data for every disk attached to the VM.
+      * The network I/O to handle performance-based sizing for each network adapter attached to a VM.  
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/wwi-server-assessment-6.png">
 </kbd></p>
+
 
 7. You will be redirected to **Assessment Overview**. Here we are using Demo specific Server and Data, so cost may differ for you.
 
