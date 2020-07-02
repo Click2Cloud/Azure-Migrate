@@ -22,7 +22,7 @@
     5. Select the target folder and click **Upload Files**.  
     6. Locate the item that you want to upload from your local computer and click **Open**.  
     7. The file uploads to the datastore that you selected.  
-    8. **(Optional)** Refresh the datastore file   browser to see the uploaded file on the list.
+    8. **(Optional)** Refresh the datastore file browser to see the uploaded file on the list.
 
 3. Create VM using the uploaded ISO file.
 
@@ -93,7 +93,7 @@
     </kbd></p>
     
     3. After selecting installation language, geographical location and keyboard layout, the installer will perform some background configuration and processing. In particular, the installer will attempt to automatically configure your network.  
-    If the installer successfully detects your network configuration, you’ll be asked to enter a hostname, which can either be modified or left as the default ‘ubuntu’.
+    If the installer successfully detects your network configuration, you will be asked to enter a hostname, which can either be modified or left as the default name ‘ubuntu’.
     
     <p><kbd>
         <img src="../../images/prerequisites/ubuntu-os-installation/3.png">
@@ -106,7 +106,7 @@
     </kbd></p>
     
     5. After answering a question about your time zone, you need to configure local storage.  
-    If the storage connected to your server is raw and unformatted, the installer will detect this and present a menu offering four options. The simplest is the second, ‘Guided - use entire disk and set up LVM’, and we’d recommend selecting this.  
+    If the storage connected to your server is raw and unformatted, the installer will detect this and present a menu offering four options. The simplest is the second, ‘Guided - use entire disk and set up LVM’, and we recommend selecting second option.  
     Any of these options will obviously destroy any data currently on your partition(s), but resizing and creating new partitions are options available by selecting ‘Manual’.
     
     <p><kbd>
@@ -114,7 +114,7 @@
     </kbd></p>
     
     6. After accepting the changes that are going to be made to your storage, the installer will determine the packages to be installed. This will take a few moments.  
-    You will then be asked to enter an HTTP proxy address. This can be ignored if you don’t know whether you need one to access the internet from your server. You’ll also be asked whether you require automatic updates. Selecting ‘Install security updates automatically’ is the safest default option.
+    You will then be asked to enter an HTTP proxy address. This can be ignored if you do not know whether you need one to access the internet from your server. You will also be asked whether you require automatic updates. Selecting ‘Install security updates automatically’ is the safest default option.
     
     <p><kbd>
         <img src="../../images/prerequisites/ubuntu-os-installation/6.png">

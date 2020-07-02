@@ -1,6 +1,6 @@
 # Wide World Importers legacy Database Migration
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The database that will be migrated is hosted on a Windows 7.
@@ -28,7 +28,7 @@ Enable replication as follows:
   <img src="../images/WWI-eCommerce/server-migration3.PNG">
 </kbd></p>
 
-4. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you've run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
+4. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you have run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
 
 5. In **Virtual machines**, select VMs you want to migrate. Then click **Next: Target settings**.
 
@@ -42,7 +42,7 @@ Enable replication as follows:
 
 8. In **Azure Hybrid Benefit**:
 - Select **No** if you don't want to apply Azure Hybrid Benefit. Then click **Next**.
-- Select **Yes** if you have Windows Server machines that are covered with active Software Assurance or Windows Server subscriptions, and you want to apply the benefit to the machines you're migrating. Then click **Next**.
+- Select **Yes** if you have Windows Server machines that are covered with active Software Assurance or Windows Server subscriptions, and you want to apply the benefit to the machines you are migrating. Then click **Next**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration5.PNG">
@@ -86,7 +86,7 @@ Enable replication as follows:
 </kbd></p>
 
 - During initial replication, a VM snapshot is created. Disk data from the snapshot is replicated to replica managed disks in Azure.
-- After initial replication finishes, delta replication begins. Incremental changes to on-premises disks are periodically replicated to the replica disks in Azure.
+- After initial replication finishes, delta replication begins. Incremental changes to on-premise disks are periodically replicated to the replica disks in Azure.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration-delta-sync.PNG">
@@ -121,7 +121,7 @@ Do a test migration as follows:
 </kbd></p>
 
 ## Migrate VMs
-After you've verified that the test migration works as expected, you can migrate the on-premises machines.
+After you've verified that the test migration works as expected, you can migrate the on-premise machines.
 
 1. In the Azure Migrate project > **Servers** > **Azure Migrate: Server Migration**, click **Replicating servers**.
 
@@ -131,8 +131,8 @@ After you've verified that the test migration works as expected, you can migrate
 
 2. In **Replicating machines**, right-click the VM > **Migrate**.
 3. In **Migrate** > **Shut down virtual machines and perform a planned migration with no data loss**, select **Yes** > **OK**.
-- By default Azure Migrate shuts down the on-premises VM, and runs an on-demand replication to synchronize any VM changes that occurred since the last replication occurred. This ensures no data loss.
-- If you don't want to shut down the VM, select **No**
+- By default Azure Migrate shuts down the on-premise VM, and runs an on-demand replication to synchronize any VM changes that occurred since the last replication occurred. This ensures no data loss.
+- If you do not want to shut down the VM, select **No**
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration16.PNG">
@@ -151,8 +151,8 @@ After you've verified that the test migration works as expected, you can migrate
 2. Perform any post-migration app tweaks, such as updating database connection strings, and web server configurations.
 3. Perform final application and migration acceptance testing on the migrated application now running in Azure.
 4. Cut over traffic to the migrated Azure VM instance.
-5. Remove the on-premises VMs from your local VM inventory.
-6. Remove the on-premises VMs from local backups.
+5. Remove the on-premise VMs from your local VM inventory.
+6. Remove the on-premise VMs from local backups.
 7. Update any internal documentation to show the new location and IP address of the Azure VMs.
 
-> Congratulations ! You are now ready with your Database on Azure Cloud. 
+> Congratulations! You are now ready with your Database on Azure Cloud. 

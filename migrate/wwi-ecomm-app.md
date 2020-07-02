@@ -1,6 +1,6 @@
 # Wide World Importers Application Migration
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
@@ -34,7 +34,7 @@ Please change from on-premise SQL database connection string to migrated Azure S
   <img src="../images/WWI-eCommerce/remote-connection.png">
 </kbd></p>
 
-1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**
+1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-3.png">
@@ -50,13 +50,13 @@ Please change from on-premise SQL database connection string to migrated Azure S
   <img src="../images/WWI-eCommerce/app-assessment-6.png">
 </kbd></p>
 
-3. Please wait while migration is in progress. This may take few minutes. Once the migration is Complete, we will take you to the next step.
+3. Please wait while migration is in progress. This may take few minutes. Once the migration is complete, we will take you to the next step.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-10.png">
 </kbd></p>
 
-4. Your site has been successfully migrated! Click on **Go to your website**
+4. Your site has been successfully migrated! Click on **Go to your website**.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-11.png">
@@ -66,4 +66,4 @@ Please change from on-premise SQL database connection string to migrated Azure S
   <img src="../images/WWI-eCommerce/remote-application.png">
 </kbd></p>
 
-> Congratulations ! You are now ready with your Application on Azure Cloud. 
+> Congratulations! You are now ready with your Application on Azure Cloud. 

@@ -1,6 +1,6 @@
 # Wide World Importers Application Assessment
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
@@ -15,7 +15,10 @@ Technologies used:
 
 ## Steps for Application Discovery
 
-App discovery using Azure Migrate: Server Assessment is agentless. Nothing is installed on machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. The appliance remotely accesses the VMware machines using VMware APIs.
+App discovery using Azure Migrate: Server Assessment is agentless. 
+* Nothing is installed on machines and VMs. 
+* Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. 
+* The appliance remotely accesses the VMware machines using VMware APIs.
 
 1. Log in to the azure console, Search for **Azure Migrate** and click on **Azure Migrate**.
 
@@ -55,7 +58,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
 2. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-* Application dependency for Windows VM (Application hosted on IIS - WWI-eCommerce)
+* Application dependency for Windows VM (Application hosted on IIS - WWI e-Commerce)
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-dependency-database.png">
@@ -95,7 +98,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 6. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.  
 
-    Each performance-based Azure VM assessment in Azure Migrate is associated with a confidence rating. The rating ranges from one (lowest) to five (highest) stars. The confidence rating helps you estimate the reliability of the size recommendations Azure Migrate provides. Azure migrate recommends to performs assessment after 24 hours of discovery to get accurate and relaible assessment results.
+    Each performance-based Azure VM assessment in Azure Migrate is associated with a confidence rating. The rating ranges from one (lowest) to five (highest) stars. The confidence rating helps you to estimate the reliability of the size recommendations Azure Migrate provides. Azure migrate recommends to performs assessment after 24 hours of discovery to get accurate and reliable assessment results.
 
     - The confidence rating is assigned to an assessment. The rating is based on the availability of data points that are needed to compute the assessment.
     - For performance-based sizing, Server Assessment needs:
@@ -150,4 +153,4 @@ The App Service Migration Assistant is designed to simplify your journey to the 
   <img src="../images/WWI-eCommerce/app-assessment-2.png">
 </kbd></p>
 
-> Congratulations ! You are now ready with your Application Assessment, Please move for the [Migration](../migrate/wwi-ecomm-app.md) of same.
+> Congratulations! You are now ready with your Application Assessment. Please move for the [Migration](../migrate/wwi-ecomm-app.md) of same.
