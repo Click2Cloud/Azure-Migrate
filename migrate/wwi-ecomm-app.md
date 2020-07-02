@@ -20,20 +20,6 @@ We are assuming that you have migrated your on-premise SQL database to Azure SQL
 
 > Still not migrated on-premise SQL database ? Click to [Assess](../assess/wwi-ecomm-db.md) and [Migrate](../migrate/wwi-ecomm-db.md).
 
-Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
-
-* On-premise SQL database connection string
-
-<kbd>
-  <img src="../images/WWI-eCommerce/onprem-connection.png">
-</kbd></p>
-
-* Update Azure SQL database connection string
-
-<kbd>
-  <img src="../images/WWI-eCommerce/remote-connection.png">
-</kbd></p>
-
 1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**.
 
 <kbd>
@@ -60,6 +46,44 @@ Please change from on-premise SQL database connection string to migrated Azure S
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-11.png">
+</kbd></p>
+
+Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
+
+* Login to azure portal and search for **App Services**, Click on **App Services** and Select web app name which you have migrated in previous step.
+
+* Click on **Advance Tools** and then click on **GO**.
+
+* Kudo will Open.
+> Kudu is the engine behind git deployments in Azure Web Sites. It can also run outside of Azure.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-12.png">
+</kbd></p>
+
+* For viewing folder structure of published web app click on **Debug Console** and select **CMD**.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-13.png">
+</kbd></p>
+
+* Go to the path where your config file is present.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-14.png">
+</kbd></p>
+
+* On-premise SQL database connection string
+
+<kbd>
+  <img src="../images/WWI-eCommerce/onprem-connection.png">
+</kbd></p>
+
+
+* Update Azure SQL database connection string
+* Click on **Save** and **Reload** the Web App.
+<kbd>
+  <img src="../images/WWI-eCommerce/remote-connection.png">
 </kbd></p>
 
 <kbd>
