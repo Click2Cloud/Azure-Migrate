@@ -1,6 +1,6 @@
 # Wide World Importers legacy Database Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
-* This WWI infrastructure is on on-premise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The database that will be migrated contains campaign related data and is hosted on Windows 7.
