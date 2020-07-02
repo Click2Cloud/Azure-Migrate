@@ -1,6 +1,6 @@
 # Wide World Importers Application Assessment
 * WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
-* This WWI infrastructure is on on-premise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
