@@ -41,20 +41,18 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 ### Before start the demo please prepare source infrastructure
 **Prerequisites**
-* Server on vCenter for template creation.
-    > Note: create required server if not exist on vCenter by clicking on following name of the Server.
-    * [Windows server 2016](prerequisites/os/windows-template-creation.md)
-    * [Windows 7](prerequisites/os/windows7-template-creation.md)
-
-* Template for the server (linux, windows) where you want to install your application. ([Steps to create template](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-FE6DE4DF-FAD0-4BB0-A1FD-AFE9A40F4BFE.html))
-
-
-* [Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
-* After installing terraform, click on following to deploy linux / windows server using terraform.
-    * [linux server](terraform-scripts/linux/)
-    * [windows server](terraform-scripts/windows/)
+You will have to set up 3 virtual machines on your vCenter for this demo.
+ - Windows 7 virtual machine hosting SQL 2005 Server for Campaign database
+ - Windows 2016 Server for Wide World Importers e-Commerce website
+ - Windows 2016 Server hosting SQL 2017 for Sales database
+ 
+ > Note: create required server if not exist on vCenter by clicking on following name of the Server.
+    > * [Windows server 2016](prerequisites/os/windows-template-creation.md)
+    > * [Windows 7](prerequisites/os/windows7-template-creation.md)    
     
-* After deployment of virtual machines user can [check](prerequisites/deployed-servers.md) running virtual machines on vCenter.
+>[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
+After installing terraform, click on following to [deploy](terraform-scripts/windows/) windows server using terraform.    
+>After deployment of virtual machines user can [check](prerequisites/deployed-servers.md) running virtual machines on vCenter.
 
 * For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
 

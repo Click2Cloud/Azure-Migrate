@@ -68,3 +68,6 @@ variable "ipv4_gateway" {
 variable "computer_name" {
   type    = "string"
 }
+variable "script_file_path" {
+  type    = "string"
+}

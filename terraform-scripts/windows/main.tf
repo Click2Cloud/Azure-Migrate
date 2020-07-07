@@ -75,4 +75,21 @@ resource "vsphere_virtual_machine" "vm" {
       ipv4_gateway    = "${var.ipv4_gateway}"
     }
   }
+
+  connection {
+    type = "winrm"
+    host = "${var.ipv4_address}"
+    user = "Administrator"
+    password = "${var.admin_password}"
+  }
+
+   provisioner "file" {
+    source      = "${var.script_file_path}"
+    destination = "C:/Users/Administrator/installation_script.ps1"
+    }
+  provisioner "remote-exec" {
+    inline = [
+      "powershell -ExecutionPolicy Unrestricted -File C:/Users/Administrator/installation_script.ps1"
+    ]
+  }
 }
