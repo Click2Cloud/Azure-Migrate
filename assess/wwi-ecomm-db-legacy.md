@@ -1,6 +1,6 @@
 # Wide World Importers legacy Database Assessment
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The database that will be migrated contains campaign related data and is hosted on Windows 7.
@@ -79,7 +79,7 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 6. After the assessment is created, view it in **Servers** > **Azure Migrate: Server Assessment** > **Assessments**.  
 
-    Each performance-based Azure VM assessment in Azure Migrate is associated with a confidence rating. The rating ranges from one (lowest) to five (highest) stars. The confidence rating helps you estimate the reliability of the size recommendations Azure Migrate provides. Azure migrate recommends to performs assessment after 24 hours of discovery to get accurate and relaible assessment results.
+    Each performance-based Azure VM assessment in Azure Migrate is associated with a confidence rating. The rating ranges from one (lowest) to five (highest) stars. The confidence rating helps you to estimate the reliability of the size recommendations Azure Migrate provides. Azure migrate recommends to perform assessment after 24 hours of discovery to get accurate and reliable assessment results.
 
     - The confidence rating is assigned to an assessment. The rating is based on the availability of data points that are needed to compute the assessment.
     - For performance-based sizing, Server Assessment needs:
@@ -117,4 +117,4 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
   <img src="../images/WWI-eCommerce/wwi-server-assessment-10-legacy-db.png">
 </kbd></p>
 
-> Congratulations ! You are now ready with your Database Assessment, Please move for the [Migration](../migrate/wwi-ecomm-db-legacy.md) of same.
+> Congratulations! You are now ready with your Database Assessment. Please move for the [Migration](../migrate/wwi-ecomm-db-legacy.md) of the same.

@@ -19,12 +19,12 @@
 ### **1. Lift & Shift**
 **Lift and shift**, also known as **rehosting**, is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
 
-- This demo will be focused on describing the Assessment and Migration of source Server on azure cloud. With enormous capability of **Azure Migrate**
-- we can assess server which has any types of database which are pointing to any web application and Migrate them using Azure Migrate Migration Tool.
-- Before migration server assessment is done using
+- This demo will be focused on describing the Assessment and Migration of source Server on azure cloud. With enormous capability of **Azure Migrate**.
+- We can assess server which has any types of database which are pointing to any web application and Migrate them using Azure Migrate Migration Tool.
+- Before migration, server assessment is done using
     - Azure Migrate: Server Assessment
         >- Discover installed applications, roles, and features with the Server Assessment tool in Azure Migrate.
-- After assessment server migration is done using
+- After assessment, server migration is done using
     - Azure Migrate: Server Migration
         >- Migrate VM-Ware VMs, Hyper-V VMs, physical servers, other virtualized machines, and public cloud VMs to Azure.
 
@@ -39,7 +39,7 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
     - App Service Migration Assistant
         >- The Migration Assistant tool is a local agent that performs a detailed assessment and then walks you through the migration process.
 
-### Before start the demo please prepare source infrastructure
+### Before starting the demo please prepare source infrastructure according to the following prerequisites.
 **Prerequisites**
 You will have to set up 3 virtual machines on your vCenter for this demo.
  - Windows 7 virtual machine hosting SQL 2005 Server for Campaign database

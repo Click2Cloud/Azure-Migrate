@@ -109,7 +109,7 @@
         <img src="../../images/prerequisites/windows7-os-installation/5.png">
     </kbd></p>
     
-    6. The computer will reboot, and the next thing you’ll see is the prompt to set the user’s and computer’s name. By default, the computer’s name will be username-PC, where username is the username you’ve entered. Click on **Next**.
+    6. The computer will reboot, and the next thing you will see is the prompt to set the user’s and computer’s name. By default, the computer’s name will be "username-PC", where username is the username you entered. Click on **Next**.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/6.png">
@@ -139,7 +139,7 @@
         <img src="../../images/prerequisites/windows7-os-installation/12.png">
     </kbd></p>
     
-    11. After you have finished installing the operating system and logged in with a Windows Administrator account, open the VM menu and click Install VMware Tools.  
+    11. After you have finished installing the operating system and logged in with a Windows Administrator account, open the VM menu and click **Install VMware Tools**.  
     
     <p><kbd>
         <img src="../../images/prerequisites/windows2016-os-installation/tools1.png">
@@ -187,7 +187,7 @@
     
     13. Follow the steps to enable Administrator account.
     
-    a) Open Local Users and Groups. You can do so by typing lusrmgr.msc in the Start search box or in the Run command and pressing ENTER. Or, you could open Computer Management by right-clicking Computer in the Start menu and selecting Manage.
+    a) Open Local Users and Groups. You can do so by typing lusrmgr.msc in the Start search box or in the Run command and pressing ENTER, or you could open Computer Management by right-clicking Computer in the Start menu and selecting Manage.
     
     <p><kbd>
         <img src="../../images/prerequisites/windows7-os-installation/13.png">

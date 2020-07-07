@@ -1,6 +1,6 @@
 # Wide World Importers Database Migration
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The database that will be migrated is hosted on a Windows server 2016.
@@ -19,13 +19,13 @@ Technologies used:
   <img src="../images/WWI-eCommerce/manu-db-1.png">
 </kbd></p>
 
-2. Enter source server details and connect to it then Select single database from your source server to migrate to Azure SQL Database and click **Next**
+2. Enter source server details and connect to it then Select single database from your source server to migrate to Azure SQL Database and click **Next**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/manu-db-2.png">
 </kbd></p>
 
-3. Enter target server details and connect to it then Select single database from your target Azure SQL Database Server and click **Next**
+3. Enter target server details and connect to it then Select single database from your target Azure SQL Database Server and click **Next**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/manu-db-3.png">
@@ -56,13 +56,13 @@ Technologies used:
 7. After deploying schema, you can also redeploy it by clicking **Redeploy schema**.
 
 ## Steps for Data Migration using **Azure Database Migration Service.** 
-1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Database Migration Service**,
+1. Log in to the azure console, Search for **Azure Data Migration Service** and click on **Azure Database Migration Service**.
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-12.png">
 </kbd></p>
 
-2. On the Azure Database Migration Service screen, click on **Add** button to create the service if not exist already.
+2. On the Azure Database Migration Service screen, click on **Add** button to create the service if it does not exist already.
 
 <p><kbd>
    <img src="../images/WWI-eCommerce/manu-db-13.png">
@@ -106,7 +106,7 @@ Technologies used:
 5. Specify source details
     * On the Migration source detail screen, specify the connection details for the source SQL Server instance.
     
-    Make sure to use a Fully Qualified Domain Name (FQDN) for the source SQL Server instance name. You can also use the IP Address for situations in which DNS name resolution isn't possible.
+    Make sure to use a Fully Qualified Domain Name (FQDN) for the source SQL Server instance name. You can also use the IP Address for situations in which DNS name resolution is not possible.
 
     * If you have not installed a trusted certificate on your source server, select the Trust server certificate check box.
 
@@ -130,7 +130,7 @@ Technologies used:
   <img src="../images/WWI-eCommerce/manu-db-20.png">
 </kbd></p>
 
-10. On the **Select tables** screen, expand the table listing, and then review the list of affected fields. Click on **Save**
+10. On the **Select tables** screen, expand the table listing, and then review the list of affected fields. Click on **Save**.
 
     Azure Database Migration Service auto selects all the empty source tables that exist on the target Azure SQL Database instance. If you want to remigrate tables that already include data, you need to explicitly select the tables on this blade.
 
@@ -162,7 +162,7 @@ Technologies used:
   <img src="../images/WWI-eCommerce/manu-db-25.png">
 </kbd></p>
 
-17. On the **migration activity** screen,Click on Name of the Database for more details about **cutover** and click on Start Cutover.
+17. On the **migration activity** screen, click on Name of the Database for more details about **cutover** and click on Start Cutover.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/manu-db-26.png">
@@ -194,4 +194,4 @@ Technologies used:
 
 Verify the target database(s) on the target **Azure SQL Database**.
 
-> Congratulations ! You are now ready with your Database on Azure Cloud. 
+> Congratulations! You are now ready with your Database on Azure Cloud. 

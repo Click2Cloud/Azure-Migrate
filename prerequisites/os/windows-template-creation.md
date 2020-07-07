@@ -77,7 +77,7 @@
     
     10. The virtual machine appears in the vSphere Client inventory.  
     
-4. After the virtual machine is created, you will have to install Windows Server 2016 OS on it.  
+4. After the virtual machine is created, you have to install Windows Server 2016 OS on it.  
     **Installation Steps**
     1. At the first screen, choose your Language, Time & currency format and the Keyboard or input method and click **Next**.
     
@@ -173,7 +173,7 @@
         <img src="../../images/prerequisites/windows2016-os-installation/tools6.png">
     </kbd></p>
     
-    VMware Tools will need to restart the VM in order to fully complete the installation of VMware Tools. Click Yes to continue.
+    VMware Tools will need to restart the VM in order to fully complete the installation of VMware Tools. Click **Yes** to continue.
     
     11. Open PowerShell and paste the following commands:
     - winrm set winrm/config/service '@{AllowUnencrypted="true"}'

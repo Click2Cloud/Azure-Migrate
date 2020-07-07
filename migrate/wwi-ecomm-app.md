@@ -1,6 +1,6 @@
 # Wide World Importers Application Migration
-* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise
-* This WWI infrastructure is on on-premise
+* WWI has its own e-Commerce Platform where they sell WWI Brand Merchandise.
+* This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
 The application that will be migrated is hosted on a Windows server 2016 running Internet Information Services (IIS)
@@ -20,21 +20,7 @@ We are assuming that you have migrated your on-premise SQL database to Azure SQL
 
 > Still not migrated on-premise SQL database ? Click to [Assess](../assess/wwi-ecomm-db.md) and [Migrate](../migrate/wwi-ecomm-db.md).
 
-Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
-
-* On-premise SQL database connection string
-
-<kbd>
-  <img src="../images/WWI-eCommerce/onprem-connection.png">
-</kbd></p>
-
-* Update Azure SQL database connection string
-
-<kbd>
-  <img src="../images/WWI-eCommerce/remote-connection.png">
-</kbd></p>
-
-1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**
+1. Before you start the migration process, you need to login to Azure account with a subscription. Click on **Copy Code & Open Browser**.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-3.png">
@@ -50,20 +36,58 @@ Please change from on-premise SQL database connection string to migrated Azure S
   <img src="../images/WWI-eCommerce/app-assessment-6.png">
 </kbd></p>
 
-3. Please wait while migration is in progress. This may take few minutes. Once the migration is Complete, we will take you to the next step.
+3. Please wait while migration is in progress. This may take few minutes. Once the migration is complete, we will take you to the next step.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-10.png">
 </kbd></p>
 
-4. Your site has been successfully migrated! Click on **Go to your website**
+4. Your site has been successfully migrated! Click on **Go to your website**.
 
 <kbd>
   <img src="../images/WWI-eCommerce/app-assessment-11.png">
+</kbd></p>
+
+Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
+
+* Login to azure portal and search for **App Services**, Click on **App Services** and Select web app name which you have migrated in previous step.
+
+* Click on **Advance Tools** and then click on **GO**.
+
+* Kudo will Open.
+> Kudu is the engine behind git deployments in Azure Web Sites. It can also run outside of Azure.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-12.png">
+</kbd></p>
+
+* For viewing folder structure of published web app click on **Debug Console** and select **CMD**.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-13.png">
+</kbd></p>
+
+* Go to the path where your config file is present.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/app-assessment-14.png">
+</kbd></p>
+
+* On-premise SQL database connection string
+
+<kbd>
+  <img src="../images/WWI-eCommerce/onprem-connection.png">
+</kbd></p>
+
+
+* Update Azure SQL database connection string
+* Click on **Save** and **Reload** the Web App.
+<kbd>
+  <img src="../images/WWI-eCommerce/remote-connection.png">
 </kbd></p>
 
 <kbd>
   <img src="../images/WWI-eCommerce/remote-application.png">
 </kbd></p>
 
-> Congratulations ! You are now ready with your Application on Azure Cloud. 
+> Congratulations! You are now ready with your Application on Azure Cloud. 
