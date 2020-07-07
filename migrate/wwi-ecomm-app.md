@@ -33,19 +33,19 @@ We are assuming that you have migrated your on-premise SQL database to Azure SQL
 2. Azure will create the required Azure resources for you to create and migrate your contents to a new app. Before we can do that we need some information. Please fill all the information and Click on **Migrate**.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-6.png">
+  <img src="../images/WWI-eCommerce/app-assessment-5.png">
 </kbd></p>
 
 3. Please wait while migration is in progress. This may take few minutes. Once the migration is complete, we will take you to the next step.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-10.png">
+  <img src="../images/WWI-eCommerce/app-assessment-6.png">
 </kbd></p>
 
 4. Your site has been successfully migrated! Click on **Go to your website**.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-11.png">
+  <img src="../images/WWI-eCommerce/app-assessment-7.png">
 </kbd></p>
 
 Please change from on-premise SQL database connection string to migrated Azure SQL database connection string in **config.json** file of your application as follows.
@@ -58,19 +58,19 @@ Please change from on-premise SQL database connection string to migrated Azure S
 > Kudu is the engine behind git deployments in Azure Web Sites. It can also run outside of Azure.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-12.png">
+  <img src="../images/WWI-eCommerce/app-assessment-8.png">
 </kbd></p>
 
 * For viewing folder structure of published web app click on **Debug Console** and select **CMD**.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-13.png">
+  <img src="../images/WWI-eCommerce/app-assessment-9.png">
 </kbd></p>
 
 * Go to the path where your config file is present.
 
 <kbd>
-  <img src="../images/WWI-eCommerce/app-assessment-14.png">
+  <img src="../images/WWI-eCommerce/app-assessment-10.png">
 </kbd></p>
 
 * On-premise SQL database connection string
@@ -82,6 +82,8 @@ Please change from on-premise SQL database connection string to migrated Azure S
 
 * Update Azure SQL database connection string
 * Click on **Save** and **Reload** the Web App.
+* We have updated the connection string, now please go to your domain and check application is running on it.
+
 <kbd>
   <img src="../images/WWI-eCommerce/remote-connection.png">
 </kbd></p>
