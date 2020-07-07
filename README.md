@@ -46,8 +46,8 @@ You will have to set up 3 virtual machines on your vCenter for this demo.
  - Windows Server 2016 for Wide World Importers e-Commerce website
  - Windows Server 2016 hosting SQL 2017 for Sales database
  
- > Note: create required server if not exist on vCenter by clicking on following name of the Server.
-    >-  [Windows server 2016](prerequisites/os/windows-template-creation.md)
+ > Note: create required server if not exist on vCenter by clicking on following name of the Server.  
+    >-  [Windows server 2016](prerequisites/os/windows-template-creation.md)  
     >- [Windows 7](prerequisites/os/windows7-template-creation.md)    
     
 >[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
