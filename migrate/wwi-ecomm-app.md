@@ -93,3 +93,4 @@ Please change from on-premise SQL database connection string to migrated Azure S
 </kbd></p>
 
 > Congratulations! You are now ready with your Application on Azure Cloud. 
+

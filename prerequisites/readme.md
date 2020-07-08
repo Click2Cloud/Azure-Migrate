@@ -12,3 +12,4 @@
 * After installing terraform, click on following server for terraform operation.
     * [linux server](../terraform-scripts/linux/)
     * [windows server](../terraform-scripts/windows/)
+

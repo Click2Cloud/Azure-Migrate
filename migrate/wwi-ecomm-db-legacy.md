@@ -156,3 +156,4 @@ After you've verified that the test migration works as expected, you can migrate
 7. Update any internal documentation to show the new location and IP address of the Azure VMs.
 
 > Congratulations! You are now ready with your Database on Azure Cloud. 
+

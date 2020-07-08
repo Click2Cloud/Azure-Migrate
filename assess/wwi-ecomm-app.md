@@ -154,3 +154,4 @@ The App Service Migration Assistant is designed to simplify your journey to the 
 </kbd></p>
 
 > Congratulations! You are now ready with your Application Assessment. Please move for the [Migration](../migrate/wwi-ecomm-app.md) of same.
+

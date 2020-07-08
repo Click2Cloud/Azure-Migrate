@@ -118,3 +118,4 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 </kbd></p>
 
 > Congratulations! You are now ready with your Database Assessment. Please move for the [Migration](../migrate/wwi-ecomm-db-legacy.md) of the same.
+

@@ -20,3 +20,4 @@
 
 3. To view application dependencies you will have to install dependency agent in each VM.
 >- Agent installation instructions can be found here: https://docs.microsoft.com/en-us/azure/migrate/how-to-create-group-machine-dependencies
+

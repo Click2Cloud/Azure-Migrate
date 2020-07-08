@@ -195,3 +195,4 @@ Technologies used:
 Verify the target database(s) on the target **Azure SQL Database**.
 
 > Congratulations! You are now ready with your Database on Azure Cloud. 
+
