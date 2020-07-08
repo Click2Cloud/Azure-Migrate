@@ -13,7 +13,7 @@
 
 ## Scenario
 <kbd>
-  <img src="./images/migration-scenarios.JPG">
+  <img src="./images/migration-scenarios.jpg">
 </kbd></p>
 
 ### **1. Lift & Shift**
