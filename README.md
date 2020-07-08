@@ -13,7 +13,7 @@
 
 ## Scenario
 <kbd>
-  <img src="./images/migration-scenarios.png">
+  <img src="./images/migration-scenarios.JPG">
 </kbd></p>
 
 ### **1. Lift & Shift**
@@ -65,14 +65,17 @@ After installing terraform, click on following to [deploy](terraform-scripts/win
 * [Wide World Importers legacy database](assess/wwi-ecomm-db-legacy.md)
 ##### b. App Modernization 
 * [Wide World Importers database](assess/wwi-ecomm-db.md)
-* [Wide World Importers application](assess/wwi-ecomm-app.md)
+* [Wide World Importers application](assess/wwi-ecomm-app.md)  
+
     > [Lab demo](http://ftp-repos.click2cloud.net/Videos/1-Azure-Migrate-Assessment.mp4) for Azure Migrate Lift & Shift and App Modernization Assessment.
 
 ### Demo 2: Migration
 ##### a. Lift & Shift 
-* [Wide World Importers legacy database](migrate/wwi-ecomm-db-legacy.md)
+* [Wide World Importers legacy database](migrate/wwi-ecomm-db-legacy.md)  
+
     > [Lab demo](http://ftp-repos.click2cloud.net/Videos/2-Lift-and-Shift-Migration.mp4) for Lift & Shift Migration.
 ##### b. App Modernization 
 * [Wide World Importers database](migrate/wwi-ecomm-db.md)
-* [Wide World Importers application](migrate/wwi-ecomm-app.md)
+* [Wide World Importers application](migrate/wwi-ecomm-app.md)  
+
     > [Lab demo](http://ftp-repos.click2cloud.net/Videos/3-App-Modernization-Migration.mp4) for App Modernization.
