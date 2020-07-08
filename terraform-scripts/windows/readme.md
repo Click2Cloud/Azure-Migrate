@@ -5,7 +5,7 @@
 
     1. For Wide World Importers e-Commerce Sales database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql-installation.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
     2. For Wide World Importers e-Commerce Website, set **script_file_path** as **"../../installer-scripts/wwi-app.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
-    3. For Wide World Importers e-Commerce Sales database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql-installation.ps1"** and **vsphere_template** value to the Windows 7 template you created.
+    3. For Wide World Importers legacy database, set **script_file_path** as **"../../installer-scripts/wwi-ssms-installation.ps1"** and **vsphere_template** value to the Windows 7 template you created.
 
 3. Go to the path where main.tf file is present using following command.
 > cd <path-to-main.tf>.
@@ -24,10 +24,16 @@
         Double-click TCP/IP. The TCP/IP Properties screen appears.
         For **Enabled** tab, select **Yes**. Then click **OK**.  
         Restart the MSSQL server.
-        The database is ready to be connected to the Application.
+        The database is ready to connect to the application.
         > Default password for user **sa** is set to **MSAzure#123**
-    2. For Wide World Importers e-Commerce Website, copy wwi-build-app.ps1 to the logged in VM.  
-    Open PowerShell and run wwi-sql-schema-creation.ps1, this will create the required Sales database.
-    Go to "C:/inetpub/wwroot" and open config.json file, replace SQL server details with your SQL server details.
-    Restart the wwi-app website from IIS console.
-    You can browse the website at localhost.
+    2. For Wide World Importers e-Commerce Website, copy wwi-build-app.ps1 from installer-scripts to the logged in VM.  
+        Go to "C:/inetpub/wwroot" and open config.json file, replace SQL server details with your SQL server details.
+        Restart the wwi-app website from IIS console.
+        You can browse the website at localhost.
+    3. For Wide World Importers legacy database, copy 2 files from installer-scripts folder to the logged in VM. 
+        i) SQLEXPR.exe
+        ii) wwi-campaign.ps1  
+        iii) wwi-campaign-schema.sql    
+        Run the exe file and perform the SQL 2005 installation.     
+        Open PowerShell and run wwi-campaign.ps1, this will create the required Campaign database and tables. 
+        The database is ready to connect to the application.
