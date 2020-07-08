@@ -30,10 +30,10 @@
         Go to "C:/inetpub/wwroot" and open config.json file, replace SQL server details with your SQL server details.
         Restart the wwi-app website from IIS console.
         You can browse the website at localhost.
-    3. For Wide World Importers legacy database, copy 2 files from installer-scripts folder to the logged in VM. 
-        i) SQLEXPR.exe
-        ii) wwi-campaign.ps1  
-        iii) wwi-campaign-schema.sql    
+    3. For Wide World Importers legacy database, copy 2 files from installer-scripts folder to the logged in VM.   
+        i) SQLEXPR.exe  
+        ii) wwi-campaign.ps1      
+        iii) wwi-campaign-schema.sql      
         Run the exe file and perform the SQL 2005 installation.     
         Open PowerShell and run wwi-campaign.ps1, this will create the required Campaign database and tables. 
         The database is ready to connect to the application.
