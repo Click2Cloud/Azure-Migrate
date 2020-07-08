@@ -22,7 +22,7 @@ IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
 begin
 EXEC [WWI].[dbo].[sp_fulltext_database] @action = 'enable'
 end
-GO
+GO 
 
 ALTER DATABASE [WWI] SET ANSI_NULL_DEFAULT OFF 
 GO

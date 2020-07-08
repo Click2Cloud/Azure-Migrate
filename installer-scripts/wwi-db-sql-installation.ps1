@@ -16,4 +16,4 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco install sql-server-2017 -y --execution-timeout=60000
 choco install sql-server-management-studio -y
 refreshenv
-exit
+exit 

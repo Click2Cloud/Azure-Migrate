@@ -4,4 +4,4 @@ dotnet build
 dotnet publish -o C:\inetpub\wwwroot
 Stop-IISSite -Name "Default Web Site"
 New-IISSite -Name 'wwi-app' -PhysicalPath 'C:\inetpub\wwwroot' -BindingInformation "*:80:"
-exit
+exit 

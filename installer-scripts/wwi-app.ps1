@@ -17,6 +17,7 @@ choco install dotnetcore-sdk --version=2.2.104 -y
 choco install nodejs.install --version=6.12.3 -y
 choco install git -y
 
+# Enabling IIS Features
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole -N
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer -N
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-CommonHttpFeatures -N
