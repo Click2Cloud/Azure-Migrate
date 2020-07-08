@@ -37,3 +37,4 @@
         Run the exe file and perform the SQL 2005 installation.     
         Open PowerShell and run wwi-campaign.ps1, this will create the required Campaign database and tables. 
         The database is ready to connect to the application.
+        

@@ -282,3 +282,4 @@
     </kbd></p>
     
     The progress of the clone task appears in the Recent Tasks pane. When the task completes, the template appears in the inventory.
+
