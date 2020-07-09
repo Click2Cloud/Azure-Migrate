@@ -1,6 +1,6 @@
 # Steps for Windows Server 2008 R2 Template Creation
 
-1. Download Windows Server 2008 R2 ISO from [here](https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO)
+1. Download Windows Server 2008 R2 ISO from [here](https://www.microsoft.com/en-in/download/confirmation.aspx?id=11093)
 
 2. Upload it to your VMware vCenter.
 
