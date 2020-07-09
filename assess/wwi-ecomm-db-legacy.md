@@ -3,10 +3,10 @@
 * This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
-The database that will be migrated contains campaign related data and is hosted on Windows 7.
+The database that will be migrated contains campaign related data and is hosted on Windows Server 2008 R2.
 
 Technologies used:
- - Microsoft SQL Server 2005
+ - Microsoft SQL Server 2008 R2
 
 ## Steps for Application Discovery
 
@@ -118,4 +118,3 @@ It shows the estimated monthly compute and storage costs for running the VMs in 
 </kbd></p>
 
 > Congratulations! You are now ready with your Database Assessment. Please move for the [Migration](../migrate/wwi-ecomm-db-legacy.md) of the same.
-

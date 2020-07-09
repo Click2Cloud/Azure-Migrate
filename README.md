@@ -42,13 +42,13 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 ### Before starting the demo please prepare source infrastructure according to the following prerequisites.
 **Prerequisites**
 You will have to set up 3 virtual machines on your vCenter for this demo.
- - Windows 7 virtual machine hosting SQL 2005 Server for Campaign database
+ - Windows Server 2008 R2 hosting SQL 2008 R2 Server for Campaign database
  - Windows Server 2016 for Wide World Importers e-Commerce website
  - Windows Server 2016 hosting SQL 2017 for Sales database
  
  > Note: create required server if not exist on vCenter by clicking on following name of the Server.  
     * [Windows server 2016](prerequisites/os/windows-template-creation.md)  
-    * [Windows 7](prerequisites/os/windows7-template-creation.md)    
+    * [Windows server 2008 R2](prerequisites/os/windows2008R2-template-creation.md)    
     
 >[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access to your vCenter.
 After installing terraform, click on following to [deploy](terraform-scripts/windows/) windows server using terraform.    

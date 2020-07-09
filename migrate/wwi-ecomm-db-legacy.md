@@ -3,10 +3,10 @@
 * This WWI is on on-premise infrastructure.
 * WWI wants to migrate their workload on Azure cloud.
 
-The database that will be migrated is hosted on a Windows 7.
+The database that will be migrated is hosted on a Windows Server 2008 R2.
 
 Technologies used:
- - Microsoft SQL Server 2005
+ - Microsoft SQL Server 2008 R2
 
 ## Replicate VMs
 
@@ -156,4 +156,3 @@ After you've verified that the test migration works as expected, you can migrate
 7. Update any internal documentation to show the new location and IP address of the Azure VMs.
 
 > Congratulations! You are now ready with your Database on Azure Cloud. 
-
