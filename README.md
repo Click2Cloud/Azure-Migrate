@@ -45,14 +45,12 @@ You will have to set up 3 virtual machines on your vCenter for this demo.
  - Windows Server 2008 R2 hosting SQL 2008 R2 Server for Campaign database
  - Windows Server 2016 for Wide World Importers e-Commerce website
  - Windows Server 2016 hosting SQL 2017 for Sales database
- 
- > Note: create required server if not exist on vCenter by clicking on following name of the Server.  
-    * [Windows server 2016](prerequisites/os/windows-template-creation.md)  
-    * [Windows server 2008 R2](prerequisites/os/windows2008R2-template-creation.md)    
-    
+  
 >[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access your vCenter.
-After installing terraform, click on following to [deploy](terraform-scripts/windows/) windows server using terraform.    
->After deployment of virtual machines user can [check](prerequisites/deployed-servers.md) running virtual machines on vCenter.
+
+VMs can be created using 2 approaches:
+1. [Using OVF Templates](terraform-scripts/ovf-based/wwi-infra/readme.md)
+2. [Using user created templates](terraform-scripts/template-based/readme.md)
 
 * For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
 

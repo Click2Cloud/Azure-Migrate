@@ -2,6 +2,18 @@
 1. Download the files (main.tf, variables.tf and var.tfvars) to the server where terraform is installed.
 
 2. Update var.tfvars file with required parameters for script to run.
+
+    **vsphere_server** - This is the vCenter server name for vSphere API operations.
+    **vsphere_user** - This is the username for vSphere API operations
+    **vsphere_password** - This is the password for vSphere API operations.
+    **vsphere_datacenter** - Name of the ESXi server
+    **vsphere_datastore** - Name of storage/container of the vCenter
+    **vsphere_network** - The name of the network on vCenter
+    **esxi_server_ip** - IP of the ESXi server
+    **ovf_path_for_app** - Path of downloaded App OVF template file
+    **ovf_path_for_db** - Path of the downloaded Database OVF template file
+    **ovf_path_for_legacy_db** - Path of the downloaded Legacy Database OVF template file
+
 3. Go to the path where main.tf file is present using following command.
 > cd <path-to-main.tf>.
 4. Execute following terraform commands step by step
@@ -13,14 +25,7 @@
     1. WWIApp (Windows Server 2016) - Hosting Wide World Importers e-Commerce application on IIS
     2. WWIDatabase (Windows Server 2016) - Hosting SQL 2017 with WWI database containing Sales data
     3. WWILegacyDatabase (Windows Server 2008 R2) - Hosting SQL 2008 R2 with WWICampaign database containing Campaign data
-7. Log in to WWIApp Virtual Machine, open File Explorer and go to **C:/inetpub/wwroot** open **config.json** file and replace it's contents with the connection string provided below: 
-
-{
-  "ConnectionStrings": {
-    "DefaultConnectionString": "Data Source=IP of WWIDatabase VM; Initial Catalog=WWI;User ID=sa;Password=MSAzure#123; Integrated Security=False; MultipleActiveResultSets=True;"
-  }
-}
-
-Configure IP of WWIDatabase virtual machine in place of **IP of WWIDatabase VM** and restart the IIS service.
+7. Log in to WWIApp Virtual Machine, open File Explorer and go to **C:/inetpub/wwroot** open **config.json** file
+Replace Data source IP with the IP of WWIDatabase Virtual Machine and restart the IIS service.
 
 Source infrastructure is ready to use!
