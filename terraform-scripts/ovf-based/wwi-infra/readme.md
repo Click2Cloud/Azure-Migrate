@@ -3,7 +3,7 @@
 
 2. Update var.tfvars file with required parameters for script to run.
 
-    **vsphere_server** - This is the vCenter server name.  
+    **vsphere_server** - This is the vCenter server IP.  
     **vsphere_user** - This is the username for vCenter.  
     **vsphere_password** - This is the password for vCenter.  
     **vsphere_datacenter** - Name of the ESXi server.  
