@@ -1,0 +1,11 @@
+
+vsphere_server = "XXX.XXX.XXX.XXX"
+vsphere_user = "XXXX@XXXX.com"
+vsphere_password = "XXXX"
+vsphere_datacenter = "XXXX"
+vsphere_datastore = "XXXX"
+vsphere_network = "XXXX"
+esxi_server_ip = "XXX.XXX.XXX.XXX"
+ovf_path_for_app = "D:\\WWI\\WWIApp\\WWIApp.ovf"
+ovf_path_for_db = "D:\\WWI\\WWIDB\\WWIDB.ovf"
+ovf_path_for_legacy_db = "D:\\WWI\\WWILagacyDB\\WWILegacyDB.ovf"
