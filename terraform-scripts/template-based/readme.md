@@ -1,5 +1,4 @@
-# VM creation using templates created by user
-
+**Steps to perform**
 1. Create template on vCenter using the following steps:
     * [Windows server 2016](../../prerequisites/os/windows-template-creation.md)  
     * [Windows server 2008 R2](../../prerequisites/os/windows2008R2-template-creation.md)    
