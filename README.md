@@ -48,7 +48,7 @@ You will have to set up 3 virtual machines on your vCenter for this demo.
   
 >[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access your vCenter.
 
-VMs can be created using 2 approaches:
+After terraform installation is done create VMs on source infrastructure, VMs can be created using 2 approaches:
 1. [Using OVF Templates](terraform-scripts/ovf-based/wwi-infra/readme.md)
 2. [Using user created templates](terraform-scripts/template-based/readme.md)
 
