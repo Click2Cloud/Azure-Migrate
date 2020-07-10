@@ -3,16 +3,16 @@
 
 2. Update var.tfvars file with required parameters for script to run.
 
-    **vsphere_server** - This is the vCenter server name for vSphere API operations.
-    **vsphere_user** - This is the username for vSphere API operations
-    **vsphere_password** - This is the password for vSphere API operations.
-    **vsphere_datacenter** - Name of the ESXi server
-    **vsphere_datastore** - Name of storage/container of the vCenter
-    **vsphere_network** - The name of the network on vCenter
-    **esxi_server_ip** - IP of the ESXi server
-    **ovf_path_for_app** - Path of downloaded App OVF template file
-    **ovf_path_for_db** - Path of the downloaded Database OVF template file
-    **ovf_path_for_legacy_db** - Path of the downloaded Legacy Database OVF template file
+    **vsphere_server** - This is the vCenter server name.  
+    **vsphere_user** - This is the username for vCenter.  
+    **vsphere_password** - This is the password for vCenter.  
+    **vsphere_datacenter** - Name of the ESXi server.  
+    **vsphere_datastore** - Name of storage/container of the vCenter.  
+    **vsphere_network** - The name of the network on vCenter.  
+    **esxi_server_ip** - IP of the ESXi server.  
+    **ovf_path_for_app** - Path of downloaded App OVF template file.  
+    **ovf_path_for_db** - Path of the downloaded Database OVF template file.  
+    **ovf_path_for_legacy_db** - Path of the downloaded Legacy Database OVF template file.  
 
 3. Go to the path where main.tf file is present using following command.
 > cd <path-to-main.tf>.
