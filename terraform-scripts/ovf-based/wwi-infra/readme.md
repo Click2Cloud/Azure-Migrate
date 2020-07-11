@@ -1,5 +1,5 @@
 **Steps to perform**
-1. Download the OVF templates from [here](http://ovf-template-download-link/)
+1. Download the OVF templates from [here](https://click2cloud.sharepoint.com/sites/Migration-Studio/Shared%20Documents/General/Azure%20Migrate/WWI-OVF)
 
 2. Download the files (main.tf, variables.tf and var.tfvars) to the server where terraform is installed.
 
