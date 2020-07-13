@@ -27,11 +27,11 @@
 6. Please login to your server using server IP, Username and Password you have provided in **var.tfvars**
 
 7. 3 VMs will be created
-    1. WWIApp (Windows Server 2016) - Hosting Wide World Importers e-Commerce application on IIS
-    2. WWIDatabase (Windows Server 2016) - Hosting SQL 2017 with WWI database containing Sales data
-    3. WWILegacyDatabase (Windows Server 2008 R2) - Hosting SQL 2008 R2 with WWICampaign database containing Campaign data
+    1. WideWorldImportersApp (Windows Server 2016) - Hosting Wide World Importers e-Commerce application on IIS
+    2. WideWorldImportersDatabase (Windows Server 2016) - Hosting SQL 2017 with WWI database containing Sales data
+    3. WideWorldImportersLegacyDatabase (Windows Server 2008 R2) - Hosting SQL 2008 R2 with WWICampaign database containing Campaign data
     
-8. Log in to WWIApp Virtual Machine, open File Explorer and go to **C:/inetpub/wwroot** open **config.json** file
+8. Log in to WideWorldImportersApp Virtual Machine, open File Explorer and go to **C:/inetpub/wwroot** open **config.json** file
 Replace Data source IP with the IP of WWIDatabase Virtual Machine and restart the IIS service.
 
 Source infrastructure is ready to use!
