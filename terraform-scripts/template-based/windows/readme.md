@@ -3,7 +3,7 @@
 
 2. Update variables.tf file with require parameters for script to run.
 
-    1. For Wide World Importers e-Commerce Sales database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql-installation.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
+    1. For Wide World Importers e-Commerce Sales database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql2017-installation.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
     2. For Wide World Importers e-Commerce Website, set **script_file_path** as **"../../installer-scripts/wwi-app.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
     3. For Wide World Importers legacy database, set **script_file_path** as **"../../installer-scripts/wwi-ssms-installation.ps1"** and **vsphere_template** value to the Windows 7 template you created.
 
@@ -16,9 +16,9 @@
 5. Please login to your server using server IP, Username and Password you have provided in **variables.tf**
 6. After logging in perform the following steps for further installation:
     1.  For Wide World Importers e-Commerce Sales database, copy 2 files from installer-scripts folder to the logged in VM.  
-        i) wwi-sql-schema-creation.ps1  
+        i) wwi-sql-sales-schema-creation.ps1  
         ii) wwi-sales-db.sql        
-        Open PowerShell and run wwi-sql-schema-creation.ps1, this will create the required Sales database.  
+        Open PowerShell and run wwi-sql-sales-schema-creation.ps1, this will create the required Sales database.  
         Start SQL server Configuration manager.  
         Navigate to **SQL Server Configuration Manager** > **SQL Server Network Configuration** > **Protocols for MSSQLSERVER**.  
         Double-click TCP/IP. The TCP/IP Properties screen appears.
@@ -37,4 +37,3 @@
         Run the exe file and perform the SQL 2005 installation.     
         Open PowerShell and run wwi-campaign.ps1, this will create the required Campaign database and tables. 
         The database is ready to connect to the application.
-        
