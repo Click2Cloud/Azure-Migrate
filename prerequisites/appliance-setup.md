@@ -10,7 +10,7 @@
   <img src="../images/prerequisites/prereq3.PNG">
 </kbd></p>
 
->- Appliance setup instructions can be found [here]https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware.
+>- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware).
 
 2. Discovered servers can be seen on the portal.
 <p>
@@ -19,4 +19,4 @@
 </kbd></p>
 
 3. To view application dependencies you will have to install dependency agent in each VM.
->- Agent installation instructions can be found [here]https://docs.microsoft.com/en-us/azure/migrate/how-to-create-group-machine-dependencies.
+>- Agent installation instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-create-group-machine-dependencies).
