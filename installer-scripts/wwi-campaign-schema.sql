@@ -1,11 +1,25 @@
 USE [master]
 GO
+EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'LoginMode', REG_DWORD, 2
+GO
+
+ALTER LOGIN sa ENABLE ;
+GO
+ALTER LOGIN sa WITH PASSWORD = 'MSAzure#123' ;
+GO
+
+USE [master]
+GO
+
+USE [master]
+GO
 
 /****** Object:  Database [WWICampaign]    Script Date: 08-07-2020 13:10:55 ******/
-CREATE DATABASE [WWICampaign] ON  PRIMARY 
-( NAME = N'WWICampaign', FILENAME = N'c:\Program Files (x86)\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\WWICampaign.mdf' , SIZE = 4096KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
- LOG ON 
-( NAME = N'WWICampaign_log', FILENAME = N'c:\Program Files (x86)\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\WWICampaign_log.ldf' , SIZE = 4672KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+CREATE DATABASE [WWICampaign]
+--  ON  PRIMARY 
+-- ( NAME = N'WWICampaign', FILENAME = N'c:\Program Files (x86)\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\WWICampaign.mdf' , SIZE = 4096KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
+--  LOG ON 
+-- ( NAME = N'WWICampaign_log', FILENAME = N'c:\Program Files (x86)\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\WWICampaign_log.ldf' , SIZE = 4672KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
 GO
 
 EXEC dbo.sp_dbcmptlevel @dbname=N'WWICampaign', @new_cmptlevel=90
@@ -198,4 +212,3 @@ CREATE TABLE [dbo].[TwitterAnalytics](
 	[Language] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
 GO
-

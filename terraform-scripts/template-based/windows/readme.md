@@ -5,7 +5,7 @@
 
     1. For Wide World Importers e-Commerce Sales database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql2017-installation.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
     2. For Wide World Importers e-Commerce Website, set **script_file_path** as **"../../installer-scripts/wwi-app.ps1"** and **vsphere_template** value to the Windows Server 2016 template you created.
-    3. For Wide World Importers legacy database, set **script_file_path** as **"../../installer-scripts/wwi-ssms-installation.ps1"** and **vsphere_template** value to the Windows 7 template you created.
+    3. For Wide World Importers legacy database, set **script_file_path** as **"../../installer-scripts/wwi-db-sql2008R2-installation.ps1"** and **vsphere_template** value to the Windows 2008 R2 template you created.
 
 3. Go to the path where main.tf file is present using following command.
 > cd <path-to-main.tf>.
@@ -30,10 +30,14 @@
         Go to "C:/inetpub/wwroot" and open config.json file, replace SQL server details with your SQL server details.
         Restart the wwi-app website from IIS console.
         You can browse the website at localhost.
-    3. For Wide World Importers legacy database, copy 2 files from installer-scripts folder to the logged in VM.   
-        i) SQLEXPR.exe  
-        ii) wwi-campaign.ps1      
-        iii) wwi-campaign-schema.sql      
-        Run the exe file and perform the SQL 2005 installation.     
+    3. For Wide World Importers legacy database, copy 2 files from installer-scripts folder to the logged in VM.  
+        i) wwi-campaign.ps1      
+        ii) wwi-campaign-schema.sql      
+        Run the setup.exe file located at "C:\Users\Administrator" and perform the SQL 2008 R2 installation.   
+        Navigate to **SQL Server Configuration Manager** > **SQL Server Network Configuration** > **Protocols for MSSQLSERVER**.  
+        Double-click TCP/IP. The TCP/IP Properties screen appears.
+        For **Enabled** tab, select **Yes**. Then click **OK**.   
         Open PowerShell and run wwi-campaign.ps1, this will create the required Campaign database and tables. 
+        Start SQL server Configuration manager.          
         The database is ready to connect to the application.
+        > Default password for user **sa** is set to **MSAzure#123**
