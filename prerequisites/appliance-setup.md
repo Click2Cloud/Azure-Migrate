@@ -1,6 +1,7 @@
 # Appliance Setup
 
 1. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
+>- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware).
 <p>
 <kbd>
   <img src="../images/prerequisites/Register-with-Azure-Migrate.jpg">
