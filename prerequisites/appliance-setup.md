@@ -11,8 +11,6 @@
   <img src="../images/prerequisites/prereq3.PNG">
 </kbd></p>
 
->- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware).
-
 2. Discovered servers can be seen on the portal.
 <p>
 <kbd>
