@@ -16,6 +16,11 @@
   <img src="./images/migration-scenarios.jpg">
 </kbd></p>
 
+## Demo Steps
+<kbd>
+  <img src="./images/demo-steps.jpg">
+</kbd></p>
+
 ### **1. Lift & Shift**
 **Lift and shift**, also known as **rehosting**, is the process of migrating an exact copy of an application or workload (and its data store and OS) from IT one environment to another-usually from on-premises to public or private cloud.
 
