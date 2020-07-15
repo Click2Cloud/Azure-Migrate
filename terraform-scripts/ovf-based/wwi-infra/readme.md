@@ -29,7 +29,7 @@
     2. WideWorldImportersDatabase (Windows Server 2016) - Hosting SQL 2017 with WWI database containing Sales data
     3. WideWorldImportersLegacyDatabase (Windows Server 2008 R2) - Hosting SQL 2008 R2 with WWICampaign database containing Campaign data
     
-> You can login to your VMs using IP, with username **Administrator** and password **CLICK2CLOUD#54321**.
+> You can login to your VMs using IP, with username **Administrator** and password **CLICK2CLOUD#54321**.  
 > Default password for user **sa** is set to **MSAzure#123** for WideWorldImportersDatabase and WideWorldImportersLegacyDatabase.
     
 7. Log in to WideWorldImportersApp Virtual Machine, open File Explorer and go to **C:/inetpub/wwroot** open **config.json** file
