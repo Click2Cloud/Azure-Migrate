@@ -55,14 +55,69 @@ Here you can see all the discovered servers from your on-premise data center **v
 
 ## Steps for Application Dependency and Grouping
 
+Dependency mapping helps you to visualize dependencies across machines. You typically use dependency mapping when you want to assess machine groups with higher levels of confidence.
+- It helps you to cross-check machine dependencies, before you run an assessment.
+- It also helps to effectively plan your migration to Azure, by ensuring that nothing is left behind, and thus avoiding surprise outages during migration.
+- You can discover interdependent systems that need to migrate together, and identify whether a running system is still serving users, or is a candidate for decommissioning instead of migration.
+
+Dependency Visualization can be done in two ways:
+1. Agent-Based
+2. Agentless
+
+### Agent-Based Dependency Visualization
+
+> Steps for installing dependency agent on VMs can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-create-group-machine-dependencies)
+
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
-2. After you've identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
+2. After you have identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
 * Application dependency for Windows VM (Application hosted on IIS - WWI e-Commerce)
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-dependency-database.png">
 </kbd></p>
+
+### Agentless Dependency Visualization
+
+1. In **Azure Migrate: Server Assessment**, click **Discovered servers**
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-assessment-1.PNG">
+</kbd></p>
+
+2. Click to get the access of agentless dependency preview.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/agentless-dependency3.PNG">
+</kbd></p>
+
+3. To get the agentless dependency preview access fill the form, you will get a link. Click on the link.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/agentless-dependency2.PNG">
+</kbd></p>
+
+4. You will be redirected to **Azure Migrate**: **Server Assessment**.  
+Click the **Dependency analysis** icon.  
+Click **Add servers**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/agentless-dependency4.PNG">
+</kbd></p>
+
+5. Select the servers.  
+Click **Add servers**.
+
+<p><kbd>
+  <img src="../images/WWI-eCommerce/agentless-dependency5.PNG">
+</kbd></p>
+
+6. You can visualize dependencies around six hours after starting dependency discovery.  
+In the Dependencies column, click View dependencies
+<p><kbd>
+  <img src="../images/WWI-eCommerce/agentless-dependency6.PNG">
+</kbd></p>
+
 
 ## Steps for Azure Readiness and Total Cost of Ownership
 
@@ -154,4 +209,3 @@ The App Service Migration Assistant is designed to simplify your journey to the 
 </kbd></p>
 
 > Congratulations! You are now ready with your Application Assessment. Please move for the [Migration](../migrate/wwi-ecomm-app.md) of same.
-

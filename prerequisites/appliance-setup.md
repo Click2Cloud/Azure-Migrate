@@ -40,7 +40,7 @@ In **Project Details**, specify the project name, and geography in which you wan
   <img src="../images/prerequisites/create-project6.PNG">
 </kbd></p>
 
-1. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
+7. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
 >- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware).
 <p>
 <kbd>
@@ -51,11 +51,8 @@ In **Project Details**, specify the project name, and geography in which you wan
   <img src="../images/prerequisites/prereq3.PNG">
 </kbd></p>
 
-2. You can view the discovered machines after the appliance is configured and discovery is done.
+8. You can view the discovered machines after the appliance is configured and discovery is done.
 <p>
 <kbd>
   <img src="../images/prerequisites/appliance-setup.jpg">
 </kbd></p>
-
-3. To view application dependencies you will have to install dependency agent in each VM.
->- Agent installation instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-create-group-machine-dependencies).
