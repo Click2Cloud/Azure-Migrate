@@ -51,7 +51,7 @@ In **Project Details**, specify the project name, and geography in which you wan
   <img src="../images/prerequisites/prereq3.PNG">
 </kbd></p>
 
-8. You can view the discovered machines after the appliance is configured and discovery is done.
+8. You can view the discovered virtual machines on the Azure Portal after the appliance is configured and discovery is done.
 <p>
 <kbd>
   <img src="../images/prerequisites/appliance-setup.jpg">

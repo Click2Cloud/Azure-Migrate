@@ -113,7 +113,7 @@ Click **Add servers**.
 </kbd></p>
 
 6. You can visualize dependencies around six hours after starting dependency discovery.  
-In the Dependencies column, click View dependencies
+In the Dependencies column, click **View dependencies**.
 <p><kbd>
   <img src="../images/WWI-eCommerce/agentless-dependency6.PNG">
 </kbd></p>

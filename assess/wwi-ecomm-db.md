@@ -69,7 +69,7 @@ Dependency Visualization can be done in two ways:
 * Application dependency for Windows VM (database hosted- MSSQL 2017 Server)
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/application-dependency-legacy-database.PNG">
+  <img src="../images/WWI-eCommerce/application-dependency-database.png">
 </kbd></p>
 
 
@@ -109,7 +109,7 @@ Click **Add servers**.
 </kbd></p>
 
 6. You can visualize dependencies around six hours after starting dependency discovery.  
-In the Dependencies column, click View dependencies
+In the Dependencies column, click **View dependencies**.
 <p><kbd>
   <img src="../images/WWI-eCommerce/agentless-dependency6.PNG">
 </kbd></p>
