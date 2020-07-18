@@ -64,7 +64,7 @@ Dependency Visualization can be done in two ways:
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
 2. After you have identified the dependent machines on the dependency map that you want to group together, use Ctrl+Click to select multiple machines on the map, and click Group machines.
 
-* Application dependency for Windows VM (database hosted- MSSQL 2008 R2 Server)
+* Application dependency for Windows VM (database hosted- MSSQL Server 2008 R2)
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/application-dependency-legacy-database.PNG">
