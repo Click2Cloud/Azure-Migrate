@@ -13,12 +13,12 @@
 
 ## Scenario
 <kbd>
-  <img src="./images/migration-scenarios.jpg">
+  <img src="./images/migration-scenarios.png">
 </kbd></p>
 
 ## Demo Steps
 <kbd>
-  <img src="./images/demo-steps.jpg">
+  <img src="./images/demo-steps.png">
 </kbd></p>
 
 ### **1. Lift & Shift**
