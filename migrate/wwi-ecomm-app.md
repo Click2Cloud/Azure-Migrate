@@ -80,13 +80,21 @@ Please change from on-premise SQL database connection string to migrated Azure S
 </kbd></p>
 
 
-* Update Azure SQL database connection string
-* Click on **Save** and **Reload** the Web App.
-* We have updated the connection string, now please go to your domain and check application is running on it.
+* Update Azure SQL database connection string and Click on **Save**.
 
 <kbd>
   <img src="../images/WWI-eCommerce/remote-connection.png">
 </kbd></p>
+
+* Then go to your **Resource Group** where Web App is migrated.
+* Click on **Web App** and **Restart** the service.
+
+<kbd>
+  <img src="../images/WWI-eCommerce/restart_web_app.png">
+</kbd></p>
+
+* We have updated the connection string also restarted the **Web App service**, now please go to your domain and check application is running on it.
+
 
 <kbd>
   <img src="../images/WWI-eCommerce/remote-application.png">
