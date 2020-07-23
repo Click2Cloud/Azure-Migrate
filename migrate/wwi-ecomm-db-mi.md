@@ -132,10 +132,6 @@ Technologies used:
 
 * You can further expand the databases and logins categories to monitor the migration status of the respective server objects.
 
-<p><kbd>
-  <img src="../images/WWI-eCommerce/manu-db-25-MI.png">
-</kbd></p>
-
 13. Performing migration cutover
 
 After the full database backup is restored on the target instance of SQL Managed Instance, the database is available for performing a migration cutover.
@@ -150,15 +146,8 @@ After the full database backup is restored on the target instance of SQL Managed
 
   * Select **Confirm**, and then select **Apply**.
 
-<p><kbd>
-  <img src="../images/WWI-eCommerce/manu-db-26-MI.png">
-</kbd></p>
-
   * When the database migration status shows **Completed**, connect your applications to the new **target instance of SQL Managed Instance**.
 
-<p><kbd>
-  <img src="../images/WWI-eCommerce/manu-db-27-MI.png">
-</kbd></p>
 
 > Congratulations! You are now ready with your Database on Azure Cloud. 
 
