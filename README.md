@@ -84,7 +84,7 @@ After terraform installation is done create VMs on source infrastructure, VMs ca
 
     > [Lab demo](http://ftp-repos.click2cloud.net/Videos/2-Lift-and-Shift-Migration.mp4) for Lift & Shift Migration.
 ##### b. App Modernization 
-* [Wide World Importers database](migrate/wwi-ecomm-db.md)
+* [Wide World Importers database](migrate/wwi-ecomm-db-mi.md)
 * [Wide World Importers application](migrate/wwi-ecomm-app.md)  
 
     > [Lab demo](http://ftp-repos.click2cloud.net/Videos/3-App-Modernization-Migration.mp4) for App Modernization.
