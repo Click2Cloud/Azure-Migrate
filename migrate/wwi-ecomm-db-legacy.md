@@ -12,7 +12,7 @@ Technologies used:
 
 For migrating Hyper-V VMs, Azure Migrate:Server Migration installs software providers (Microsoft Azure Site Recovery provider and Microsoft Azure Recovery Service agent) on Hyper-V Hosts or cluster nodes. Note that the Azure Migrate appliance isn't used for Hyper-V migration.  
 
-1. In the Azure Migrate project > **Servers**, in A**zure Migrate: Server Migration**, click **Discover**.
+1. In the Azure Migrate project > **Servers**, in **Azure Migrate: Server Migration**, click **Discover**.
 
 2. In **Discover machines** > **Are your machines virtualized?**, select **Yes, with Hyper-V**.
 
@@ -21,17 +21,17 @@ For migrating Hyper-V VMs, Azure Migrate:Server Migration installs software prov
 4. Select **Confirm that the target region for migration is region-name**.
 
 5. Click **Create resources**. This creates an Azure Site Recovery vault in the background.
-  - If you've already set up migration with Azure Migrate Server Migration, this option won't appear since resources were set up previously.
-  - You can't change the target region for this project after clicking this button.
-  - All subsequent migrations are to this region.
+  * If you've already set up migration with Azure Migrate Server Migration, this option won't appear since resources were set up previously.
+  * You can't change the target region for this project after clicking this button.
+  * All subsequent migrations are to this region.
   
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration1-hyperv.PNG">
 </kbd></p>
 
 6. In **Prepare Hyper-V host servers**, download the Hyper-V Replication provider, and the registration key file.
-  - The registration key is needed to register the Hyper-V host with Azure Migrate Server Migration.
-  - The key is valid for five days after you generate it.
+  * The registration key is needed to register the Hyper-V host with Azure Migrate Server Migration.
+  * The key is valid for five days after you generate it.
   
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration2-hyperv.PNG">
