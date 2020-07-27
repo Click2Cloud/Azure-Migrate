@@ -7,10 +7,47 @@ The database that will be migrated is hosted on a Windows Server 2008 R2.
 
 Technologies used:
  - Microsoft SQL Server 2008 R2
+ 
+## Download and install the provider
+
+For migrating Hyper-V VMs, Azure Migrate:Server Migration installs software providers (Microsoft Azure Site Recovery provider and Microsoft Azure Recovery Service agent) on Hyper-V Hosts or cluster nodes. Note that the Azure Migrate appliance isn't used for Hyper-V migration.  
+
+1. In the Azure Migrate project > **Servers**, in A**zure Migrate: Server Migration**, click **Discover**.
+
+2. In **Discover machines** > **Are your machines virtualized?**, select **Yes, with Hyper-V**.
+
+3. In **Target region**, select the Azure region to which you want to migrate the machines.
+
+4. Select **Confirm that the target region for migration is region-name**.
+
+5. Click **Create resources**. This creates an Azure Site Recovery vault in the background.
+  - If you've already set up migration with Azure Migrate Server Migration, this option won't appear since resources were set up previously.
+  - You can't change the target region for this project after clicking this button.
+  - All subsequent migrations are to this region.
+  
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-migration1-hyperv.PNG">
+</kbd></p>
+
+6. In **Prepare Hyper-V host servers**, download the Hyper-V Replication provider, and the registration key file.
+  - The registration key is needed to register the Hyper-V host with Azure Migrate Server Migration.
+  - The key is valid for five days after you generate it.
+  
+<p><kbd>
+  <img src="../images/WWI-eCommerce/server-migration2-hyperv.PNG">
+</kbd></p>
+
+7. Copy the provider setup file and registration key file to each Hyper-V host (or cluster node) running VMs you want to replicate.
+
+8. Run the provider setup file on each host, as described in the next procedure.
+
+9. After installing the provider on hosts, in **Discover machines**, click **Finalize registration**. 
+
+It can take up to 15 minutes after finalizing registration until discovered VMs appear in Azure Migrate Server Migration. As VMs are discovered, the **Discovered servers** count rises.
 
 ## Replicate VMs
 
-After setting up the appliance and completing discovery, you can begin replication of VMware VMs to Azure.
+With discovery completed, you can begin replication of Hyper-V VMs to Azure.
 * You can run up to 300 replications simultaneously.
 * In the portal, you can select up to 10 VMs at once for migration. To migrate more machines, add them to groups in batches of 10.
 
@@ -21,26 +58,25 @@ Enable replication as follows:
   <img src="../images/WWI-eCommerce/server-migration1.PNG">
 </kbd></p>
 
-2. In **Replicate**, > **Source settings** > **Are your machines virtualized?**, select **Yes, with VMware vSphere**.
-3. In **On-premises appliance**, select the name of the Azure Migrate appliance that you set up > **OK**.
+2. In **Replicate**, > **Source settings** > **Are your machines virtualized?**, select **Yes, with Hyper-V**.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/server-migration3.PNG">
+  <img src="../images/WWI-eCommerce/server-migration4-hyperv.PNG">
 </kbd></p>
 
-4. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you have run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
+3. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you have run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
 
-5. In **Virtual machines**, select VMs you want to migrate. Then click **Next: Target settings**.
+4. In **Virtual machines**, select VMs you want to migrate. Then click **Next: Target settings**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration4.PNG">
 </kbd></p>
 
-6. In **Target settings**, select the subscription and target region. Specify the resource group in which the Azure VMs reside after migration.
+5. In **Target settings**, select the subscription and target region. Specify the resource group in which the Azure VMs reside after migration.
 
-7. In **Virtual Network**, select the Azure VNet/subnet which the Azure VMs join after migration.
+6. In **Virtual Network**, select the Azure VNet/subnet which the Azure VMs join after migration.
 
-8. In **Azure Hybrid Benefit**:
+7. In **Azure Hybrid Benefit**:
 - Select **No** if you don't want to apply Azure Hybrid Benefit. Then click **Next**.
 - Select **Yes** if you have Windows Server machines that are covered with active Software Assurance or Windows Server subscriptions, and you want to apply the benefit to the machines you are migrating. Then click **Next**.
 
@@ -48,7 +84,7 @@ Enable replication as follows:
   <img src="../images/WWI-eCommerce/server-migration5.PNG">
 </kbd></p>
 
-9. In **Compute**, review the VM name, size, OS disk type, and availability set. VMs must conform with Azure requirements.
+8. In **Compute**, review the VM name, size, OS disk type, and availability set. VMs must conform with Azure requirements.
 - **VM size**: If you're using assessment recommendations, the VM size dropdown shows the recommended size. Otherwise Azure Migrate picks a size based on the closest match in the Azure subscription. Alternatively, pick a manual size in Azure VM size.
 - **OS disk**: Specify the OS (boot) disk for the VM. The OS disk is the disk that has the operating system bootloader and installer.
 - **Availability set**: If the VM will reside in an Azure availability set after migration, specify the set. The set must be in the target resource group you specify for the migration.
@@ -57,13 +93,13 @@ Enable replication as follows:
   <img src="../images/WWI-eCommerce/server-migration6.PNG">
 </kbd></p>
 
-10. In **Disks**, specify whether the VM disks should be replicated to Azure, and select the disk type (standard SSD/HDD or premium-managed disks) in Azure. Then click **Next**.
+9. In **Disks**, specify whether the VM disks should be replicated to Azure, and select the disk type (standard SSD/HDD or premium-managed disks) in Azure. Then click **Next**.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration7.PNG">
 </kbd></p>
 
-11. In **Review and start replication**, review the settings, and click **Replicate** to start the initial replication for the servers.
+10. In **Review and start replication**, review the settings, and click **Replicate** to start the initial replication for the servers.
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-migration8.PNG">

@@ -13,12 +13,7 @@ Technologies used:
  - .NET Core v2.2.104
 
 
-## Steps for Application Discovery
-
-App discovery using Azure Migrate: Server Assessment is agentless. 
-* Nothing is installed on machines and VMs. 
-* Server Assessment uses the Azure Migrate appliance to perform discovery along with machine guest credentials. 
-* The appliance remotely accesses the VMware machines using VMware APIs.
+## Steps to view discovered Virtual Machines
 
 1. Log in to the azure console, Search for **Azure Migrate** and click on **Azure Migrate**.
 
@@ -42,15 +37,6 @@ Here you can see all the discovered servers from **Hyper-V** which Azure applian
 
 <p><kbd>
   <img src="../images/WWI-eCommerce/server-assessment-2.PNG">
-</kbd></p>
-
-4. In **Applications discovered**, click the displayed count.
-* In **Application inventory**, you can review the discovered apps, roles, and features.
-
-* Application Discovery for Wide World Importers Application VM.
-
-<p><kbd>
-  <img src="../images/WWI-eCommerce/application-discovery-app.PNG">
 </kbd></p>
 
 ## Steps for Application Dependency and Grouping
