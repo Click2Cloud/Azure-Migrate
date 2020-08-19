@@ -37,11 +37,11 @@ Dependency mapping helps you to visualize dependencies across machines. You typi
 Here you can see all the discovered servers which Azure appliance has discovered.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/server-assessment-1.png">
+  <img src="../images/WWI-eCommerce/server-assessment-1.PNG">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/server-assessment-2.png">
+  <img src="../images/WWI-eCommerce/server-assessment-2.PNG">
 </kbd></p>
 
 1. In the **Dependencies** column, click **View dependencies** for each machine you want to review.
