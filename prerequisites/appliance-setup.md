@@ -40,19 +40,38 @@ In **Project Details**, specify the project name, and geography in which you wan
   <img src="../images/prerequisites/create-project6.PNG">
 </kbd></p>
 
-7. Setup VM for Azure Appliance on vCenter for assessment. Setup Credentials for Linux and Windows machine.
->- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-vmware).
-<p>
-<kbd>
-  <img src="../images/prerequisites/Register-with-Azure-Migrate.jpg">
+7. Setup VM for Azure Appliance on Azure for assessment. Setup Credentials for Linux and Windows machine.
+>- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-physical).
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-1.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/prerequisites/prereq3.PNG">
+  <img src="../images/prerequisites/Appliance-setup/phy-app-2.png">
 </kbd></p>
 
-8. You can view the discovered virtual machines on the Azure Portal after the appliance is configured and discovery is done.
-<p>
-<kbd>
-  <img src="../images/prerequisites/appliance-setup.jpg">
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-3.png">
+</kbd></p>
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-4.png">
+</kbd></p>
+
+8. Enter the IPs with created friendly name credentials name for Server Discovery.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-5.png">
+</kbd></p>
+
+9. Click **Save and Start Discovery**
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-6.png">
+</kbd></p>
+
+9. You can view the discovered virtual machines on the Azure Portal after the appliance is configured and discovery is done.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/phy-app-7.png">
 </kbd></p>

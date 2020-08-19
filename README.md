@@ -47,25 +47,9 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 ### Before starting the demo please prepare source infrastructure according to the following prerequisites.
 **Prerequisites**  
 
->[Install terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) on server, from where you can access your vCenter.
+* For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on Azure VM.
 
-You will have to set up 3 virtual machines on your vCenter for this demo.
- - Windows Server 2008 R2 hosting SQL 2008 R2 Server for Campaign database
- - Windows Server 2016 for Wide World Importers e-Commerce website
- - Windows Server 2016 hosting SQL 2017 for Sales database  
- 
-After migration you will get:
- - Windows Server 2008 R2 Server on Azure hosting Campaign Database
- - e-Commerce website hosted on Azure App Service
- - Azure SQL Database/ Managed Instance hosting Sales database
-
-After terraform installation is done create VMs on source infrastructure, VMs can be created using 2 approaches:
-1. [Using OVF Templates](terraform-scripts/ovf-based/wwi-infra/)
-2. [Using user created templates](terraform-scripts/template-based/)
-
-* For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on vCenter.
-
-> Note: Make sure you have configured appliance on vCenter before following operation for server assessment and migration. 
+> Note: Make sure you have configured appliance on Azure VM before following operation for server assessment and migration. 
 
 *Duration 45 Minutes*
 
