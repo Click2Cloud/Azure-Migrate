@@ -47,9 +47,11 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 ### Before starting the demo please prepare source infrastructure according to the following prerequisites.
 **Prerequisites**  
 
-* For performing assessment and migration, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on Azure VM.
+* For performing assessment, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on Azure VM.
 
-> Note: Make sure you have configured appliance on Azure VM before following operation for server assessment and migration. 
+* For performing migration, user needs to [prepare](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-physical-virtual-machines) a machine for the replication appliance on Azure VM.
+
+> Note: Make sure you have configured appliance and Replication Server on Azure VM before following operation for server assessment and migration. 
 
 *Duration 45 Minutes*
 
