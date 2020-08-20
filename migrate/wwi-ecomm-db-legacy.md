@@ -21,11 +21,11 @@ Enable replication as follows:
   <img src="../images/WWI-eCommerce/server-migration1.PNG">
 </kbd></p>
 
-2. In **Replicate**, > **Source settings** > **Are your machines virtualized?**, select **Yes, with VMware vSphere**.
-3. In **On-premises appliance**, select the name of the Azure Migrate appliance that you set up > **OK**.
+2. In **Replicate**, > **Source settings** > **Are your machines virtualized?**, select **Physical or Other**.
+3. In **On-premises appliance**, select the name of the Azure Migrate appliance that you set up. Click **Next: Virtual Machines**.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/server-migration3.PNG">
+  <img src="../images/WWI-eCommerce/server-migration2.PNG">
 </kbd></p>
 
 4. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you have run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
