@@ -55,8 +55,6 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 > Note: Make sure you have configured appliance and Replication Server on Azure VM before following operation for server assessment and migration. 
 
-*Duration 45 Minutes*
-
 ### Lift & Shift
 ##### a. Assessment 
 * [Wide World Importers legacy database](assess/wwi-ecomm-db-legacy.md)

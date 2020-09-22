@@ -25,7 +25,7 @@ Enable replication as follows:
 3. In **On-premises appliance**, select the name of the Azure Migrate appliance that you set up. Click **Next: Virtual Machines**.
 
 <p><kbd>
-  <img src="../images/WWI-eCommerce/server-migration2.PNG">
+  <img src="../images/WWI-eCommerce/server-migration2.png">
 </kbd></p>
 
 4. In **Virtual machines**, select the machines you want to replicate. To apply VM sizing and disk type from an assessment if you have run one, in **Import migration settings from an Azure Migrate assessment?**, select **Yes**, and select the VM group and assessment name. If you aren't using assessment settings, select **No**.
