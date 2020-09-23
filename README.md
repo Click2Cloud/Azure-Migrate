@@ -49,7 +49,7 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 * For performing assessment, user needs to [setup](prerequisites/appliance-setup.md) Azure Migrate Appliance on Azure VM.
 
-    > [Lab demo](http://ftp-repos.click2cloud.net/Videos/Project%20Creation%20and%20Assessment%20Appliance%20setup.mp4) for Project Creation and Appliance Setup.
+    > Project Creation and Appliance Setup [Lab demo](http://ftp-repos.click2cloud.net/Videos/1ProjectCreationandAssessmentAppliancesetup.mp4)
 
 * For performing migration, user needs to [prepare](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-physical-virtual-machines) a machine for the replication appliance on Azure VM.
 
@@ -59,11 +59,10 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 ##### a. Assessment 
 * [Wide World Importers legacy database](assess/wwi-ecomm-db-legacy.md)
 
-> [Lab demo](http://ftp-repos.click2cloud.net/Videos/Lift%20and%20Shift%20Assessment.mp4) for Azure Migrate Lift & Shift Assessment.
 ##### b. Migration 
 * [Wide World Importers legacy database](migrate/wwi-ecomm-db-legacy.md)  
 
-> [Lab demo](http://ftp-repos.click2cloud.net/Videos/Lift%20and%20Shift%20Migration.mp4) for Azure Migrate Lift & Shift Migration.
+> Lift & Shift [Lab demo](http://ftp-repos.click2cloud.net/Videos/2LiftandShiftAssessmentMigration.mp4)
 
 ### App Modernization
 ##### a. Database Assessment
@@ -71,7 +70,7 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 ##### b. Database Migration 
 * [Wide World Importers database](migrate/wwi-ecomm-db-mi.md)
 
-> [Lab demo](http://ftp-repos.click2cloud.net/Videos/Database%20Assessment%20and%20Migration.mp4) for Database Assessment and Migration.
+
 
 ##### c. Appliacation Assessment
 * [Wide World Importers application](assess/wwi-ecomm-app.md)
@@ -79,4 +78,4 @@ A modernized, cloud hosted application drastically reduces hardware and infrastr
 
 * [Wide World Importers application](migrate/wwi-ecomm-app.md)
 
-> [Lab demo](http://ftp-repos.click2cloud.net/Videos/Application%20Assessment%20and%20Migration.mp4) for Application Assessment and Migration.
+> App Modernization [Lab demo](http://ftp-repos.click2cloud.net/Videos/3AppModernizationAssessmentMigration.mp4)
