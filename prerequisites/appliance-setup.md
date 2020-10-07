@@ -44,34 +44,97 @@ In **Project Details**, specify the project name, and geography in which you wan
 >- Appliance setup instructions can be found [here](https://docs.microsoft.com/en-us/azure/migrate/how-to-set-up-appliance-physical).
 
 <p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-1.png">
+  <img src="../images/prerequisites/Appliance-setup/pic01.png">
+</kbd></p>
+
+>- Observe ‘Prerequisites Set up’.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic02.png">
+</kbd></p>
+
+>- Observe the message.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic1.png">
+</kbd></p>
+
+>- Now we will generate the key required to register the appliance.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic2.png">
+</kbd></p>
+
+>- Select ‘Physical or other’ from the drop down.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic3.png">
+</kbd></p>
+
+>- Type name of appliance and click ‘Generate key’ then copy Azure Migrate project key.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic4.png">
+</kbd></p>
+
+>- Paste the Azure Migrate project key copied from previous step and Click ‘Login’.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic5.png">
+</kbd></p>
+
+>- Observe Status.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic10.png">
+</kbd></p>
+
+>- Click Add credentials.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic11.png">
+</kbd></p>
+
+>- Add credentials and click on save.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic13.png">
+</kbd></p>
+
+8. Enter the IPs with created friendly name credentials name for Server Discovery. 
+
+>- Click Add discovery source.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic14.png">
+</kbd></p>
+
+>- Select Add multiple items and type comma separated Server Private IP and created friendly name credentials.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic15.png">
+</kbd></p>
+
+>- Observe Status.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic16.png">
+</kbd></p>
+
+9. Click **Start Discovery** and you can view the discovered virtual machines on the Azure Portal after the appliance is configured and discovery is done.
+  
+>- Click Start discovery.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic17.png">
+</kbd></p>
+
+>- Observe the ‘Status’.
+
+<p><kbd>
+  <img src="../images/prerequisites/Appliance-setup/pic18.png">
 </kbd></p>
 
 <p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-2.png">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-3.png">
-</kbd></p>
-
-<p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-4.png">
-</kbd></p>
-
-8. Enter the IPs with created friendly name credentials name for Server Discovery.
-
-<p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-5.png">
-</kbd></p>
-
-9. Click **Save and Start Discovery**
-<p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-6.png">
-</kbd></p>
-
-9. You can view the discovered virtual machines on the Azure Portal after the appliance is configured and discovery is done.
-
-<p><kbd>
-  <img src="../images/prerequisites/Appliance-setup/phy-app-7.png">
+  <img src="../images/prerequisites/Appliance-setup/pic19.png">
 </kbd></p>
